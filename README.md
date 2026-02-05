@@ -175,7 +175,7 @@ Instead of the simple format used here, you could also:
 - [PEFT Documentation](https://huggingface.co/docs/peft)
 - [Gemma Model Card](https://huggingface.co/google/gemma-2-270m-it)
 
-# We hope you're having a lot of fun!
+# Have a lot of fun!
 <p align="center">
   <img src="assets/psk_cartoon.png" alt="Description" width="400"/>
 </p>
