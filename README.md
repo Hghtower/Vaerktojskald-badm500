@@ -1,5 +1,11 @@
 # BADM500: Fine-tuning Gemma 270M for Tool Calling with TRL
 
+
+<p align="center">
+  <img src="assets/overview.png" alt="Description" width="400"/>
+</p>
+
+
 This example demonstrates how to fine-tune Google's Gemma 270m model for tool calling using the TRL (Transformer Reinforcement Learning) library form Hugginface
 
 ## Overview 
