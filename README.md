@@ -177,5 +177,5 @@ Instead of the simple format used here, you could also:
 
 # We hope you're having a lot of fun!
 <p align="center">
-  <img src="assets/psk_cartoon.png" alt="Description" width="600"/>
+  <img src="assets/psk_cartoon.png" alt="Description" width="400"/>
 </p>
