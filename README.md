@@ -56,7 +56,7 @@ To see how to parse arguments use:
 python train.py --help
 ```
 
-## Tacking - wandb
+## Tracking - wandb
 In the `Trainer` you can parse in: `report_to="wandb"` which will prompt you with the necessary steps to log your loss and potentially your accuracy and rewards - if you use that in your project.
 
 ### Training Configuration
