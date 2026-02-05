@@ -12,8 +12,7 @@ This example demonstrates how to fine-tune Google's Gemma 270m model for tool ca
 
 This example of training pipeline includes:
 1. **Synthetic Dataset Creation**: 10 examples covering weather queries, calculations, web searches, and regular conversation
-2. **4-bit Quantization**: Memory-efficient training using bitsandbytes
-3. **Completion-Only Training**: Only compute loss on assistant responses
+2. **Completion-Only Training**: Only compute loss on assistant responses
 
 ## Installation
 You can use all commond environment managers: `uv`, `pip`, or `conda` 
