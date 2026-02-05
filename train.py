@@ -21,31 +21,6 @@ app = typer.Typer(pretty_exceptions_enable=False)
 def create_tool_calling_dataset():
     """Create a small synthetic dataset for tool calling training"""
 
-    tools = [
-        {
-            "name": "get_weather",
-            "description": "Get current weather for a location",
-            "parameters": {
-                "location": {"type": "string", "description": "City name"},
-                "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]}
-            }
-        },
-        {
-            "name": "calculate",
-            "description": "Perform mathematical calculations",
-            "parameters": {
-                "expression": {"type": "string", "description": "Math expression to evaluate"}
-            }
-        },
-        {
-            "name": "search_web",
-            "description": "Search the web for information",
-            "parameters": {
-                "query": {"type": "string", "description": "Search query"}
-            }
-        }
-    ]
-    
     # Create training examples
     examples = [
         {
@@ -66,17 +41,49 @@ def create_tool_calling_dataset():
         },
         {
             "messages": [
-                {"role": "user", "content": "What is 25 * 34 + 100?"},
+                {"role": "user", "content": "Please fix this sentence: She go to school yesterday and seen her friend."},
                 {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "calculate", "arguments": {"expression": "25 * 34 + 100"}}
+                    {"name": "correct_grammar", "arguments": {"text": "She go to school yesterday and seen her friend."}}
                 ]}
             ]
         },
         {
             "messages": [
-                {"role": "user", "content": "Calculate the square root of 144"},
+                {"role": "user", "content": "Check the grammar: Me and him is going to the store."},
                 {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "calculate", "arguments": {"expression": "sqrt(144)"}}
+                    {"name": "correct_grammar", "arguments": {"text": "Me and him is going to the store."}}
+                ]}
+            ]
+        },
+        {
+            "messages": [
+                {"role": "user", "content": "Create an image of a sunset over mountains"},
+                {"role": "assistant", "content": "", "tool_calls": [
+                    {"name": "generate_image", "arguments": {"prompt": "sunset over mountains", "style": "realistic"}}
+                ]}
+            ]
+        },
+        {
+            "messages": [
+                {"role": "user", "content": "Generate a picture of a futuristic city in cyberpunk style"},
+                {"role": "assistant", "content": "", "tool_calls": [
+                    {"name": "generate_image", "arguments": {"prompt": "futuristic city", "style": "cyberpunk"}}
+                ]}
+            ]
+        },
+        {
+            "messages": [
+                {"role": "user", "content": "Convert this to audio: Welcome to our presentation on artificial intelligence."},
+                {"role": "assistant", "content": "", "tool_calls": [
+                    {"name": "text_to_speech", "arguments": {"text": "Welcome to our presentation on artificial intelligence.", "voice": "neutral"}}
+                ]}
+            ]
+        },
+        {
+            "messages": [
+                {"role": "user", "content": "Read this aloud in a female voice: The meeting starts at 3 PM."},
+                {"role": "assistant", "content": "", "tool_calls": [
+                    {"name": "text_to_speech", "arguments": {"text": "The meeting starts at 3 PM.", "voice": "female"}}
                 ]}
             ]
         },
@@ -98,10 +105,10 @@ def create_tool_calling_dataset():
         },
         {
             "messages": [
-                {"role": "user", "content": "What's the temperature in Tokyo and calculate 15 + 27"},
+                {"role": "user", "content": "What's the temperature in Tokyo and correct this: I has been there before."},
                 {"role": "assistant", "content": "", "tool_calls": [
                     {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "celsius"}},
-                    {"name": "calculate", "arguments": {"expression": "15 + 27"}}
+                    {"name": "correct_grammar", "arguments": {"text": "I has been there before."}}
                 ]}
             ]
         },
@@ -119,14 +126,15 @@ def create_tool_calling_dataset():
         },
         {
             "messages": [
-                {"role": "user", "content": "What's the weather in London and search for British museums"},
+                {"role": "user", "content": "Check weather in London, search for British museums, and create an image of Big Ben"},
                 {"role": "assistant", "content": "", "tool_calls": [
                     {"name": "get_weather", "arguments": {"location": "London", "unit": "celsius"}},
-                    {"name": "search_web", "arguments": {"query": "British museums"}}
+                    {"name": "search_web", "arguments": {"query": "British museums"}},
+                    {"name": "generate_image", "arguments": {"prompt": "Big Ben clock tower", "style": "realistic"}}
                 ]}
             ]
         }
-    ]    
+    ]
     return examples
 
 
