@@ -43,7 +43,7 @@ I'm doing well, thank you! How can I help you today?
 1. **get_weather**: Get the current weather for a given location.
 2. **correct_grammar**: Correct the given sentence.
 3. **generate_image**: Generate an image from a given description.
-4. **Speech Synthesis**: Generate speech based on a given text input.
+4. **speech_synthesis**: Generate speech based on a given text input.
 5. **search_web**: Search the web for information relevant to the given prompt.
 
 ## Running the Training
