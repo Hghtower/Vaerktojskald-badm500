@@ -168,6 +168,16 @@ def format_chat_for_training(example, tokenizer):
     return {"text": formatted_text}
 
 
+def load_data_from_file(filepath: str) -> list:
+    """
+    Load data from file. Accepts JSON format.
+    """
+    with open(filepath, 'r') as file:
+        file_content = json.load(file)
+
+    return file_content
+
+    
 # ============================================================================
 # 2. SETUP MODEL AND TOKENIZER
 # ============================================================================
@@ -245,7 +255,8 @@ def main(
     examples = create_tool_calling_dataset() 
     
     # Create HuggingFace dataset
-    dataset = Dataset.from_list(examples)
+    #dataset = Dataset.from_list(examples)
+    dataset = Dataset.from_list(load_data_from_file("test.json"))
     
     print(f"Dataset size: {len(dataset)} examples")
     
@@ -290,7 +301,7 @@ def main(
     )
     
     print("Starting training...")
-    trainer.train()
+    #trainer.train()
     
     # Save final model
     print("Saving model...")
@@ -302,4 +313,4 @@ def main(
 
 if __name__ == "__main__":
     app()
- 
+    #load_data_from_file("test.json")
