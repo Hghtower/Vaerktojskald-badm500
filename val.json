@@ -1,0 +1,180 @@
+[
+    {
+        "messages": [
+            {"role": "user", "content": "I'll be in Chicago tonight — what's the temperature looking like?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Chicago", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Give me Boston's weather report, but in Fahrenheit please."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Boston", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "I'm flying to Rome tomorrow. Should I pack a jacket?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Rome", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it hotter in Dubai right now? Show it in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dubai", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Does this sound right? He don't understand the instructions clearly."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "correct_grammar", "arguments": {"text": "He don't understand the instructions clearly."}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Edit this for grammar: The results was surprising to everyone involved."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "correct_grammar", "arguments": {"text": "The results was surprising to everyone involved."}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "This sentence sounds wrong: She have finished her homework before dinner."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "correct_grammar", "arguments": {"text": "She have finished her homework before dinner."}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Grammar check: There is too many reasons to quit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "correct_grammar", "arguments": {"text": "There is too many reasons to quit."}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Design a flat-style icon of a smart home device."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "generate_image", "arguments": {"prompt": "smart home device icon", "style": "flat"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Create a noir-style image of a detective standing under a streetlight in the rain."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "generate_image", "arguments": {"prompt": "detective under streetlight in rain", "style": "noir"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "I need a banner image of a tropical beach at sunrise, something cinematic."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "generate_image", "arguments": {"prompt": "tropical beach at sunrise", "style": "cinematic"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Make me an illustration of a space station orbiting Mars, in a minimalist style."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "generate_image", "arguments": {"prompt": "space station orbiting Mars", "style": "minimalist"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Please narrate this in a calm voice: Your flight has been delayed due to weather conditions."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "text_to_speech", "arguments": {"text": "Your flight has been delayed due to weather conditions.", "voice": "calm"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Turn this into an energetic voiceover 'Welcome to the annual tech conference 2025!'"}, 
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "text_to_speech", "arguments": {"text": "Welcome to the annual tech conference 2025!", "voice": "energetic"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Can you voice this announcement professionally: The store will close in 10 minutes."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "text_to_speech", "arguments": {"text": "The store will close in 10 minutes.", "voice": "professional"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Pretend you're a store manager making an announcement in a professional voice 'The store will close in 10 minutes.'"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "text_to_speech", "arguments": {"text": "The store will close in 10 minutes.", "voice": "professional"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What are experts saying about renewable energy trends this year?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "search_web", "arguments": {"query": "renewable energy trends this year expert analysis"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Look up recent breakthroughs in cancer research."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "search_web", "arguments": {"query": "recent breakthroughs in cancer research"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's currently happening in the world of electric vehicles?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "search_web", "arguments": {"query": "latest news electric vehicles"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Find reliable sources explaining blockchain for beginners."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "search_web", "arguments": {"query": "blockchain explained for beginners reliable sources"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "I'm visiting Bangkok. What's the weather like? Also fix this: She were waiting for hours."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Bangkok", "unit": "celsius"}},
+                {"name": "correct_grammar", "arguments": {"text": "She were waiting for hours."}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Search for top programming languages in 2026 and generate a modern infographic-style image representing coding."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "search_web", "arguments": {"query": "top programming languages 2026 rankings"}},
+                {"name": "generate_image", "arguments": {"prompt": "modern coding infographic", "style": "modern"}}
+            ]}
+        ]
+    }
+]

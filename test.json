@@ -99,6 +99,16 @@
                 {"role": "user", "content": "Tell me a joke"},
                 {"role": "assistant", "content": "Why don't scientists trust atoms? Because they make up everything!"}
             ]
+        },
+        {
+            "messages": [
+                {"role": "user", "content": "Check weather in London, search for British museums, and create an image of Big Ben"},
+                {"role": "assistant", "content": "", "tool_calls": [
+                    {"name": "get_weather", "arguments": {"location": "London", "unit": "celsius"}},
+                    {"name": "search_web", "arguments": {"query": "British museums"}},
+                    {"name": "generate_image", "arguments": {"prompt": "Big Ben clock tower", "style": "realistic"}}
+                ]}
+            ]
         }
 
 ]

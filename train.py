@@ -14,130 +14,6 @@ import json
 
 app = typer.Typer(pretty_exceptions_enable=False)
 
-# ============================================================================
-# 1. CREATE SYNTHETIC TOOL CALLING DATASET
-# ============================================================================
-
-def create_tool_calling_dataset():
-    """Create a small synthetic dataset for tool calling training"""
-
-    # Create training examples
-    examples = [
-        {
-            "messages": [
-                {"role": "user", "content": "What's the weather like in Paris?"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "get_weather", "arguments": {"location": "Paris", "unit": "celsius"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Can you tell me the weather in New York in Fahrenheit?"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "get_weather", "arguments": {"location": "New York", "unit": "fahrenheit"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Please fix this sentence: She go to school yesterday and seen her friend."},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "correct_grammar", "arguments": {"text": "She go to school yesterday and seen her friend."}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Check the grammar: Me and him is going to the store."},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "correct_grammar", "arguments": {"text": "Me and him is going to the store."}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Create an image of a sunset over mountains"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "generate_image", "arguments": {"prompt": "sunset over mountains", "style": "realistic"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Generate a picture of a futuristic city in cyberpunk style"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "generate_image", "arguments": {"prompt": "futuristic city", "style": "cyberpunk"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Convert this to audio: Welcome to our presentation on artificial intelligence."},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "text_to_speech", "arguments": {"text": "Welcome to our presentation on artificial intelligence.", "voice": "neutral"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Read this aloud in a female voice: The meeting starts at 3 PM."},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "text_to_speech", "arguments": {"text": "The meeting starts at 3 PM.", "voice": "female"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Find information about quantum computing"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "search_web", "arguments": {"query": "quantum computing"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Search for the latest news on AI developments"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "search_web", "arguments": {"query": "latest AI developments news"}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "What's the temperature in Tokyo and correct this: I has been there before."},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "celsius"}},
-                    {"name": "correct_grammar", "arguments": {"text": "I has been there before."}}
-                ]}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Hello, how are you?"},
-                {"role": "assistant", "content": "I'm doing well, thank you! How can I help you today?"}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Tell me a joke"},
-                {"role": "assistant", "content": "Why don't scientists trust atoms? Because they make up everything!"}
-            ]
-        },
-        {
-            "messages": [
-                {"role": "user", "content": "Check weather in London, search for British museums, and create an image of Big Ben"},
-                {"role": "assistant", "content": "", "tool_calls": [
-                    {"name": "get_weather", "arguments": {"location": "London", "unit": "celsius"}},
-                    {"name": "search_web", "arguments": {"query": "British museums"}},
-                    {"name": "generate_image", "arguments": {"prompt": "Big Ben clock tower", "style": "realistic"}}
-                ]}
-            ]
-        }
-    ]
-    return examples
-
-
 def format_chat_for_training(example, tokenizer):
     """
     Format messages into training text with special tokens for tool calls
@@ -251,12 +127,9 @@ def main(
     warmup_steps: int = 10,
     out_dir: str = "./gemma-270m-tool-calling",
 ):
-    print("Creating dataset...")
-    examples = create_tool_calling_dataset() 
-    
     # Create HuggingFace dataset
-    #dataset = Dataset.from_list(examples)
-    dataset = Dataset.from_list(load_data_from_file("test.json"))
+    print("Loading dataset...")
+    dataset = Dataset.from_list(load_data_from_file("train_weather.json"))
     
     print(f"Dataset size: {len(dataset)} examples")
     
@@ -313,4 +186,4 @@ def main(
 
 if __name__ == "__main__":
     app()
-    #load_data_from_file("test.json")
+    #load_data_from_file("val.json")
