@@ -129,7 +129,7 @@ def main(
 ):
     # Create HuggingFace dataset
     print("Loading dataset...")
-    dataset = Dataset.from_list(load_data_from_file("train_weather.json"))
+    dataset = Dataset.from_list(load_data_from_file("val.json"))
     
     print(f"Dataset size: {len(dataset)} examples")
     

@@ -1,7 +1,7 @@
 [
     {
         "messages": [
-            {"role": "user", "content": "I'll be in Chicago tonight — what's the temperature looking like?"},
+            {"role": "user", "content": "Jeg skal til Chicago i aften, hvad bliver temperaturen?"},
             {"role": "assistant", "content": "", "tool_calls": [
                 {"name": "get_weather", "arguments": {"location": "Chicago", "unit": "celsius"}}
             ]}
@@ -9,7 +9,7 @@
     },
     {
         "messages": [
-            {"role": "user", "content": "Give me Boston's weather report, but in Fahrenheit please."},
+            {"role": "user", "content": "Giv mig Bostons vejr rapport, men i fahrenheit."},
             {"role": "assistant", "content": "", "tool_calls": [
                 {"name": "get_weather", "arguments": {"location": "Boston", "unit": "fahrenheit"}}
             ]}
@@ -17,7 +17,7 @@
     },
     {
         "messages": [
-            {"role": "user", "content": "I'm flying to Rome tomorrow. Should I pack a jacket?"},
+            {"role": "user", "content": "Jeg flyver til Rom i morgen. Burde jeg pakke en jakke?"},
             {"role": "assistant", "content": "", "tool_calls": [
                 {"name": "get_weather", "arguments": {"location": "Rome", "unit": "celsius"}}
             ]}
@@ -25,7 +25,7 @@
     },
     {
         "messages": [
-            {"role": "user", "content": "Is it hotter in Dubai right now? Show it in Fahrenheit."},
+            {"role": "user", "content": "Er det varmere i Dubai lige nu? Hvis det i fahrenheit."},
             {"role": "assistant", "content": "", "tool_calls": [
                 {"name": "get_weather", "arguments": {"location": "Dubai", "unit": "fahrenheit"}}
             ]}
@@ -33,147 +33,139 @@
     },
     {
         "messages": [
-            {"role": "user", "content": "Does this sound right? He don't understand the instructions clearly."},
+            {"role": "user", "content": "Lyder det her rigtigt? Han forstå ikke instruktionene tydeligt."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "correct_grammar", "arguments": {"text": "He don't understand the instructions clearly."}}
+                {"name": "correct_grammar", "arguments": {"text": "Han forstå ikke instruktionene tydeligt."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Edit this for grammar: The results was surprising to everyone involved."},
+            {"role": "user", "content": "Rediger min grammatik: Resultaterne overraskende for alle involveret."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "correct_grammar", "arguments": {"text": "The results was surprising to everyone involved."}}
+                {"name": "correct_grammar", "arguments": {"text": "Resultaterne overraskende for alle involveret."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "This sentence sounds wrong: She have finished her homework before dinner."},
+            {"role": "user", "content": "Den her sætning lyder forkert: Hun har færdiggjort sin lektier før aftensmad."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "correct_grammar", "arguments": {"text": "She have finished her homework before dinner."}}
+                {"name": "correct_grammar", "arguments": {"text": "Hun har færdiggjort sin lektier før aftensmad."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Grammar check: There is too many reasons to quit."},
+            {"role": "user", "content": "Grammatik tjek: Der er får mange grunde til at stopppe."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "correct_grammar", "arguments": {"text": "There is too many reasons to quit."}}
+                {"name": "correct_grammar", "arguments": {"text": "Der er får mange grunde til at stopppe."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Design a flat-style icon of a smart home device."},
+            {"role": "user", "content": "Design et flat-style ikon af en intelligent hjemmeenhed."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "generate_image", "arguments": {"prompt": "smart home device icon", "style": "flat"}}
+                {"name": "generate_image", "arguments": {"prompt": "intelligent hjemmeenhed ikon", "style": "flat"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Create a noir-style image of a detective standing under a streetlight in the rain."},
+            {"role": "user", "content": "Lav et noir billede af en detektiv der står under en gadelampe i regnen."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "generate_image", "arguments": {"prompt": "detective under streetlight in rain", "style": "noir"}}
+                {"name": "generate_image", "arguments": {"prompt": "detektiv under gadelampe i regn", "style": "noir"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "I need a banner image of a tropical beach at sunrise, something cinematic."},
+            {"role": "user", "content": "Jeg har brug for et banner billede af en tropisk strand ved solopgang, noget cinematic."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "generate_image", "arguments": {"prompt": "tropical beach at sunrise", "style": "cinematic"}}
+                {"name": "generate_image", "arguments": {"prompt": "tropisk strand ved solopgang", "style": "cinematic"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Make me an illustration of a space station orbiting Mars, in a minimalist style."},
+            {"role": "user", "content": "Lav mig en illustration af en rumstation i kredsløb om mars, i en minimalistisk stil."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "generate_image", "arguments": {"prompt": "space station orbiting Mars", "style": "minimalist"}}
+                {"name": "generate_image", "arguments": {"prompt": "rumstation i kredsløb om mars", "style": "minimalist"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Please narrate this in a calm voice: Your flight has been delayed due to weather conditions."},
+            {"role": "user", "content": "Oplys venligst det her med en rolig stemme: Din flyafgang er blevet forsinket på grund af vejrforholdene."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "text_to_speech", "arguments": {"text": "Your flight has been delayed due to weather conditions.", "voice": "calm"}}
+                {"name": "text_to_speech", "arguments": {"text": "Din flyafgang er blevet forsinket på grund af vejrforholdene.", "voice": "calm"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Turn this into an energetic voiceover 'Welcome to the annual tech conference 2025!'"}, 
+            {"role": "user", "content": "Ændre det her til en energisk voiceover 'Velkommen til den årlige tech konference 2025!'"}, 
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "text_to_speech", "arguments": {"text": "Welcome to the annual tech conference 2025!", "voice": "energetic"}}
+                {"name": "text_to_speech", "arguments": {"text": "Velkommen til den årlige tech konference 2025!", "voice": "energetic"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Can you voice this announcement professionally: The store will close in 10 minutes."},
+            {"role": "user", "content": "Udtal denne annoncering professionelt: butikken lukker om 10 minutter."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "text_to_speech", "arguments": {"text": "The store will close in 10 minutes.", "voice": "professional"}}
+                {"name": "text_to_speech", "arguments": {"text": "Butikken lukker om 10 minutter.", "voice": "professional"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Pretend you're a store manager making an announcement in a professional voice 'The store will close in 10 minutes.'"},
+            {"role": "user", "content": "Hvad siger experterne omkring vedvarende energi i år?"},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "text_to_speech", "arguments": {"text": "The store will close in 10 minutes.", "voice": "professional"}}
+                {"name": "search_web", "arguments": {"query": "Vedvarende energitrends i år expertanalyse"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "What are experts saying about renewable energy trends this year?"},
+            {"role": "user", "content": "Undersøg de seneste gennembrud i forskning af kræft."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "search_web", "arguments": {"query": "renewable energy trends this year expert analysis"}}
+                {"name": "search_web", "arguments": {"query": "seneste gennembrud i forskning af kræft."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Look up recent breakthroughs in cancer research."},
+            {"role": "user", "content": "Hvad sker der lige nu inden for elbilsbranchen?"},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "search_web", "arguments": {"query": "recent breakthroughs in cancer research"}}
+                {"name": "search_web", "arguments": {"query": "Nyeste nyheder elektriske biler"}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "What's currently happening in the world of electric vehicles?"},
+            {"role": "user", "content": "Find troværdige kilder der forklarer blockchain for begyndere."},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "search_web", "arguments": {"query": "latest news electric vehicles"}}
+                {"name": "search_web", "arguments": {"query": "blockchain forklaret for begyndere, troværdige kilder."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Find reliable sources explaining blockchain for beginners."},
-            {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "search_web", "arguments": {"query": "blockchain explained for beginners reliable sources"}}
-            ]}
-        ]
-    },
-    {
-        "messages": [
-            {"role": "user", "content": "I'm visiting Bangkok. What's the weather like? Also fix this: She were waiting for hours."},
+            {"role": "user", "content": "Jeg skal til Bangkok. Hvordan bliver vejret? Fiks også dette: Hun vente i flere timer."},
             {"role": "assistant", "content": "", "tool_calls": [
                 {"name": "get_weather", "arguments": {"location": "Bangkok", "unit": "celsius"}},
-                {"name": "correct_grammar", "arguments": {"text": "She were waiting for hours."}}
+                {"name": "correct_grammar", "arguments": {"text": "Hun vente i flere timer."}}
             ]}
         ]
     },
     {
         "messages": [
-            {"role": "user", "content": "Search for top programming languages in 2026 and generate a modern infographic-style image representing coding."},
+            {"role": "user", "content": "Søg på top programmeringssprog i 2026 og genere et moderne infographic-style billede som repræsentere programmering"},
             {"role": "assistant", "content": "", "tool_calls": [
-                {"name": "search_web", "arguments": {"query": "top programming languages 2026 rankings"}},
-                {"name": "generate_image", "arguments": {"prompt": "modern coding infographic", "style": "modern"}}
+                {"name": "search_web", "arguments": {"query": "top programmingssprog 2026 ranking"}},
+                {"name": "generate_image", "arguments": {"prompt": "moderne programmering infographic", "style": "modern"}}
             ]}
         ]
     }
