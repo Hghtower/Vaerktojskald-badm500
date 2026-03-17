@@ -13,11 +13,6 @@ CLIENT = [
 ]
 client = AsyncOpenAI(base_url=CLIENT[0], api_key="")
 
-# Sample prompts.
-prompts = [
-    "Hvad hedder den største by i danmark?",
-]
-
 #sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
 
 def load_llm():
@@ -52,20 +47,15 @@ async def _generate_text(query: str, client) -> str:
     #print("Failed to do shit")
     #return ""
 
-    response
+    return response
 
 def main():
-    asyncio.run(_generate_text("Hvordan er vejret i Paris?", client))
-    #outputs = llm.generate(prompts)
-    # Print the outputs.
-    #print("\nGenerated Outputs:\n" + "-" * 60)
-    #for output in outputs:
-    #    prompt = output.prompt
-    #    generated_text = output.outputs[0].text
-    #    print(f"Prompt:    {prompt!r}")
-    #    print(f"Output:    {generated_text!r}")
-    #    print("-" * 60)
+    with open("train_weather.json", "r") as zike:
+        output = zike.readlines()
 
+    print(str(output))
+
+    #asyncio.run(_generate_text("Hvordan er vejret i Paris?", client))
 
 if __name__ == "__main__":
     main()
