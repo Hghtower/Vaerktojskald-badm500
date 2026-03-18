@@ -10,6 +10,7 @@ from transformers import (
     AutoModelForCausalLM,
 )
 from trl import SFTTrainer, SFTConfig # DPOTrainer, GRPOTrainer, RewardTrainer
+from datasets import load_dataset
 import json
 
 app = typer.Typer(pretty_exceptions_enable=False)
@@ -117,7 +118,7 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 300,
+    num_epochs: int = 10,
     batch_size: int = 2,
     gradient_accumulation_steps: int = 4,
     learning_rate: float = 2e-4,
@@ -129,7 +130,8 @@ def main(
 ):
     # Create HuggingFace dataset
     print("Loading dataset...")
-    dataset = Dataset.from_list(load_data_from_file("val.json"))
+    dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
+    #dataset = Dataset.from_list(load_data_from_file("val.json"))
     
     print(f"Dataset size: {len(dataset)} examples")
     
@@ -157,10 +159,10 @@ def main(
         learning_rate=learning_rate,
         warmup_steps=warmup_steps,
         logging_steps=logging_steps,
-        save_strategy="epoch",
+        save_strategy="no",
         optim=optimizer,
         lr_scheduler_type=lr_scheduler_type,
-        report_to="none",
+        report_to="tensorboard",
         packing=False,  # Don't pack sequences
         dataset_text_field="text",
         dataloader_pin_memory=False, # Set this to true if using nvidia GPU
@@ -174,7 +176,7 @@ def main(
     )
     
     print("Starting training...")
-    #trainer.train()
+    trainer.train()
     
     # Save final model
     print("Saving model...")
