@@ -1,0 +1,162 @@
+[
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan er vejret i København lige nu?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "København", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du fortælle mig vejret i Aarhus i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Aarhus", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad er vejrudsigten for Odense i dag?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Odense", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du vise mig vejret i Aalborg i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan bliver vejret i Esbjerg i eftermiddag?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Esbjerg", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad er temperatur og vejrforhold i Roskilde lige nu?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Roskilde", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du give mig vejret i Helsingør i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Helsingør", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan ser vejret ud i Vejle i dag?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Vejle", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du fortælle vejret i Herning i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Herning", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad bliver vejret i Hillerød i morgen?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Hillerød", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du vise vejret i Næstved i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Næstved", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan er vejret i Frederikshavn lige nu?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Frederikshavn", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du give mig vejret i Sønderborg i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Sønderborg", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad er vejret i Skive i eftermiddag?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Skive", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du fortælle vejret i Randers i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Randers", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan ser vejret ud i Holstebro i dag?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Holstebro", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du give mig vejret i Skanderborg i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Skanderborg", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad er vejret i Kolding lige nu?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Kolding", "unit": "celsius"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du fortælle mig vejret i Viborg i Fahrenheit?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Viborg", "unit": "fahrenheit"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan bliver vejret i Thisted i morgen?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "get_weather", "arguments": {"location": "Thisted", "unit": "celsius"}}
+      ]}
+    ]
+  }
+]

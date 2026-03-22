@@ -1,0 +1,162 @@
+[
+  {
+    "messages": [
+      {"role": "user", "content": "Hej, kan du lige tjekke om denne sætning er korrekt. Jeg gå i skole i går og ser min ven."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Jeg gå i skole i går og ser min ven."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Jeg er lidt i tvivl om grammatikken her, kan du rette den: Mig og ham er går til butikken."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Mig og ham er går til butikken."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du hjælpe mig med at rette denne sætning Hun har spiste allerede."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Hun har spiste allerede."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lyder det her rigtigt, eller kan du rette det: Vi var spillede udenfor."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Vi var spillede udenfor."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Vil du ikke lige tjekke grammatikken i denne sætning: Der er mange grund til at gå."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Der er mange grund til at gå."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Jeg tror der er fejl i denne, kan du rette den: Hun kan synger meget godt."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Hun kan synger meget godt."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du dobbelttjekke denne sætning for mig: Jeg har set den film i går."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Jeg har set den film i går."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Jeg har skrevet denne, men den lyder forkert – kan du rette den Han have mange lektier."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Han have mange lektier."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lige rette denne sætning: Vi gjorde ikke gik derhen."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Vi gjorde ikke gik derhen."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hurtigt spørgsmål – er denne korrekt Han gør sin lektier hver dag."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Han gør sin lektier hver dag."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du hjælpe mig med grammatikken her Mig er højere end ham."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Mig er højere end ham."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lyder denne sætning naturlig, eller skal den rettes: Jeg har en hund som er løbe hurtigt."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Jeg har en hund som er løbe hurtigt."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Jeg er usikker på denne – kan du rette den De var ikke forstå problemet."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "De var ikke forstå problemet."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du tjekke om denne er korrekt Hun var hjemme i morgen."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Hun var hjemme i morgen."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Vil du rette denne sætning for mig: Jeg er enig med dig ikke."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Jeg er enig med dig ikke."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Jeg tror ikke denne er korrekt – kan du fikse den: Han have en bil som er meget hurtigt."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Han have en bil som er meget hurtigt."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du hjælpe mig med at rette denne Vi er gik i biografen i går."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Vi er gik i biografen i går."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lige kigge på denne sætning og rette den: Hun kan lide spille fodbold meget."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Hun kan lide spille fodbold meget."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hej, jeg er lidt i tvivl om denne sætning – kan du rette den Jeg har gået til skole hver dag sidste år."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Jeg har gået til skole hver dag sidste år."}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du hjælpe mig med denne, den lyder forkert: Han sagde at han kommer i går."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "correct_grammar", "arguments": {"text": "Han sagde at han kommer i går."}}
+      ]}
+    ]
+  }
+]
