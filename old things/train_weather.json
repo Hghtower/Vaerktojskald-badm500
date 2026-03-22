@@ -1,0 +1,837 @@
+[
+    {
+        "messages": [
+            {"role": "user", "content": "What's the weather like in Paris?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Paris", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Tell me the weather in Paris in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Paris", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How's the weather in London?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "London", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's the temperature in London in Fahrenheit?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "London", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it raining in New York right now?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "New York", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Current temperature in New York in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "New York", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Weather update for Tokyo."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Give me Tokyo weather in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How hot is it in Dubai?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dubai", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Dubai temperature in Fahrenheit please."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dubai", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Check the weather in Sydney."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Sydney", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Sydney forecast in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Sydney", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's the weather in Berlin today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Berlin", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Berlin temperature in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Berlin", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How cold is it in Moscow?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Moscow", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Moscow weather in Fahrenheit right now."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Moscow", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Temperature in Toronto?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Toronto", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Toronto temperature in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Toronto", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Weather in Los Angeles?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Los Angeles", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Los Angeles weather in Fahrenheit please."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Los Angeles", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's the weather in Chicago?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Chicago", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Chicago temperature in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Chicago", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How's the weather in Madrid?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Madrid", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Madrid weather in Fahrenheit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Madrid", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Weather in Rome today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Rome", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Rome temperature in Fahrenheit please."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Rome", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What attire is appropriate for tommorow in Copenhagen"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Copenhagen", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How should I dress for a trip to Morocco tomorrow?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Morrocco", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What was the temperature in Stockholm yesterday?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Stockholm", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Should I use rubber boots today in London?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "London", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    
+
+
+    
+    {
+        "messages": [
+            {"role": "user", "content": "I'm packing for Amsterdam should I bring a heavy coat?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Amsterdam", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Quick what's the temp in Bangkok right now in Fahrenheit?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Bangkok", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is Barcelona giving beach vibes today or nah?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Barcelona", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Before I go jogging how cold is Prague this morning?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Prague", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "If I step outside in Helsinki right now, am I regretting it?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Helsinki", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Seoul weather check hoodie weather or t-shirt weather?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Seoul", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Cape Town in Fahrenheit please trying to convert in my head hurts."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Cape Town", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it melt-your-face hot in Dubai today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dubai", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Buenos Aires temperature in Fahrenheit planning tonight's outfit."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Buenos Aires", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+
+    {
+        "messages": [
+            {"role": "user", "content": "Mexico City weather report, captain."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Mexico City", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Mumbai in Fahrenheit is it monsoon chaos or calm?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Mumbai", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Oslo temp check. Be honest how brutal is it?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Lisbon weather in Fahrenheit debating rooftop drinks."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Lisbon", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is Athens basically an oven today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Athens", "unit": "celsius"}}
+            ]}
+        ]
+    },
+
+    {
+        "messages": [
+            {"role": "user", "content": "Real talk how's the weather behaving in Toronto?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Toronto", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Give me Chicago's temp in Fahrenheit before I step out."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Chicago", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Rome weather situation report 🏛️"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Rome", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Madrid in Fahrenheit summer vibes or sweater season?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Madrid", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Berlin temperature check. Am I layering up?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Berlin", "unit": "celsius"}}
+            ]}
+        ]
+    },
+
+    {
+        "messages": [
+            {"role": "user", "content": "Los Angeles in Fahrenheit beach day or binge Netflix?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Los Angeles", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "New York weather. Chaos outside or chill?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "New York", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Tokyo temperature in Fahrenheit tech conference survival mode."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Sydney weather check before I hit the surf."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Sydney", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Moscow in Fahrenheit Siberian drama or mild today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Moscow", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+
+
+
+
+
+    
+    {
+        "messages": [
+            {"role": "user", "content": "What’s the situation outside in Anchorage today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Anchorage", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Anchorage in Fahrenheit Arctic chaos or calm?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Anchorage", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How brutal is the heat in Doha right now?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Doha", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Doha temperature in Fahrenheit desert survival check."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Doha", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it stormy in Manila today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Manila", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Manila weather in Fahrenheit typhoon vibes?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Manila", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Temperature check for Reykjavik glacier mode?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Reykjavik in Fahrenheit please Iceland trip prep."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's Nairobi feeling like this afternoon?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Nairobi", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Nairobi temperature in Fahrenheit safari ready?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Nairobi", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+
+    {
+        "messages": [
+            {"role": "user", "content": "How chilly is it in Warsaw right now?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Warsaw", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Warsaw in Fahrenheit winter arc starting?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Warsaw", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What’s the outdoor mood in Lima today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Lima", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Lima temp in Fahrenheit coastal breeze situation?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Lima", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it blazing in Las Vegas today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Las Vegas", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Las Vegas in Fahrenheit casino crawl prep."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Las Vegas", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What's happening climate-wise in Budapest?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Budapest", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Budapest temperature in Fahrenheit thermal bath energy?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Budapest", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How’s the sky behaving over Johannesburg?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Johannesburg", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Johannesburg in Fahrenheit layering required?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Johannesburg", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+
+    {
+        "messages": [
+            {"role": "user", "content": "Check the forecast vibes for Tallinn."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Tallinn", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Tallinn in Fahrenheit Baltic breeze intensity?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Tallinn", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+
+
+
+
+    {
+        "messages": [
+            {"role": "user", "content": "I’m landing in Reykjavik tonight, should I pack a parka?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Check the Fahrenheit temp in Reykjavik, Arctic prep needed?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How’s the air in Kathmandu today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Kathmandu", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Kathmandu temperature in Fahrenheit, mountain trek check."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Kathmandu", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How hot is it in Phoenix today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Phoenix", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Phoenix in Fahrenheit, sunscreen mandatory?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Phoenix", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Are there clouds over Santiago today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Santiago", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Santiago temperature in Fahrenheit, will my coffee stay warm outside?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Santiago", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Check the vibe outside in Hanoi right now."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Hanoi", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Hanoi temperature in Fahrenheit, rain jacket needed?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Hanoi", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it drizzling in Zurich at the moment?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Zurich", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Zurich Fahrenheit temp, umbrella or no umbrella?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Zurich", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Can you tell me the weather in Lagos right now?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Lagos", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Lagos in Fahrenheit, is it humid chaos?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Lagos", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Quick, what's happening weather-wise in Reykjavik?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Baghdad temperature in Fahrenheit, desert sun check."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Baghdad", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "What’s the current temp in Helsinki?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Helsinki", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Helsinki Fahrenheit, snowy adventure incoming?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Helsinki", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "How’s the climate in Casablanca today?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Casablanca", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Casablanca in Fahrenheit, café terrace conditions?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Casablanca", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Is it raining over Dhaka right now?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dhaka", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Dhaka temperature in Fahrenheit, monsoon vibes?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Dhaka", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "I need the weather in Montevideo for tonight’s walk."},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Montevideo", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Montevideo temp in Fahrenheit, jacket or hoodie?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Montevideo", "unit": "fahrenheit"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Buenos Aires outside temperature, walking shoes or boots?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Buenos Aires", "unit": "celsius"}}
+            ]}
+        ]
+    },
+    {
+        "messages": [
+            {"role": "user", "content": "Buenos Aires Fahrenheit, evening stroll safe?"},
+            {"role": "assistant", "content": "", "tool_calls": [
+                {"name": "get_weather", "arguments": {"location": "Buenos Aires", "unit": "fahrenheit"}}
+            ]}
+        ]
+    }
+]
