@@ -2927,3 +2927,531 @@
 {'messages': [{'role': 'user', 'content': 'Kan du hjælpe mig med denne, den lyder forkert: Han sagde at han kommer i går.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Han sagde at han kommer i går.'}}]}]}
 ```
 
+{"messages":[{"role":"user","content":"Hey, could you check if this sentence is correct? I am go to the store tomorrow and buy some apples."}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"I am go to the store tomorrow and buy some apples."}}]}}
+{"messages":[{"role":"user","content":"Bonjour, pouvez-vous vérifier la grammaire de cette phrase ? Je mangeait une pomme hier."}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Je mangeait une pomme hier."}}]}}
+{"messages":[{"role":"user","content":"Hola, revisa por favor si esta oración está bien escrita: Nosotros fuimos al parque y jugamos fútbol."}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Nosotros fuimos al parque y jugamos fútbol."}}]}}
+{"messages":[{"role":"user","content":"Hey, can u fix this sentence? Me and my friend is going to the movies tonight."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Me and my friend is going to the movies tonight."}}]}]}
+{"messages":[{"role":"user","content":"Jeg vil gerne have, at du retter denne sætning: Vi og dem var på stranden i går."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Vi og dem var på stranden i går."}}]}]}
+{"messages":[{"role":"user","content":"Por favor corrige la gramática: Yo y ella fuimos al parque ayer."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Yo y ella fuimos al parque ayer."}}]}]}
+{"messages":[{"role":"user","content":"Can you correct this sentence? \"She don't like apples.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"She don't like apples."}}]}}
+{"messages":[{"role":"user","content":"Bitte korrigiere den folgenden Satz: \"Er hat gestern ein Buch gelesenes.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Er hat gestern ein Buch gelesenes."}}]}}
+{"messages":[{"role":"user","content":"Translate to Japanese: \"The quick brown fox jumps over the lazy dog.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The quick brown fox jumps over the lazy dog.","target_language":"ja"}}]}}
+{"messages":[{"role":"user","content":"Summarize this paragraph in two sentences:\n\n\"Artificial intelligence has seen rapid advancements in recent years, driven by improvements in computational power, data availability, and algorithmic innovations. These developments have enabled AI to excel in tasks ranging from image recognition to natural language processing, reshaping industries and everyday life.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, driven by improvements in computational power, data availability, and algorithmic innovations. These developments have enabled AI to excel in tasks ranging from image recognition to natural language processing, reshaping industries and everyday life.","max_sentences":2}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a string is a palindrome, ignoring spaces and punctuation."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to check palindrome ignoring spaces and punctuation"}}]}}
+{"messages":[{"role":"user","content":"Can you fix this sentence? The cat are sleeping on the mat."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"The cat are sleeping on the mat."}}]}]}
+{"messages":[{"role":"user","content":"Translate to French: \"I will travel to Japan next year.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate","arguments":{"text":"I will travel to Japan next year.","target_language":"fr"}}]}]}
+{"messages":[{"role":"user","content":"Summarize the following: \"Artificial intelligence has seen rapid growth in recent years, influencing many sectors such as healthcare, finance, and transportation. While it offers numerous benefits, it also raises ethical concerns regarding privacy, bias, and job displacement.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has seen rapid growth in recent years, influencing many sectors such as healthcare, finance, and transportation. While it offers numerous benefits, it also raises ethical concerns regarding privacy, bias, and job displacement."}}]}]}
+{"messages":[{"role":"user","content":"Write a Python function that returns the Fibonacci sequence up to n."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function that returns Fibonacci sequence up to n"}}]}]}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning for mig: \"Han gik hurtigt igennem skoven\"?"}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han gik hurtigt igennem skoven."}}]}
+{"messages":[{"role":"user","content":"Please translate the following sentence into Spanish: \"The project deadline is next Friday.\""}],"assistant":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The project deadline is next Friday.","target_language":"es"}}]}
+{"messages":[{"role":"user","content":"Summarize the key points of this article in bullet form:\n\n\"Artificial intelligence is transforming industries by automating tasks, improving decision‑making, and creating new business models. However, challenges such as bias, data privacy, and workforce displacement remain critical concerns.\""}],"assistant":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"Artificial intelligence is transforming industries by automating tasks, improving decision‑making, and creating new business models. However, challenges such as bias, data privacy, and workforce displacement remain critical concerns.","format":"bullets"}}]}
+{"messages":[{"role":"user","content":"Kan du forklare forskellen mellem \"deres\" og \"deres'\" på en uformel måde?"}],"assistant":"","tool_calls":[{"name":"explain_concept","arguments":{"concept":"deres vs deres'","style":"casual"}}]}
+{"messages":[{"role":"user","content":"Debug this Python snippet and point out the error:\n\n```python\nnumbers = [1, 2, 3, 4]\nprint(numbers[4])\n```"}],"assistant":"","tool_calls":[{"name":"debug_code","arguments":{"language":"python","code":"numbers = [1, 2, 3, 4]\nprint(numbers[4])"}}]}
+{"messages":[{"role":"user","content":"Can you fix the typo in this sentence? \"Shee went to the market yesterday.\""}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Shee went to the market yesterday."}}]}
+{"messages":[{"role":"user","content":"Translate the following to Spanish, keeping a formal tone: \"We appreciate your prompt response and look forward to collaborating further.\""}],"assistant":"","tool_calls":[{"name":"translate_text","arguments":{"text":"We appreciate your prompt response and look forward to collaborating further.","target_language":"es","tone":"formal"}}]}
+{"messages":[{"role":"user","content":"Summarize this paragraph in one concise sentence: \"The rapid advancement of artificial intelligence over the past decade has transformed numerous industries, from healthcare to finance, enabling unprecedented levels of automation and data-driven decision making, while also raising ethical concerns regarding privacy and job displacement.\""}],"assistant":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"The rapid advancement of artificial intelligence over the past decade has transformed numerous industries, from healthcare to finance, enabling unprecedented levels of automation and data-driven decision making, while also raising ethical concerns regarding privacy and job displacement.","max_sentences":1}}]}
+{"messages":[{"role":"user","content":"Write a short haiku about a rainy night in the city, using vivid imagery."}],"assistant":"","tool_calls":[{"name":"generate_poetry","arguments":{"theme":"rainy night in the city","form":"haiku","style":"vivid"}}]}
+{"messages":[{"role":"user","content":"Solve the equation and show each step: 3x^2 - 12x + 9 = 0"}],"assistant":"","tool_calls":[{"name":"solve_math","arguments":{"equation":"3x^2 - 12x + 9 = 0","show_steps":true}}]}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning for mig? \"Han gik til skole i morgen.\""},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han gik til skole i morgen."}}]}]}
+{"messages":[{"role":"user","content":"Please translate the following English sentence into Danish: \"The quick brown fox jumps over the lazy dog.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate","arguments":{"source_language":"en","target_language":"da","text":"The quick brown fox jumps over the lazy dog."}}]}]}
+{"messages":[{"role":"user","content":"Summarize this paragraph in three bullet points:\n\n\"Artificial intelligence has rapidly advanced over the past decade, influencing industries from healthcare to finance. While it offers unprecedented efficiency, it also raises ethical concerns about privacy and job displacement. Researchers are now focusing on creating transparent and accountable AI systems.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has rapidly advanced over the past decade, influencing industries from healthcare to finance. While it offers unprecedented efficiency, it also raises ethical concerns about privacy and job displacement. Researchers are now focusing on creating transparent and accountable AI systems.","style":"bullet"} }]}]}
+{"messages":[{"role":"user","content":"Hey, can you solve this for me? 2x + 5 = 17"},{"role":"assistant","content":"","tool_calls":[{"name":"solve_math","arguments":{"problem":"2x + 5 = 17"}}]}]}
+{"messages":[{"role":"user","content":"Refactor the following Python code to be more Pythonic and add type hints:\n\n```python\ndef add(a,b):\n    return a+b\n```"},{"role":"assistant","content":"","tool_calls":[{"name":"refactor_code","arguments":{"language":"python","code":"def add(a,b):\n    return a+b","options":{"pythonic":true,"type_hints":true}}}]}]}
+
+{"messages":[{"role":"user","content":"Kan du rette denne sætning? Hun gå i skole hver dag."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Hun gå i skole hver dag."}}]}]}
+{"messages":[{"role":"user","content":"Please translate the following sentence into French: \"The weather is nice today.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The weather is nice today.","target_language":"fr"}}]}]}
+{"messages":[{"role":"user","content":"Summarize this paragraph in two sentences: \"Artificial intelligence has seen rapid advancements in recent years, leading to breakthroughs in natural language processing, computer vision, and robotics. These developments have transformed various industries, from healthcare to finance, and raised important ethical considerations regarding privacy, bias, and job displacement.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, leading to breakthroughs in natural language processing, computer vision, and robotics. These developments have transformed various industries, from healthcare to finance, and raised important ethical considerations regarding privacy, bias, and job displacement.","summary_length":"2 sentences"}}]}]}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a given string is a palindrome, ignoring spaces and punctuation."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to check palindrome, ignore spaces and punctuation"}}]}]}
+{"messages":[{"role":"user","content":"Solve the equation for x: 2x^2 - 8x + 6 = 0"},{"role":"assistant","content":"","tool_calls":[{"name":"solve_math","arguments":{"equation":"2x^2 - 8x + 6 = 0"}}]}]}
+{"messages":[{"role":"user","content":"Kan du omskrive denne tekst, så den lyder mere formel? \"Jeg synes, at projektet var fedt, men vi mangler stadig nogle detaljer.\""},{"role":"assistant","content":"","tool_calls":[{"name":"rephrase_text","arguments":{"text":"Jeg synes, at projektet var fedt, men vi mangler stadig nogle detaljer.","style":"formal"}}]}]}
+
+{"messages":[{"role":"user","content":"Kan du rette denne sætning: Jeg har gået i skole i fem år?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Jeg har gået i skole i fem år?"}}]}}
+{"messages":[{"role":"user","content":"Please translate the following sentence into Spanish: \"The quick brown fox jumps over the lazy dog.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"source_language":"en","target_language":"es","text":"The quick brown fox jumps over the lazy dog."}}]}}
+{"messages":[{"role":"user","content":"Summarize this paragraph in two sentences:\n\n\"Artificial intelligence has seen rapid advancements over the past decade, moving from rule‑based systems to deep learning models that can process vast amounts of data. These technologies are now being applied across industries, from healthcare diagnostics to autonomous vehicles, promising both efficiency gains and new ethical challenges.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has progressed from rule‑based systems to deep learning, enabling widespread industry adoption such as healthcare and autonomous vehicles, while also raising ethical concerns.","max_sentences":2}}]}}
+{"messages":[{"role":"user","content":"Write a short Python function that returns the nth Fibonacci number using recursion. Keep the code concise and include a docstring."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"Recursive Fibonacci function with docstring","max_lines":10}}]}}
+{"messages":[{"role":"user","content":"I need a polite, formal email to my professor asking for an extension on my thesis draft due to unexpected health issues. Keep it brief and respectful."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"draft_email","arguments":{"tone":"formal","purpose":"extension request","details":"unexpected health issues","length":"short"}}]}}
+{"messages":[{"role":"user","content":"Quick check – is this sentence correct? 'She don't like coffee.'"}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"She don't like coffee."}}]}}
+{"messages":[{"role":"user","content":"Kan du oversætte denne sætning til svensk? 'Vi mødes i parken klokken fem.'" }],"assistant":{"content":"","tool_calls":[{"name":"translate_text","arguments":{"source_language":"da","target_language":"sv","text":"Vi mødes i parken klokken fem."}}]}}
+{"messages":[{"role":"user","content":"Solve for x: 3x^2 - 12x + 9 = 0"}],"assistant":{"content":"","tool_calls":[{"name":"solve_equation","arguments":{"equation":"3x^2 - 12x + 9 = 0"}}]}}
+{"messages":[{"role":"user","content":"I need a Python function that reads a CSV file and returns the sum of a column named 'sales'."}],"assistant":{"content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"Read CSV and sum 'sales' column"}}]}}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning: 'Han gik hurtigt til skole.'"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han gik hurtigt til skole."}}]}}
+{"messages":[{"role":"user","content":"Please translate the following sentence into French: \"The weather is nice today.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The weather is nice today.","target_language":"fr"}}]}}
+{"messages":[{"role":"user","content":"Summarize this paragraph in three bullet points:\n\n\"Artificial intelligence has seen rapid advancements in recent years, with deep learning models achieving state-of-the-art performance in various domains such as computer vision, natural language processing, and reinforcement learning. However, challenges remain regarding model interpretability, data efficiency, and ethical considerations.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, with deep learning models achieving state-of-the-art performance in various domains such as computer vision, natural language processing, and reinforcement learning. However, challenges remain regarding model interpretability, data efficiency, and ethical considerations.","bullet_points":3}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a given string is a palindrome, ignoring spaces and punctuation."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to check palindrome ignoring spaces and punctuation"}}]}}
+{"messages":[{"role":"user","content":"Kan du forklare forskellen mellem 'der' og 'det' i dansk grammatik?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"explain_grammar","arguments":{"topic":"der vs det","language":"da"}}]}}
+{"messages":[{"role":"user","content":"Is this sentence correct? 'She don't like the movies we watched yesterday.'"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"She don't like the movies we watched yesterday."}}]}}
+{"messages":[{"role":"user","content":"Translate the following to French: 'The quick brown fox jumps over the lazy dog.'"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The quick brown fox jumps over the lazy dog.","target_language":"fr"}}]}}
+{"messages":[{"role":"user","content":"Can you find the bug in this Python function?\n```python\ndef add_items(lst, item):\n    for i in range(len(lst)):\n        lst.append(item)\n    return lst\n```"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"debug_code","arguments":{"language":"python","code":"def add_items(lst, item):\n    for i in range(len(lst)):\n        lst.append(item)\n    return lst"}}]}}
+{"messages":[{"role":"user","content":"Write a short, whimsical poem about a cat who thinks it's a detective."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_poem","arguments":{"theme":"cat detective","style":"whimsical","length":"short"}}]}}
+{"messages":[{"role":"user","content":"Can you fix this sentence? \"She don't like the movie.\""}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"She don't like the movie."}}]}
+{"messages":[{"role":"user","content":"Übersetze bitte den folgenden Satz ins Englische: \"Der Himmel ist heute besonders blau.\""}],"assistant":"","tool_calls":[{"name":"translate","arguments":{"source_language":"de","target_language":"en","text":"Der Himmel ist heute besonders blau."}}]}
+{"messages":[{"role":"user","content":"Summarize the following paragraph in two sentences:\n\n\"Artificial intelligence has seen rapid advancements in recent years, driven by improvements in computational power, data availability, and algorithmic innovations. These developments have enabled AI to tackle complex tasks across various domains, from natural language processing to autonomous vehicles.\""}],"assistant":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, driven by improvements in computational power, data availability, and algorithmic innovations. These developments have enabled AI to tackle complex tasks across various domains, from natural language processing to autonomous vehicles.","max_sentences":2}}]}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a given string is a palindrome, ignoring case and non‑alphanumeric characters."}],"assistant":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to check palindrome ignoring case and non‑alphanumeric characters"}}]}
+{"messages":[{"role":"user","content":"I’m not sure about this phrase: \"They was going to the market\". Could you correct it?"}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"They was going to the market."}}]}
+{"messages":[{"role":"user","content":"Kan du tjekke om denne sætning er grammatisk korrekt? Jeg har spist morgenmad nu."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Jeg har spist morgenmad nu."}}]}]}
+{"messages":[{"role":"user","content":"Translate to English: \"Det er en smuk dag\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"source_language":"da","target_language":"en","text":"Det er en smuk dag"}}]}]}
+{"messages":[{"role":"user","content":"Summarize the following paragraph in two sentences:\n\n\"The rapid advancement of artificial intelligence over the past decade has transformed numerous industries, from healthcare to finance. While the benefits are substantial, concerns about ethical implications and job displacement continue to spark debate among policymakers and the public alike.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"The rapid advancement of artificial intelligence over the past decade has transformed numerous industries, from healthcare to finance. While the benefits are substantial, concerns about ethical implications and job displacement continue to spark debate among policymakers and the public alike.","max_sentences":2}}]}]}
+{"messages":[{"role":"user","content":"Is it true that the Eiffel Tower is located in Berlin?"},{"role":"assistant","content":"","tool_calls":[{"name":"check_facts","arguments":{"statement":"The Eiffel Tower is located in Berlin."}}]}]}
+{"messages":[{"role":"user","content":"Rewrite this sentence in a formal tone: \"Hey, what's up?\""},{"role":"assistant","content":"","tool_calls":[{"name":"rewrite_style","arguments":{"text":"Hey, what's up?","style":"formal"}}]}]}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning: \"Han gik hurtigt til skole\"?"},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han gik hurtigt til skole."}}]}]}
+{"messages":[{"role":"user","content":"Translate the following to English: \"Det er en smuk dag i dag.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate","arguments":{"text":"Det er en smuk dag i dag.","target_language":"en"}}]}]}
+{"messages":[{"role":"user","content":"Summarize this paragraph in two sentences:\n\n\"The rapid development of artificial intelligence has transformed many industries, from healthcare to finance. While the benefits are clear, there are also concerns about privacy, bias, and job displacement.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize","arguments":{"text":"The rapid development of artificial intelligence has transformed many industries, from healthcare to finance. While the benefits are clear, there are also concerns about privacy, bias, and job displacement.","max_sentences":2}}]}]}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a string is a palindrome, ignoring spaces and punctuation."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to check palindrome ignoring spaces and punctuation"}}]}]}
+{"messages":[{"role":"user","content":"Kan du give mig en kort, humoristisk forklaring på, hvad kvantemekanik er?"},{"role":"assistant","content":"","tool_calls":[{"name":"explain_concept","arguments":{"concept":"kvantemekanik","style":"humorous","length":"short"}}]}]}
+{"messages":[{"role":"user","content":"I think this sentence is wrong: She don't like the movies that are boring."}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"She don't like the movies that are boring."}}]}
+{"messages":[{"role":"user","content":"Bitte korrigiere diesen Satz: Der Hund läuft schnell aber er ist müde."}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Der Hund läuft schnell aber er ist müde."}}]}
+{"messages":[{"role":"user","content":"Can you fix the following: They was going to the market, but they forgot the money."}],"assistant":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"They was going to the market, but they forgot the money."}}]}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning: 'Han har spist æblerne hurtigt'?"}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han har spist æblerne hurtigt."}}]}}
+{"messages":[{"role":"user","content":"Please translate the following sentence into Spanish, keeping a formal tone: \"The committee will convene tomorrow at 10 a.m. to discuss the budget proposals.\""}],"assistant":{"content":"","tool_calls":[{"name":"translate","arguments":{"source_language":"en","target_language":"es","text":"The committee will convene tomorrow at 10 a.m. to discuss the budget proposals.","style":"formal"}}]}}
+{"messages":[{"role":"user","content":"Summarize this paragraph in three bullet points:\n\n\"Artificial intelligence has rapidly evolved over the past decade, moving from simple rule‑based systems to complex neural networks capable of learning from vast amounts of data. This transformation has impacted numerous industries, from healthcare, where AI assists in diagnosis, to finance, where it powers algorithmic trading. However, ethical concerns regarding bias, privacy, and job displacement remain central to the ongoing debate.\""}],"assistant":{"content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has rapidly evolved over the past decade, moving from simple rule‑based systems to complex neural networks capable of learning from vast amounts of data. This transformation has impacted numerous industries, from healthcare, where AI assists in diagnosis, to finance, where it powers algorithmic trading. However, ethical concerns regarding bias, privacy, and job displacement remain central to the ongoing debate.","format":"bullet_points","max_points":3}}]}}
+{"messages":[{"role":"user","content":"Write a short Python function that takes a list of integers and returns a new list with the elements sorted in descending order, using list comprehensions only."}],"assistant":{"content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to sort list in descending order using list comprehensions","constraints":"list comprehensions only"}}]}}
+{"messages":[{"role":"user","content":"Solve the following equation and show the steps: 2x^2 - 8x + 6 = 0"}],"assistant":{"content":"","tool_calls":[{"name":"solve_math","arguments":{"equation":"2x^2 - 8x + 6 = 0","show_steps":true}}]}}
+{"messages":[{"role":"user","content":"Can you correct this sentence? The cat are sleeping on the mat."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"The cat are sleeping on the mat."}}]}]}
+{"messages":[{"role":"user","content":"Bitte korrigiere den folgenden Satz: Er hat das Buch gelesen gestern."},{"role":"assistant","content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Er hat das Buch gelesen gestern."}}]}]}
+{"messages":[{"role":"user","content":"Translate this to Spanish: \"The weather is nice today, let's go for a walk.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"source_language":"en","target_language":"es","text":"The weather is nice today, let's go for a walk."}}]}]}
+{"messages":[{"role":"user","content":"Summarize the following paragraph in one sentence: \"Artificial intelligence has seen rapid advancements in recent years, with deep learning models achieving state-of-the‑state performance in tasks ranging from image classification to natural language processing. However, challenges such as interpretability, data bias, and computational cost remain significant hurdles.\""},{"role":"assistant","content":"","tool_calls":[{"name":"summarize_text","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, with deep learning models achieving state-of-the‑state performance in tasks ranging from image classification to natural language processing. However, challenges such as interpretability, data bias, and computational cost remain significant hurdles."}}]}]}
+{"messages":[{"role":"user","content":"Write a Python function that takes a list of integers and returns the list sorted in descending order without using the built‑in sort method."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to sort list of integers in descending order without using built-in sort"}}]}]}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning? \"Han gik til biblioteket i går, men han har ikke fundet den bog han søgte efter.\""}],"assistant":{"content":"","tool_calls":[{"name":"correct_grammar","arguments":{"text":"Han gik til biblioteket i går, men han har ikke fundet den bog han søgte efter."}}]}}
+{"messages":[{"role":"user","content":"Translate the following English sentence to Danish: \"The quick brown fox jumps over the lazy dog.\""}],"assistant":{"content":"","tool_calls":[{"name":"translate","arguments":{"source_language":"en","target_language":"da","text":"The quick brown fox jumps over the lazy dog."}}]}}
+{"messages":[{"role":"user","content":"Summarize this paragraph in three bullet points:\n\n\"Artificial intelligence has seen rapid advancements in recent years, particularly in the fields of natural language processing and computer vision. These breakthroughs have enabled new applications ranging from virtual assistants to autonomous vehicles. However, ethical concerns about bias, privacy, and job displacement remain prominent challenges.\""}],"assistant":{"content":"","tool_calls":[{"name":"summarize","arguments":{"text":"Artificial intelligence has seen rapid advancements in recent years, particularly in the fields of natural language processing and computer vision. These breakthroughs have enabled new applications ranging from virtual assistants to autonomous vehicles. However, ethical concerns about bias, privacy, and job displacement remain prominent challenges.","bullet_points":3}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that takes a list of integers and returns a new list with only the even numbers, preserving the original order."}],"assistant":{"content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"Function to filter even numbers from a list","code":"def filter_even_numbers(numbers:\n    \"\"\"Return a list containing only the even numbers from the input list, preserving order.\"\"\"\n    return [n for n in numbers if n % 2 == 0]"}}]}}
+{"messages":[{"role":"user","content":"Kan du give mig en kort, humoristisk forklaring på, hvad kvantemekanik er?"}],"assistant":{"content":"","tool_calls":[{"name":"explain_concept","arguments":{"concept":"kvantemekanik","tone":"humorous","length":"short"}}]}}
+{"messages":[{"role":"user","content":"Kan du rette denne sætning? Det er vigtigt at du forstår den."}],"tool_calls":[{"name":"correct_grammar","arguments":{"text":"Det er vigtigt at du forstår den."}}]}
+{"messages":[{"role":"user","content":"Please fix the grammar: \"She don't like the movies we watched yesterday.\""}],"tool_calls":[{"name":"correct_grammar","arguments":{"text":"She doesn't like the movies we watched yesterday."}}]}
+{"messages":[{"role":"user","content":"Kan du omskrive denne uformelle besked til en mere professionel tone? \"Hey, jeg har brug for den rapport ASAP!\""}],"tool_calls":[{"name":"correct_grammar","arguments":{"text":"Hej, jeg har brug for rapporten så hurtigt som muligt."}}]}
+{"messages":[{"role":"user","content":"Correct the following Danish sentence that mixes tenses: \"Jeg gik til butikken og køber mælk.\""}],"tool_calls":[{"name":"correct_grammar","arguments":{"text":"Jeg gik til butikken og købte mælk."}}]}
+{"messages":[{"role":"user","content":"Please correct the punctuation and capitalization: \"i love reading books it relaxes me\""}],"tool_calls":[{"name":"correct_grammar","arguments":{"text":"I love reading books; it relaxes me."}}]}
+```jsonl
+{"messages": [{"role": "user", "content": "Hej, kan du lige tjekke om denne sætning er korrekt. Hun løbe hurtigt til bussen i morges og misser den."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun løbe hurtigt til bussen i morges og misser den."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hun og mig har set filmen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun og mig har set filmen."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg går til butikken i morgen, hvis jeg ikke glemmer det."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til butikken i morgen, hvis jeg ikke glemmer det."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en æble."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en æble."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har set den film i går, men jeg kan ikke huske navnet."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har set den film i går, men jeg kan ikke huske navnet."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har set ham løbe hurtigt igennem parken."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har set ham løbe hurtigt igennem parken."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du tjekke denne sætning for mig: Hun spiste æblet i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun spiste æblet i dag?"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg gik til butikken, og købe mælk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg gik til butikken, og købe mælk."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en æble."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en æble."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hurtigt spørgsmål - er denne korrekt? Jeg går til stranden i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til stranden i morgen."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg synes det er svært at forstå dem."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg synes det er svært at forstå dem."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg så en mand der han spiste en æble."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg så en mand der han spiste en æble."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har en spørgsmål - er det rigtigt?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har en spørgsmål - er det rigtigt?"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg spiste en æble i går aftes."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg spiste en æble i går aftes."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Han gik til butikken, men han købte ikke mælk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Han gik til butikken, men han købte ikke mælk."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg gik til butikken og købte æbler, bananer og en pære, men jeg glemte at købe mælk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg gik til butikken og købte æbler, bananer og en pære, men jeg glemte at købe mælk."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en æble i dag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en æble i dag."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg går til butikken i morgen, hvis jeg har tid."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til butikken i morgen, hvis jeg har tid."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg synes den her sætning er lidt underlig - kan du hjælpe? \"Hun har spist æbler i går.\" "}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun har spist æbler i går."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har set den film i sidste uge."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har set den film i sidste uge."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hej, kan du lige tjekke om denne sætning er korrekt. Hun løbe hurtigt til bussen i morges og misser den."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun løbe hurtigt til bussen i morges og misser den."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hun og mig har set filmen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun og mig har set filmen."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg gået til butikken i går."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg gået til butikken i går."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har gået til butikken igår."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har gået til butikken igår."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har set den film, men jeg kan ikke huske navnet."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har set den film, men jeg kan ikke huske navnet."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en meget stor æble."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en meget stor æble."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du tjekke denne sætning for mig: Hun spiste æblet i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun spiste æblet i dag?"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg gik til butikken, og købte æbler og bananer, og mælk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg gik til butikken, og købte æbler og bananer, og mælk."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en æble."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en æble."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hurtigt spørgsmål - er denne korrekt? Jeg går til stranden i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til stranden i morgen."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har aldrig været i Sverige før."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har aldrig været i Sverige før."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hun er gået til butikken for at købe mælk og brød, men hun glemte penge."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun er gået til butikken for at købe mælk og brød, men hun glemte penge."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg troede han havde gået til butikken igår."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg troede han havde gået til butikken igår."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg spiste en æble i går aftes."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg spiste en æble i går aftes."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hun sagde at hun har gået til butikken igår."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun sagde at hun har gået til butikken igår."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg går til butikken i morgen, hvis jeg har tid."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til butikken i morgen, hvis jeg har tid."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har spist en æble i dag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har spist en æble i dag."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg går til butikken i morgen, hvis jeg har tid."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg går til butikken i morgen, hvis jeg har tid."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg synes den her sætning er lidt underlig - kan du rette den? \"Hun har spist æbler i går.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Hun har spist æbler i går."}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg har set den film i sidste uge."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "correct_grammar", "arguments": {"text": "Jeg har set den film i sidste uge."}}]}]}
+```
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hej, kan du lige tjekke om denne sætning er korrekt. Min søster har spist alle kagerne i dag og gået hjem.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Min søster har spist alle kagerne i dag og gået hjem.'}}]}]}
+```
+
+**Explanation of why it's similar:**
+
+* **User Role:**  The user asks for grammar checking of a Danish sentence.
+* **Incorrect Sentence:** The sentence contains a grammatical error (mixing past tense and infinitive/present participle).  "gået hjem" is correct, but the structure feels awkward with "har spist". A more natural phrasing would be "og gik hjem".
+* **Assistant Role:** The assistant *doesn't* correct it directly.  Instead, it initiates a tool call.
+* **Tool Call:** It calls a hypothetical `correct_grammar` tool, passing the sentence as text.  This is the same pattern as the original example.
+
+
+
+This structure is common in systems that use external tools (like a grammar checker API) to handle complex tasks. The assistant identifies the need for the tool and then passes the relevant data to it.
+Okay, here's a similar example in Danish, mimicking the user providing a grammatically incorrect sentence and the assistant requesting a grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hun har lånt mig og hende en bog.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Hun har lånt mig og hende en bog.'}}]}]}
+```
+
+**Explanation:**
+
+* **User Message:** "Hun har lånt mig og hende en bog." (She lent me and her a book.) - This is grammatically incorrect.  The correct form would be "Hun har lånt hende og mig en bog." (She lent her and me a book.)  The order of pronouns is wrong.
+* **Assistant Message:**  The assistant doesn't attempt to correct it directly. Instead, it uses a `tool_calls` structure to indicate it needs a grammar correction.
+    * `name`: "correct_grammar" -  This signifies the tool responsible for grammar correction.
+    * `arguments`: `{'text': 'Hun har lånt mig og hende en bog.'}` - This passes the incorrect sentence to the tool for processing.
+
+
+
+This structure allows for a modular approach where the assistant can delegate tasks to specialized tools, rather than trying to handle all language processing itself.  It's a common pattern in more advanced AI systems.
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg gået til butikken i går.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg gået til butikken i går.'}}]}]}
+```
+
+**Explanation:**
+
+* **User Message:** "Jeg gået til butikken i går." (Incorrect Danish - literally "I gone to the store yesterday.")
+* **Assistant Message:**  Empty content - indicating it's relying on a tool.
+* **Tool Call:**
+    * `name`: "correct_grammar" -  The name of the tool that fixes grammar.
+    * `arguments`: `{'text': 'Jeg gået til butikken i går.'}` -  Passes the incorrect sentence to the tool.
+
+This structure is designed for a system where the assistant doesn't directly provide the correction, but instead *calls* a separate tool to do so.  The correct sentence would be "Jeg gik til butikken i går." (I went to the store yesterday).
+
+
+
+
+Okay, here's a similar example in Danish, mimicking the structure of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har set ham i går aftes.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har set ham i går aftes.'}}]}]}
+```
+
+**Explanation:**
+
+* **"Jeg har set ham i går aftes."** is grammatically incorrect.  The correct phrasing is **"Jeg så ham i går aftes."** (simple past) or **"Jeg har set ham i går."** (perfect tense, implying the 'yesterday' is still relevant to now).
+* The `tool_calls` section indicates that a grammar correction tool should be used on the provided text.  This is the same structure as your example.
+
+
+
+
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har set filmen, men jeg kan ikke huske hvem der spiller med.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har set filmen, men jeg kan ikke huske hvem der spiller med.'}}]}]}
+```
+
+**Explanation of why this is similar:**
+
+* **User provides a sentence:**  The user offers a sentence that *likely* has a grammatical issue (though it's subtle - it's about phrasing rather than a clear error).
+* **Assistant acknowledges, but doesn't correct:** The assistant doesn't attempt to fix the sentence directly.
+* **Tool Call:**  Instead, it makes a call to a "correct_grammar" tool, passing the sentence as text to be analyzed and corrected.  This is the key part of the pattern.
+
+
+
+The original sentence ("Der er mange grund til at gå.") needed "grunde" instead of "grund".  The new sentence ("Jeg har set filmen, men jeg kan ikke huske hvem der spiller med.") is grammatically correct, but could be improved for flow/naturalness.  This demonstrates the tool being used even for stylistic improvements, not just outright errors.
+Okay, here's a similar example in Danish, mimicking the user providing a sentence with an error and the assistant requesting a grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har spist en meget stor æble.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har spist en meget stor æble.'}}]}]}
+```
+
+**Explanation:**
+
+* **User message:** "Jeg har spist en meget stor æble." (I have eaten a very big apple.) - This is grammatically incorrect. "Æble" (apple) should be "æblet" (the apple) or "et æble" (an apple) because it follows the indefinite article "en".
+* **Assistant message:**  Empty content (`''`) and a `tool_calls` array.
+* **`tool_calls`:** Contains a call to a hypothetical "correct_grammar" tool.
+* **`arguments`:**  Passes the incorrect sentence ("Jeg har spist en meget stor æble.") to the tool for correction.
+
+
+
+This structure mirrors your original example, showing a user providing a flawed Danish sentence and the assistant responding by initiating a grammar correction process.
+Okay, here's a similar example in Danish, mirroring the structure of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hun spiste æblet i dag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Hun spiste æblet i dag.'}}]}]}
+```
+
+**Explanation:**
+
+*   **User Message:** "Hun spiste æblet i dag." (She ate the apple today.) - This is a sentence that *might* need checking, even though it's likely correct.
+*   **Assistant Message:** An empty content string (`''`) indicating the assistant isn't providing a direct answer yet.
+*   **Tool Call:**  `{'name': 'correct_grammar', 'arguments': {'text': 'Hun spiste æblet i dag.'}}` - This signals the assistant is using a "correct\_grammar" tool and passing the sentence as text to be analyzed.  This is the core of the example, showing the assistant deferring to a tool for verification.
+
+
+
+This structure demonstrates the assistant recognizing a sentence and initiating a grammar check without immediately providing a correction. It's a pattern often used in conversational AI systems that leverage external tools.
+Okay, here's a similar example in Danish, mimicking the user providing a grammatically incorrect sentence and the assistant requesting a grammar correction:
+
+{'messages': [{'role': 'user', 'content': 'Jeg gå til skole i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg gå til skole i morgen.'}}]}]}
+
+**Explanation:**
+
+* **User Message:** "Jeg gå til skole i morgen." (I go to school tomorrow.) - This is grammatically incorrect.  The correct form is "Jeg *går* til skole i morgen."
+* **Assistant Message:**  The assistant doesn't provide the correction directly, but instead uses a "tool call" to indicate it needs a grammar correction.  The `correct_grammar` tool is called, and the incorrect sentence is passed as the `text` argument. This is how a system might handle it - delegating the correction to a specific function/tool.
+
+
+
+
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har spist en æble.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har spist en æble.'}}]}]}
+```
+
+**Explanation:**
+
+* **User message:** "Jeg har spist en æble." (I have eaten an apple.) - This sentence has a grammatical error ("æble" should be "æblet" or "et æble").
+* **Assistant message:**  Empty content (`''`).  This indicates the assistant isn't directly providing the correction, but is instead using a tool.
+* **Tool call:**
+    * `name`: "correct_grammar" -  The name of the tool designed to fix grammatical errors.
+    * `arguments`: `{'text': 'Jeg har spist en æble.'}` -  The text to be corrected is passed as an argument to the tool.
+
+
+
+This structure is common in systems that use external tools (like a grammar checker) to handle specific tasks. The assistant identifies the need for the tool and then passes the relevant data to it.
+
+Okay, here's a similar example in Danish, mimicking the structure of your provided example (user asks a question, assistant acknowledges and calls a grammar correction tool):
+
+{'messages': [{'role': 'user', 'content': 'Hurtigt spørgsmål - er dette korrekt? Jeg går til skolen i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg går til skolen i morgen.'}}]}]}
+
+**Explanation:**
+
+* **User Message:** "Hurtigt spørgsmål - er dette korrekt? Jeg går til skolen i morgen." (Quick question - is this correct? I am going to school tomorrow.)
+* **Assistant Message:**  An empty content string `''` indicating it's relying on a tool.
+* **Tool Call:** `{'name': 'correct_grammar', 'arguments': {'text': 'Jeg går til skolen i morgen.'}}`  This signals that the assistant wants to use a grammar correction tool on the provided Danish sentence.
+
+
+
+This structure is good for a chatbot or system that uses external tools to verify language.  The assistant doesn't *attempt* to correct it, it simply *requests* a correction from a dedicated tool.
+Okay, here's a similar example in Danish, mimicking the user providing incorrect grammar and the assistant requesting a grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hun har gået til butikken i går og købt æbler.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Hun har gået til butikken i går og købt æbler.'}}]}]}
+```
+
+**Explanation:**
+
+* **User message:** "Hun har gået til butikken i går og købt æbler." (She has walked to the store yesterday and bought apples.) - This is grammatically incorrect.  You shouldn't use "har gået" with "i går". It should be "gik".
+* **Assistant message:**  Empty content (`''`) indicating it's relying on a tool.
+* **`tool_calls`:**  A list containing a single tool call.
+    * **`name`:** `"correct_grammar"` -  The name of the tool designed to fix grammar.
+    * **`arguments`:**  A dictionary containing the text to be corrected: `{'text': 'Hun har gået til butikken i går og købt æbler.'}`
+
+
+
+This structure mirrors your original example, showing a user input with a grammatical error and the assistant requesting a grammar correction tool to be used.
+Okay, here's a similar example in Danish, mimicking the user providing a potentially incorrect sentence and the assistant requesting grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Min mor hun er gået til butikken.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Min mor hun er gået til butikken.'}}]}]}
+```
+
+**Explanation:**
+
+* **User's Sentence:** "Min mor hun er gået til butikken." (My mother she has gone to the store.) This is grammatically awkward in Danish.  The "hun" (she) is redundant after "Min mor" (My mother).
+* **Assistant's Response:**  The assistant doesn't attempt to correct it directly, but instead uses a `tool_call` to request a grammar correction from a tool named `correct_grammar`.  It passes the original sentence as the `text` argument. This is the same pattern as your original example.
+
+
+
+This example follows the same structure: a user presents a sentence that *sounds* potentially incorrect to a native speaker, and the assistant flags it for grammar correction via a tool call.
+Okay, here's a similar example in Danish, mimicking the user uncertainty and assistant response with a grammar correction tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har ikke gået til butikken i dag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har ikke gået til butikken i dag.'}}]}]}
+```
+
+**Explanation of why this is similar:**
+
+* **User expresses a sentence they're unsure about:** The user provides a sentence ("Jeg har ikke gået til butikken i dag.") which is grammatically incorrect.
+* **Assistant provides no immediate correction:** The assistant doesn't *directly* fix the sentence.
+* **Assistant uses a tool call:** Instead, it calls a "correct_grammar" tool, passing the user's sentence as the `text` argument.  This signals that a separate process (the tool) should handle the correction.
+* **Grammatical Error:** The error is a common one for Danish learners - using the perfect tense with "gået" instead of "gået" (the past participle). The correct sentence would be "Jeg har ikke været i butikken i dag." (I haven't *been* to the store today).
+
+
+
+This pattern is useful for building conversational AI systems where grammar correction is a separate module or service.  The assistant identifies a potential issue and delegates the correction to a specialized tool.
+Okay, here's a similar example in Danish, mimicking the structure of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg spiste frokost efter middag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg spiste frokost efter middag.'}}]}]}
+```
+
+**Explanation:**
+
+* **User message:** "Jeg spiste frokost efter middag." (I ate lunch after dinner.) - This sentence is grammatically incorrect; you eat lunch *before* dinner.
+* **Assistant message:**  An empty content string (`''`) indicating the assistant isn't providing a direct answer yet.
+* **Tool call:**  `{'name': 'correct_grammar', 'arguments': {'text': 'Jeg spiste frokost efter middag.'}}` - This signals that the assistant wants to use a "correct_grammar" tool to analyze and potentially correct the user's input. The `text` argument passes the sentence to the tool.
+
+
+
+This example follows the pattern: a user provides a sentence with a grammatical or logical error, and the assistant responds by initiating a tool call to address the issue instead of directly correcting it.
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hun sagde at hun gik til butikken i går, men hun gjorde ikke.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Hun sagde at hun gik til butikken i går, men hun gjorde ikke.'}}]}]}
+```
+
+**Explanation:**
+
+* **User Message:** "Hun sagde at hun gik til butikken i går, men hun gjorde ikke." (She said she went to the store yesterday, but she didn't.) - This sentence has a slightly awkward phrasing, particularly the "hun gjorde ikke" part.  A more natural way to say it would involve a negative construction with "ikke" closer to the verb it modifies.
+* **Assistant Message:**  Empty content (`''`). This signifies the assistant isn't directly providing the correction, but is instead using a tool.
+* **Tool Call:**
+    * `name`: `correct_grammar` -  This indicates the assistant is calling a grammar correction tool.
+    * `arguments`: `{'text': 'Hun sagde at hun gik til butikken i går, men hun gjorde ikke.'}` - This passes the original sentence to the tool for correction.
+
+
+
+This example follows the same pattern as your original: a slightly flawed Danish sentence presented by the user, followed by the assistant calling a grammar correction tool instead of directly providing the corrected version.  This is common in systems designed to leverage external tools for specific tasks.
+
+Okay, here's a similar example in Danish, mimicking the user providing a grammatically incorrect sentence and the assistant requesting a grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg så ham gået til butikken.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg så ham gået til butikken.'}}]}]}
+```
+
+**Explanation:**
+
+* **User message:** "Jeg så ham gået til butikken."  This is incorrect Danish. The correct way to say "I saw him go to the store" is "Jeg så ham gå til butikken."  The "gået" is an incorrect past participle form in this context.
+* **Assistant message:**  The assistant provides an empty content string and a `tool_calls` array.
+* **`tool_calls`:** This indicates the assistant wants to use a tool.
+    * **`name: 'correct_grammar'`:**  Specifies the tool to use is a grammar correction tool.
+    * **`arguments: {'text': 'Jeg så ham gået til butikken.'}`:**  Passes the incorrect sentence to the tool for correction.
+
+
+
+This structure mirrors your original example, showing a user providing a sentence needing correction and the assistant requesting the correction via a tool call.
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har spist en æble i dag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har spist en æble i dag.'}}]}]}
+```
+
+**Explanation:**
+
+* **User Message:** "Jeg har spist en æble i dag." (I have eaten an apple today.) - This sentence has a grammatical error (the indefinite article "en" should be used with "æble" in this context).
+* **Assistant Message:**  An empty string `""` indicating the assistant is deferring to a tool.
+* **Tool Call:**
+    * `name`: "correct_grammar" -  This specifies the tool to use (a grammar correction tool).
+    * `arguments`: `{'text': 'Jeg har spist en æble i dag.'}` - This provides the text to be corrected to the tool.
+
+
+
+This structure is similar to your original example, where the assistant identifies a potential grammar issue and calls a tool to resolve it instead of attempting to correct it directly.  The correct sentence would be "Jeg har spist et æble i dag." (I have eaten an apple today.)
+Okay, here's a similar example in Danish, mimicking the user-assistant-tool call structure:
+
+{'messages': [{'role': 'user', 'content': 'Jeg går til butikken i morgen, men jeg glemte min penge.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg går til butikken i morgen, men jeg glemte min penge.'}}]}]}
+
+**Explanation:**
+
+* **User Message:**  "Jeg går til butikken i morgen, men jeg glemte min penge." (I am going to the store tomorrow, but I forgot my money.) - This sentence has a grammatical error ("min penge" should be "mine penge").
+* **Assistant Message:**  An empty string, indicating the assistant is relying on a tool.
+* **Tool Call:**  `{'name': 'correct_grammar', 'arguments': {'text': 'Jeg går til butikken i morgen, men jeg glemte min penge.'}}` - This calls a hypothetical "correct_grammar" tool, passing the incorrect sentence as text to be fixed.  The tool would ideally return the corrected sentence.
+
+
+
+This structure demonstrates how a chatbot might identify a grammatical error and delegate the correction to a specialized tool instead of attempting to correct it itself.
+Okay, here's a similar example in Danish, mimicking the user/assistant exchange with a grammar correction request:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg så en film i går, og jeg synes den var meget spændende.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg så en film i går, og jeg synes den var meget spændende.'}}]}]}
+```
+
+**Explanation of why this is similar:**
+
+* **User provides a sentence:**  The user offers a sentence in Danish. It's a relatively simple sentence, but potentially has subtle areas for improvement (though in this case, it's mostly fine, making it a good test for a grammar tool).
+* **Assistant acknowledges and requests correction:** The assistant doesn't *provide* the correction directly. Instead, it uses a `tool_calls` structure to indicate it needs a grammar correction tool to analyze the text.  This is the key part mirroring the original example.
+* **`correct_grammar` tool:**  The `tool_calls` specifies a tool named `correct_grammar`, and passes the user's sentence as the `text` argument.
+
+
+
+This structure is designed for systems where the assistant doesn't have built-in grammar correction, but relies on external tools to perform that function.  The assistant *requests* the correction, rather than attempting to provide it itself.
+
+Okay, here's a similar example in Danish, mimicking the user providing a potentially incorrect sentence and the assistant requesting grammar correction:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg har spist en æble i dag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'correct_grammar', 'arguments': {'text': 'Jeg har spist en æble i dag.'}}]}]}
+```
+
+**Explanation:**
+
+* **User Message:** "Jeg har spist en æble i dag." (I have eaten an apple today.) - This is grammatically incorrect. "Æble" (apple) is neuter, so it needs the indefinite article "et" instead of "en".
+* **Assistant Message:**  An empty content string, and a `tool_calls` section.
+* **`tool_calls`:**  This indicates the assistant wants to use a tool.
+    * **`name: 'correct_grammar'`:**  The tool is named "correct_grammar" (or something similar, depending on your system).
+    * **`arguments: {'text': 'Jeg har spist en æble i dag.'}`:**  The argument passed to the tool is the incorrect sentence itself.  The tool would then correct it to "Jeg har spist et æble i dag."
+
+
+
+This structure mirrors your original example, showing a user providing a sentence that needs grammatical correction, and the assistant responding by calling a grammar correction tool.

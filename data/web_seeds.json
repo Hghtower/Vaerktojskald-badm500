@@ -158,5 +158,165 @@
         {"name": "search_web", "arguments": {"query": "grøn transport byer"}}
       ]}
     ]
+  }, 
+  {
+    "messages": [
+      {"role": "user", "content": "Find information om kunstig intelligens i undervisning."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "kunstig intelligens i undervisning"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter nyheder om rumfart og nye missioner."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "rumfart nyheder missioner"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde artikler om digitalisering i virksomheder?"},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "digitalisering i virksomheder"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter information om vindenergi i Europa."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "vindenergi i Europa"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find nyheder om udviklingen inden for batteriteknologi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "batteriteknologi udvikling nyheder"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde information om Internet of Things?"}, 
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "Internet of Things"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter artikler om biodiversitet og naturbeskyttelse."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "biodiversitet naturbeskyttelse"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find information om augmented reality teknologi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "augmented reality teknologi"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter nyheder om droneteknologi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "droneteknologi nyheder"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde artikler om dataanalyse og big data?"}, 
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "dataanalyse big data"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find information om kryptovaluta og markedet."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "kryptovaluta marked"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter de nyeste trends inden for e-handel."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "e-handel trends"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde artikler om cybersikkerhed i virksomheder?"}, 
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "cybersikkerhed virksomheder"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter information om bæredygtig mode."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "bæredygtig mode"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find artikler om smart homes teknologi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "smart home teknologi"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde information om AI i finanssektoren?"}, 
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "AI i finanssektoren"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter nyheder om elfly og luftfart."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "elfly luftfart nyheder"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find information om 3D-print teknologi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "3D print teknologi"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du søge efter nye opdagelser inden for medicin?"}, 
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "nye opdagelser medicin"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter information om cirkulær økonomi."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "search_web", "arguments": {"query": "cirkulær økonomi"}}
+      ]}
+    ]
   }
 ]

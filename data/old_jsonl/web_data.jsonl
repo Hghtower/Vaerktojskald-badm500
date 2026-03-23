@@ -7007,3 +7007,623 @@
 {'messages': [{'role': 'user', 'content': 'Søg efter information om grøn transport i byer.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'grøn transport byer'}}]}]}
 ```
 
+{"messages":[{"role":"user","content":"Summarize the main points of the Paris Climate Agreement in bullet points."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"Paris Climate Agreement summary"}}]}]
+{"messages":[{"role":"user","content":"Kan du oversætte følgende tekst til dansk: 'Artificial intelligence is transforming many industries.'"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"Artificial intelligence is transforming many industries.","target_language":"da"}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a string is a palindrome, ignoring spaces and punctuation."},{"role":"assistant","content":"Sure, here's the function:\n```python\nimport re\n\ndef is_palindrome(s):\n    cleaned = re.sub(r'[^A-Za-z0-9]', '', s).lower()\n    return cleaned == cleaned[::-1]\n```"}]}
+{"messages":[{"role":"user","content":"What are the latest research trends in quantum machine learning? Provide at least three recent papers with their DOI."},{"role":"assistant","content":"","tool_calls":[{"name":"search_academic","arguments":{"query":"quantum machine learning 2024 papers","max_results":3}}]}]
+{"messages":[{"role":"user","content":"Calculate the compound annual growth rate (CAGR) for an investment that grew from $5,000 to $12,000 over 5 years."},{"role":"assistant","content":"","tool_calls":[{"name":"calculate_cagr","arguments":{"initial":5000,"final":12000,"years":5}}]}]
+{"messages":[{"role":"user","content":"Kan du finde de seneste artikler om kvantecomputere?"}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"seneste kvantecomputer nyheder"}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that calculates the factorial of a number using recursion."}],"assistant":{"content":"```python\ndef factorial(n):\n    if n < 0:\n        raise ValueError(\"Factorial is not defined for negative numbers\")\n    if n == 0 or n == 1:\n        return 1\n    return n * factorial(n - 1)\n```"}}
+{"messages":[{"role":"user","content":"Übersetze bitte den folgenden Satz ins Deutsche: \"The quick brown fox jumps over the lazy dog.\""}],"assistant":{"content":"","tool_calls":[{"name":"translate","arguments":{"text":"The quick brown fox jumps over the lazy dog.","target_language":"de"}}]}}
+{"messages":[{"role":"user","content":"Give me a short haiku about the sunrise over the ocean."}],"assistant":{"content":"Golden light awakens\nWaves whisper to the sunrise\nDaybreak's gentle sigh"}}
+{"messages":[{"role":"user","content":"Show me the most recent breakthroughs in renewable energy research."}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest renewable energy breakthroughs 2024"}}]}}
+{"messages":[{"role":"user","content":"Could you pull up the latest research on quantum computing breakthroughs?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest quantum computing research 2024"}}]}]}
+{"messages":[{"role":"user","content":"¡Hola! Necesito un resumen de los principales retos de la energía eólica en América Latina."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"retos energía eólica América Latina 2024"}}]}]}
+{"messages":[{"role":"user","content":"Hey, can you fetch the current stock price for TSLA and calculate a 5‑day moving average?"},{"role":"assistant","content":"","tool_calls":[{"name":"fetch_stock","arguments":{"ticker":"TSLA"}},{"name":"calculate","arguments":{"operation":"moving_average","period":5}}]}]}
+{"messages":[{"role":"user","content":"Please provide a bullet‑point list of the most influential women in tech, with a brief one‑sentence bio for each."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"influential women in technology list 2024"}}]}]}
+{"messages":[{"role":"user","content":"Can you translate the following paragraph into formal Japanese? \"Sustainability is not just a buzzword; it's a responsibility we all share.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate","arguments":{"text":"Sustainability is not just a buzzword; it's a responsibility we all share.","target_language":"ja","tone":"formal"}}]}]}
+{"messages":[{"role":"user","content":"Find the latest statistics on electric vehicle adoption in Norway."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"electric vehicle adoption Norway 2024"}}]}}
+{"messages":[{"role":"user","content":"Can you give me a 3‑day weather forecast for Reykjavik, Iceland?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Reykjavik, Iceland","days":3}}]}}
+{"messages":[{"role":"user","content":"Translate the following sentence into Japanese: \"The quick brown fox jumps over the lazy dog.\""}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The quick brown fox jumps over the lazy dog.","target_language":"ja"}}]}}
+{"messages":[{"role":"user","content":"Write a Python function that calculates the nth Fibonacci number using memoization."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"function to compute nth Fibonacci number with memoization"}}]}}
+{"messages":[{"role":"user","content":"Summarize the key points of the EU's new digital services act in bullet points."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"EU Digital Services Act summary bullet points"}}]}}
+{"messages":[{"role":"user","content":"I need a recommendation for a good sci‑fi novel set in space, published after 2015."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"recommend_book","arguments":{"genre":"science fiction","setting":"space","published_after":2015}}]}}
+{"messages":[{"role":"user","content":"What are the health benefits of a Mediterranean diet according to recent studies?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"Mediterranean diet health benefits recent studies"}}]}}
+{"messages":[{"role":"user","content":"Create a short haiku about autumn rain."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_poetry","arguments":{"style":"haiku","theme":"autumn rain"}}]}}
+{"messages":[{"role":"user","content":"Give me the current exchange rate from USD to SEK."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"get_exchange_rate","arguments":{"from_currency":"USD","to_currency":"SEK"}}]}}
+{"messages":[{"role":"user","content":"Explain the concept of quantum entanglement in simple terms for a high‑school student."}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"quantum entanglement simple explanation high school"}}]}}
+{"messages":[{"role":"user","content":"Can you give me the latest headlines about renewable energy?"}],"assistant":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest renewable energy headlines"}}]}
+{"messages":[{"role":"user","content":"¿Qué noticias hay sobre la expansión de la red de carga para coches eléctricos en España?"}],"assistant":"","tool_calls":[{"name":"search_web","arguments":{"query":"expansión red carga coches eléctricos España noticias"}}]}
+{"messages":[{"role":"user","content":"Show me the current temperature in Copenhagen and a brief forecast for the next three days."}],"assistant":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Copenhagen","days":3}}]}
+{"messages":[{"role":"user","content":"Calculate the total CO₂ savings if a fleet of 50 electric trucks replaces diesel trucks over 5 years, assuming each electric truck saves 30t CO₂ per year."}],"assistant":"","tool_calls":[{"name":"calculate","arguments":{"expression":"50 * 30 * 5"}}]}
+{"messages":[{"role":"assistant","content":"Here’s a concise summary of the requested information:"},{"role":"assistant","content":"- **Renewable Energy Headlines**: ...\n- **Spanish EV Charging Network**: ...\n- **Copenhagen Weather**: ...\n- **CO₂ Savings Calculation**: ..."}],"assistant":""}
+{"messages":[{"role":"user","content":"Kan du give mig en kort opsummering af den seneste artikel om klimaforandringer?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"seneste artikel om klimaforandringer opsummering"}}]}]}
+{"messages":[{"role":"user","content":"Write a Python function that checks if a string is a palindrome."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","task":"check palindrome"}}]}]}
+{"messages":[{"role":"user","content":"¿Podrías traducir este párrafo al inglés? \"El sol brilla intensamente sobre el mar.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"source_language":"es","target_language":"en","text":"El sol brilla intensamente sobre el mar."}}]}]}
+{"messages":[{"role":"user","content":"Show me the current weather forecast for Copenhagen for the next three days."},{"role":"assistant","content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Copenhagen","days":3}}]}]}
+{"messages":[{"role":"user","content":"Explain quantum entanglement in simple terms for a high school student."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"quantum entanglement simple explanation high school"}}]}]}
+{"messages":[{"role":"user","content":"Find recent papers on quantum computing breakthroughs."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"quantum computing breakthroughs 2024"}}]]}
+{"messages":[{"role":"user","content":"Kan du oversætte følgende tekst til spansk?\n\"The future of renewable energy looks promising.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The future of renewable energy looks promising.","target_language":"es"}}]]}
+{"messages":[{"role":"user","content":"Calculate the factorial of 12."},{"role":"assistant","content":"","tool_calls":[{"name":"calculate","arguments":{"expression":"12!"}}]]}
+{"messages":[{"role":"user","content":"What's the weather forecast for Copenhagen tomorrow?"},{"role":"assistant","content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Copenhagen","date":"2026-03-24"}}]]}
+{"messages":[{"role":"user","content":"Summarize the key points from the PDF at https://example.com/report.pdf."},{"role":"assistant","content":"","tool_calls":[{"name":"read_pdf","arguments":{"url":"https://example.com/report.pdf","summary_length":"short"}}]]}
+{"messages":[{"role":"user","content":"Kan du give mig en opskrift på vegansk lasagne?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"vegansk lasagne opskrift"}}]}]}
+{"messages":[{"role":"system","content":"You are a helpful assistant specialized in Python programming."},{"role":"user","content":"Write a function that merges two sorted lists without using built‑in sort."},{"role":"assistant","content":"","tool_calls":[{"name":"execute_code","arguments":{"language":"python","code":"def merge_sorted(a, b):\n    i=j=0\n    result=[]\n    while i < len(a) and j < len(b):\n        if a[i] < b[j]:\n            result.append(a[i]); i+=1\n        else:\n            result.append(b[j]); j+=1\n    result.extend(a[i:])\n    result.extend(b[j:])\n    return result"}}]}]}
+{"messages":[{"role":"user","content":"I need travel recommendations for a 5‑day trip to Kyoto in early April, focusing on cherry blossoms and local cuisine."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"Kyoto cherry blossom itinerary early April"}},{"name":"search_web","arguments":{"query":"best local food spots Kyoto spring"}}]}]}
+
+{"messages":[{"role":"user","content":"Søg efter nyheder om robotteknologi."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"robotteknologi nyheder"}}]}]}
+{"messages":[{"role":"user","content":"Can you give me a summary of the latest AI safety research papers?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest AI safety research papers summary"}}]}]}
+{"messages":[{"role":"user","content":"Traducir al español: 'The future of renewable energy looks promising.'"},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The future of renewable energy looks promising.","target_language":"es"}}]}]}
+{"messages":[{"role":"user","content":"Write a short sci‑fi story (150 words) about a colony on Mars discovering an ancient alien artifact."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_text","arguments":{"prompt":"Write a short sci‑fi story (150 words) about a colony on Mars discovering an ancient alien artifact.","max_tokens":300}}]}]}
+{"messages":[{"role":"user","content":"Fetch the current weather forecast for Copenhagen for the next three days."},{"role":"assistant","content":"","tool_calls":[{"name":"fetch_api","arguments":{"url":"https://api.weather.com/v3/wx/forecast/daily/5day?city=Copenhagen&units=metric"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde artikler om maskinlæring?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"maskinlæring"}}]}]}
+{"messages":[{"role":"user","content":"Please give me a concise summary of the recent breakthroughs in CRISPR gene editing, citing at most three sources."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest CRISPR breakthroughs 2024"}}]}]}
+{"messages":[{"role":"user","content":"¿Podrías buscar estudios que comparen la eficiencia de los paneles solares de perovskita frente a los de silicio?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"perovskita vs silicio eficiencia paneles solares estudio"}}]}]}
+{"messages":[{"role":"user","content":"I need a list of open‑source libraries for reinforcement learning in Python, with a brief one‑sentence description for each."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"open source reinforcement learning Python libraries"}}]}]}
+{"messages":[{"role":"user","content":"Could you pull up the official documentation for the new Azure Functions v4 API?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"Azure Functions v4 API documentation"}}]}]}
+{"messages":[{"role":"user","content":"Give me a bullet‑point overview of the main arguments in the debate over universal basic income, referencing recent opinion pieces."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"universal basic income recent opinion pieces"}}]}]}
+{"messages":[{"role":"user","content":"Explain quantum computing in simple terms."}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"quantum computing basics"}}]}}
+{"messages":[{"role":"user","content":"Kan du give mig en opskrift på vegansk lasagne?"}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"vegansk lasagne opskrift"}}]}}
+{"messages":[{"role":"user","content":"Write a haiku about sunrise over the mountains."}],"assistant":{"content":"Golden light ascends,\nMountains blush in quiet dawn,\nDaybreak whispers soft."}}
+{"messages":[{"role":"user","content":"What is the current exchange rate between EUR and JPY?"}],"assistant":{"content":"","tool_calls":[{"name":"fetch_currency_rate","arguments":{"base":"EUR","target":"JPY"}}]}}
+{"messages":[{"role":"assistant","content":"Sure, I can help with that. What specific data are you looking for?"}],"assistant":{"content":"","tool_calls":[{"name":"search_database","arguments":{"table":"sales","filters":{"region":"EMEA","quarter":"Q2"}}]}}
+{"messages":[{"role":"user","content":"Find de seneste artikler om AI i uddannelse."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"AI i uddannelse nyeste artikler"}}]}]
+{"messages":[{"role":"user","content":"Hvad er vejret i København i morgen?"},{"role":"assistant","content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Copenhagen, Denmark","date":"2026-03-24"}}]}]
+{"messages":[{"role":"user","content":"Kan du oversætte denne tekst til spansk: 'Innovation drives progress'?"},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"Innovation drives progress","target_language":"es"}}]}]
+{"messages":[{"role":"user","content":"Lav en simpel Python-funktion, der beregner Fibonacci-tal."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","task":"function to calculate Fibonacci numbers"}}]}]
+{"messages":[{"role":"user","content":"Opsummér hovedpunkterne i den seneste WHO-rapport om mental sundhed."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"WHO report mental health 2026 summary"}}]}]
+{"messages":[{"role":"user","content":"Can you give me a summary of the latest AI research?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest AI research 2024"}}]},{"role":"user","content":"Write a Python function that calculates the factorial of a number."},{"role":"assistant","content":"Sure, here's the function:\n```python\ndef factorial(n):\n    return 1 if n == 0 else n * factorial(n-1)\n```"},{"role":"user","content":"What's the weather like in Copenhagen tomorrow?"},{"role":"assistant","content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Copenhagen","date":"2026-03-24"}}]},{"role":"user","content":"Tell me a short joke about programmers."},{"role":"assistant","content":"Why do programmers prefer dark mode? Because light attracts bugs!"}]}
+```jsonl
+{"messages":[{"role":"user","content":"Kan du finde de seneste rapporter om CO₂‑reduktion i byggebranchen?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"CO₂ reduktion byggebranchen rapport 2024"}}]}]}
+{"messages":[{"role":"user","content":"Translate the following paragraph into Danish, keeping the technical terms unchanged:\n\"The building's envelope utilizes high-performance glazing to minimize heat loss.\""},{"role":"assistant","content":"","tool_calls":[{"name":"translate_text","arguments":{"text":"The building's envelope utilizes high-performance glazing to minimize heat loss.","target_language":"da"}}]}]}
+{"messages":[{"role":"user","content":"I need a quick Python script that reads a CSV file and outputs the average of the 'energy_consumption' column."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_code","arguments":{"language":"python","description":"Read CSV and compute average of energy_consumption column"}}]}]}
+{"messages":[{"role":"user","content":"Vis mig et diagram, der sammenligner energiforbruget i traditionelle bygninger vs. passivhus fra 2015 til 2023."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"Bar chart comparing energy consumption of traditional buildings and passive houses from 2015 to 2023, Danish labels, clean style"}}]}]}
+{"messages":[{"role":"user","content":"Calculate the total embodied carbon for a 150m² timber frame house, assuming 0.25kgCO₂ per kg of timber and a total timber mass of 12t."},{"role":"assistant","content":"","tool_calls":[{"name":"compute","arguments":{"expression":"0.25 * 12000"}}]}]}
+```
+{"messages":[{"role":"user","content":"Find artikler om elektriske scootere."}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"elektriske scootere"}}]}}
+{"messages":[{"role":"user","content":"Kan du give mig en opskrift på vegansk lasagne?"}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"vegansk lasagne opskrift"}}]}}
+{"messages":[{"role":"user","content":"What’s the weather like in Oslo tomorrow?"}],"assistant":{"content":"","tool_calls":[{"name":"get_weather","arguments":{"location":"Oslo","date":"2026-03-24"}}]}}
+{"messages":[{"role":"user","content":"Calculate the compound interest for a €5,000 investment at 4.5% annual rate over 7 years."}],"assistant":{"content":"","tool_calls":[{"name":"calculate","arguments":{"principal":5000,"rate":0.045,"years":7,"type":"compound"}}]}}
+{"messages":[{"role":"user","content":"Summarize the main points of the latest UN climate report in bullet points."}],"assistant":{"content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest UN climate report summary"}}]}}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Can you find recent statistics on renewable energy adoption in Europe?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "search_web",
+          "arguments": {
+            "query": "renewable energy adoption Europe 2023 statistics"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the latest figures from the European Commission and Eurostat..."
+    },
+    {
+      "role": "user",
+      "content": "Expliquez brièvement le concept de la blockchain."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "summarize",
+          "arguments": {
+            "text": "Blockchain is a distributed ledger that records transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks.",
+            "language": "fr"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "La blockchain est un registre distribué qui consigne les transactions sur de nombreux ordinateurs, rendant toute modification rétroactive pratiquement impossible sans altérer tous les blocs suivants."
+    },
+    {
+      "role": "user",
+      "content": "Write a short Python script that reads a CSV file and prints the average of a column named 'price'."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "code_completion",
+          "arguments": {
+            "language": "python",
+            "snippet": "import csv\n\ndef average_price(file_path):\n    total = 0.0\n    count = 0\n    with open(file_path, newline='') as csvfile:\n        reader = csv.DictReader(csvfile)\n        for row in reader:\n            try:\n                total += float(row['price'])\n                count += 1\n            except (ValueError, KeyError):\n                continue\n    return total / count if count else 0.0\n\nif __name__ == '__main__':\n    print('Average price:', average_price('data.csv'))"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the requested script:\n```python\nimport csv\n\ndef average_price(file_path):\n    total = 0.0\n    count = 0\n    with open(file_path, newline='') as csvfile:\n        reader = csv.DictReader(csvfile)\n        for row in reader:\n            try:\n                total += float(row['price'])\n                count += 1\n            except (ValueError, KeyError):\n                continue\n    return total / count if count else 0.0\n\nif __name__ == '__main__':\n    print('Average price:', average_price('data.csv'))\n```"
+    },
+    {
+      "role": "user",
+      "content": "Calculate the compound interest for a principal of $5,000, rate 4.5% annually, over 10 years, compounded monthly."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "calculate",
+          "arguments": {
+            "principal": 5000,
+            "rate": 0.045,
+            "years": 10,
+            "frequency": "monthly"
+          }
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "Using the formula A = P (1 + r/n)^(nt), the future value after 10 years is approximately $7,838.45."
+    }
+  ]
+}
+{"messages":[{"role":"user","content":"Find the latest articles about solar panel efficiency improvements."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest solar panel efficiency improvements"}}]}]}
+{"messages":[{"role":"user","content":"¿Puedes buscar noticias recientes sobre energía eólica en América Latina?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"noticias energía eólica América Latina"}}]}]}
+{"messages":[{"role":"user","content":"Summarize the key points from the IPCC report section on renewable energy."},{"role":"assistant","content":"","tool_calls":[{"name":"fetch_document","arguments":{"url":"https://www.ipcc.ch/report/renewable-energy-section.pdf"}}]}]}
+{"messages":[{"role":"user","content":"Calculate the projected CO₂ reduction if a city switches 30% of its electricity to wind power over the next 10 years."},{"role":"assistant","content":"","tool_calls":[{"name":"calculate","arguments":{"formula":"(current_emissions * 0.30) * 0.85 * 10"}}]}]}
+{"messages":[{"role":"user","content":"Show me a chart of global green energy investment trends from 2015 to 2024."},{"role":"assistant","content":"","tool_calls":[{"name":"fetch_api","arguments":{"endpoint":"https://api.greenenergydata.org/investments","params":{"start_year":2015,"end_year":2024}}}]}]}
+{"messages":[{"role":"user","content":"Give me a 5‑sentence summary of the plot of 'Moby‑Dick'."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"Moby-Dick plot summary"}}]},{"role":"assistant","content":"Here’s a concise summary: Ishmael joins the whaling ship Pequod, led by the obsessive Captain Ahab, who is determined to hunt the white whale Moby‑Dick that maimed him. The crew sails across the oceans, encountering various challenges and reflecting on life at sea. Ahab’s monomaniacal quest drives the narrative, causing tension and fear among the sailors. The Pequod finally confronts Moby‑Dick, leading to a catastrophic battle. In the end, the whale destroys the ship, and only Ishmael survives to tell the tale."},{"role":"user","content":"Write a Python function that checks if a string is a palindrome, and include a brief docstring."},{"role":"assistant","content":"","tool_calls":[{"name":"code_generate","arguments":{"language":"python","task":"palindrome checker"}}]},{"role":"assistant","content":"```python\ndef is_palindrome(s: str) -> bool:\n    \"\"\"Return True if *s* reads the same forwards and backwards, ignoring case and non‑alphanumeric characters.\"\"\"\n    import re\n    cleaned = re.sub(r'[^A-Za-z0-9]', '', s).lower()\n    return cleaned == cleaned[::-1]\n```"},{"role":"user","content":"Translate the following sentence to Japanese: 'The future belongs to those who innovate.'"},{"role":"assistant","content":"","tool_calls":[{"name":"translate","arguments":{"text":"The future belongs to those who innovate.","target_language":"ja"}}]},{"role":"assistant","content":"未来はイノベーションを起こす人々のものです。"}]}
+{"messages":[{"role":"user","content":"Can you find the latest breakthroughs in quantum computing?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"latest breakthroughs quantum computing"}}]}]}
+{"messages":[{"role":"user","content":"¿Podrías buscar los artículos más recientes sobre la teoría de cuerdas?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"artículos recientes teoría de cuerdas"}}]}]}
+{"messages":[{"role":"user","content":"Hey GPT, give me a quick summary of the newest AI safety research papers."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"new AI safety research papers 2024"}}]}]}
+{"messages":[{"role":"user","content":"🔍 Look up the top 5 trending topics in renewable energy for this month."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"trending renewable energy topics March 2026"}}]}]}
+{"messages":[{"role":"user","content":"Could you pull up the most recent statistics on global plastic waste?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"global plastic waste statistics 2024"}}]}]}
+{"messages":[{"role":"user","content":"Find recent studies on electric bike adoption in European capitals."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"electric bike adoption European capitals 2023 study"}}]}]}
+{"messages":[{"role":"user","content":"¿Puedes buscar estadísticas de uso de scooters eléctricos en Madrid?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"estadísticas scooters eléctricos Madrid 2024"}}]}]}
+{"messages":[{"role":"user","content":"Calculate the average CO₂ reduction per capita if a city replaces 30% of car trips with public transit."},{"role":"assistant","content":"","tool_calls":[{"name":"calculate","arguments":{"formula":"(car_trip_CO2 * 0.30) * population"}}]}]}
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er fordelene ved elbiler?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "fordelene ved elbiler"}}]} ]}
+```
+
+```jsonl
+{"messages": [{"role": "user", "content": "Søg efter de seneste nyheder om AI-udviklinger."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "seneste AI-udviklinger nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om solenergi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solenergi"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om vindmøller i Danmark."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "vindmøller i Danmark"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om solcellepaneler og deres effektivitet."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solcellepaneler effektivitet nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om solenergi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solenergi"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find artikler om global opvarmning."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "global opvarmning"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om gaming tastaturer."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "gaming tastaturer"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Søg efter nyheder om kunstig intelligens."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstlig intelligens nyheder"}}]}]}
+```
+
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde artikler om kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find de seneste tendenser inden for bæredygtigt byggeri."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "bæredygtigt byggeri seneste tendenser"}}]}]}
+```
+
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde artikler om kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om økologiske landbrug."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "økologiske landbrug"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find artikler om elcykler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "elcykler"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om kunstig intelligens inden for landbrug?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "Kunstig intelligens i landbruget"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find nyheder om solenergi."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solenergi nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om elektriske cykler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "elektriske cykler"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er de seneste fremskridt inden for kosmologi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "seneste fremskridt kosmologi"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om bæredygtige transportløsninger i storbyer."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "bæredygtig transport storbyer"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er fordelene ved solenergi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "fordelene ved solenergi"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Søg efter de seneste nyheder om AI-udviklinger."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "seneste AI-udviklinger nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om solenergi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solenergi"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om vindmøller i Danmark."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "vindmøller i Danmark"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om solcellepaneler og deres effektivitet."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solcellepaneler effektivitet nyheder"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om solenergi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "solenergi"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find artikler om kunstig intelligens."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om trådløse hovedtelefoner."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "trådløse hovedtelefoner"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Søg efter nyheder om kunstig intelligens."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstlig intelligens nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde artikler om kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find de seneste tendenser inden for sundhedsteknologi."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "sundhedsteknologi seneste tendenser"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde artikler om kunstig intelligens?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om økologiske landbrug."},{"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "økologiske landbrug"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find artikler om elcykler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "elcykler"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du finde information om kunstig intelligens i sundhedssektoren?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "kunstig intelligens i sundhedssektoren"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find nyheder om vedvarende energi."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "vedvarende energi nyheder"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om elektriske cykler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "elektriske cykler"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hvad er de seneste fremskridt inden for kosmologi?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "seneste fremskridt kosmologi"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Find information om bæredygtige transportløsninger i storbyer."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "search_web", "arguments": {"query": "bæredygtig transport storbyer"}}]}]}
+```
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om solenergi.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'solenergi'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"kvantecomputere"** (quantum computers) was replaced with **"solenergi"** (solar energy).
+*   The `query` argument in `search_web` was updated to **"solenergi"** to match the user's request.
+
+This example follows the same pattern: a user asks for information on a topic, and the assistant responds with an empty content field and a `tool_call` to a web search tool, specifying the search query in Danish.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Søg efter de seneste nyheder om AI-udviklinger.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'seneste AI-udviklinger nyheder'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **"nyeste" changed to "seneste"**: Both mean "latest" or "most recent", but "seneste" is arguably more common in this context in Danish.
+*   The rest of the structure (roles, content, tool call name and arguments) remains the same as it's a technical aspect of the interaction.
+
+
+
+This example follows the same pattern: a user request in Danish, followed by an assistant response that *doesn't* provide the information directly, but instead calls a web search tool to fulfill the request.  The `query` argument is also in Danish to ensure the search engine returns relevant results in Danish.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du finde information om solenergi?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'solenergi'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **User query:** Changed from "bæredygtig energi" (sustainable energy) to "solenergi" (solar energy).  This provides a slightly more specific example.
+*   **Tool call query:**  Correspondingly changed the `query` argument to "solenergi" to match the user's request.
+*   The structure (role, content, tool_calls) remains identical to the original example.
+
+
+
+This example demonstrates a user asking for information and the assistant responding with a tool call to a web search, just like the original.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om vindmøller i Norge.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'vindmøller i Norge'}}]} ]}
+```
+
+**Translation & Explanation:**
+
+* **`{'messages': [...]}`**:  This is the standard JSON structure for a conversation.
+* **`{'role': 'user', 'content': 'Find information om vindmøller i Norge.'}`**: This represents the user's request.  "Find information about wind turbines in Norway."  (I've changed the topic to wind turbines in Norway to make it a different example, but the structure is the same.)
+* **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It's currently empty (`content: ''`) because the assistant needs to use a tool to fulfill the request.
+* **`[{'name': 'search_web', 'arguments': {'query': 'vindmøller i Norge'}}]`**: This is the tool call.
+    * **`name: 'search_web'`**:  Indicates the assistant wants to use a web search tool.
+    * **`arguments: {'query': 'vindmøller i Norge'}`**:  Specifies the search query: "wind turbines in Norway".
+
+
+
+This example follows the pattern of a user asking a question, and the assistant responding with a request to use a tool (in this case, a web search) to answer the question.  The `content` is empty because the actual answer will come *after* the tool call is executed and the results are received.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find seneste nyheder om elbiler og deres fremtidige udvikling.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'seneste nyheder elbiler udvikling fremtid'}}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Content:**  I've rephrased the user's request to be more natural in Danish:  "Find seneste nyheder om elbiler og deres fremtidige udvikling." (Find the latest news about electric cars and their future development.)
+*   **Tool Call Query:** I've adjusted the search query to be in Danish as well: "seneste nyheder elbiler udvikling fremtid" (latest news electric cars development future).  This will likely yield more relevant results from Danish-language sources.
+*   **Structure:** The overall structure (user message, assistant message with `tool_calls`) remains identical to the original example.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user question, assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du finde information om solenergi?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'solenergi'}}]} ]}
+```
+
+**Explanation of the Danish:**
+
+* **`Kan du finde information om solenergi?`** - "Can you find information about solar energy?" (This is the user's question.)
+* **`solenergi`** - "solar energy" (This is the search query.)
+* The rest of the structure (roles, `tool_calls`, `name`, `arguments`) remains the same, as it's related to the API interaction and not the language itself.
+
+
+
+This example follows the pattern:
+
+1.  **User asks a question.**
+2.  **Assistant acknowledges but doesn't answer directly.**
+3.  **Assistant makes a `search_web` tool call with a relevant query.**
+
+This is a common pattern in conversational AI when the assistant needs to retrieve information from an external source.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Søg efter artikler om kunstig intelligens.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'kunstig intelligens'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **"klimaforandringer"** (climate change) was replaced with **"kunstig intelligens"** (artificial intelligence).  This keeps the pattern of a user asking to search for articles on a topic.
+*   The `query` argument within `search_web` was updated to reflect the new topic: **"kunstig intelligens"**.
+
+
+
+This example follows the same format: a user request followed by an assistant response that indicates a web search tool should be used with a specific query.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request, assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om trådløse hovedtelefoner.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'trådløse hovedtelefoner'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **User Request:**  "Find information om trådløse hovedtelefoner." (Find information about wireless headphones.) - Changed the product to something different.
+*   **Assistant Response:**  The structure remains the same - an empty `content` field and a `tool_calls` array.
+*   **Tool Call:** The `query` within the `search_web` tool call is updated to "trådløse hovedtelefoner" to match the user's request.
+
+
+
+This example follows the pattern of a user asking for information and the assistant responding by initiating a web search to fulfill that request.  It's a common pattern in conversational AI.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Søg efter nyheder om kunstig intelligens.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'nyheder kunstig intelligens'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"robotteknologi"** (robotics) was changed to **"kunstig intelligens"** (artificial intelligence) to provide a different search topic.
+*   **"robotteknologi nyheder"** was changed to **"nyheder kunstig intelligens"** to match the new topic, ensuring the search query is in Danish.
+*   The structure (user request, assistant acknowledgement with a tool call) remains identical.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du finde artikler om kunstig intelligens?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'kunstig intelligens'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"maskinlæring"** (machine learning) was changed to **"kunstig intelligens"** (artificial intelligence).  This keeps the request for finding articles about a related topic.
+*   The `query` in `search_web` was updated to **"kunstig intelligens"** to match the user's request.
+
+
+
+This example follows the same pattern:
+
+1.  **User Message:** A request for information (in Danish).
+2.  **Assistant Message:** An empty content field, and a `tool_calls` section indicating a web search should be performed with the appropriate query.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om kunstig intelligens.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'kunstig intelligens'}}]} ]}
+```
+
+**Explanation of the Danish:**
+
+*   **`Find information om kunstig intelligens.`** - This translates to "Find information about artificial intelligence."  It's a user request.
+*   **`kunstig intelligens`** - This is the Danish term for "artificial intelligence" and is used as the search query.
+*   The rest of the structure (role, content, tool_calls, name, arguments) remains the same, indicating the assistant intends to use a web search tool.
+
+
+
+This example follows the pattern:
+
+1.  **User asks a question in Danish.**
+2.  **Assistant responds with an empty `content` field.** (Meaning it doesn't have an immediate answer.)
+3.  **Assistant includes a `tool_calls` array.**
+4.  **The `tool_calls` array contains a `search_web` tool call.**
+5.  **The `arguments` for the tool call include a `query` in Danish.** (The search term).
+Okay, here's a similar example in Danish, mirroring the user/assistant/tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find de seneste tendenser inden for sundhedsteknologi.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'sundhedsteknologi seneste tendenser'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"Søg efter"** (Search for) was changed to **"Find"** (Find) - both are common ways to ask for information.
+*   **"nyeste trends"** (newest trends) was changed to **"seneste tendenser"** (latest trends) -  "tendenser" is a more common word for "trends" in this context in Danish.
+*   The `query` in `arguments` was updated to match the Danish phrasing: **"sundhedsteknologi seneste tendenser"**.
+
+
+
+This example follows the same pattern: a user asks a question, and the assistant responds with a tool call to a web search to fulfill the request.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du finde artikler om kunstig intelligens?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'kunstig intelligens'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"cybersikkerhed"** (cybersecurity) was replaced with **"kunstig intelligens"** (artificial intelligence).  This keeps the same pattern of a user asking to find articles on a specific topic.
+*   The `query` argument in `search_web` was updated to **"kunstig intelligens"** to match the user's request.
+
+
+
+This example demonstrates a user asking for information and the assistant responding by initiating a web search using a tool call.  It's a common pattern in conversational AI.
+Okay, here's a similar example in Danish, mirroring the user-assistant-tool call structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om økologiske landbrug.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'økologiske landbrug'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **"Søg efter information om bæredygtige bygninger"** became **"Find information om økologiske landbrug."** (Searching for information about organic farms)
+*   **"bæredygtige bygninger"** became **"økologiske landbrug"** (organic farms) - to match the new user query.
+
+The structure remains the same: a user asks a question, the assistant acknowledges and initiates a web search using the `search_web` tool.  The `tool_calls` section specifies the tool and its arguments (the search query).
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find artikler om elcykler.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'elcykler'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"elektriske scootere"** (electric scooters) was changed to **"elcykler"** (electric bicycles).  This keeps the same pattern of asking for articles on a type of electric vehicle.
+*   The `query` argument in the `search_web` tool call was updated to **"elcykler"** to match the user's request.
+
+
+
+This example demonstrates a user asking for information and the assistant responding by initiating a web search to fulfill the request.  It's a common pattern in conversational AI.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du finde information om kunstig intelligens inden for landbruget?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'Kunstig intelligens i landbruget'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **"AI i sundhedssektoren"** (AI in healthcare) was changed to **"Kunstig intelligens inden for landbruget"** (Artificial intelligence in agriculture).  This provides a different topic while maintaining the same request type.
+*   **"search_web"** and its arguments remain the same, as the *tool* being used is still a web search.  Only the *query* changes to reflect the new topic.
+*   The structure (user message, assistant message with tool call) is preserved.
+
+
+
+This example follows the pattern of a user asking for information, and the assistant responding with a tool call to a web search to fulfill that request.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Søg efter nyheder om solenergi.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'solenergi nyheder'}}]}]}
+```
+
+**Explanation of the Danish:**
+
+*   **`Søg efter nyheder om solenergi.`** - "Search for news about solar energy." (This is the user's request)
+*   **`solenergi`** - Solar energy
+*   **`nyheder`** - News
+*   **`om`** - About
+*   **`Søg efter`** - Search for
+*   **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`** - The assistant's response.  It's empty content (`''`) because it's *requesting* a tool to be used, not providing an answer directly.
+*   **`{'name': 'search_web', 'arguments': {'query': 'solenergi nyheder'}}`** -  The tool call. It's asking the `search_web` tool to perform a search with the query "solenergi nyheder" (solar energy news).
+
+
+
+This example follows the same pattern: a user asks for information, and the assistant responds with a tool call to retrieve that information.  I've changed "grøn energi" (green energy) to "solenergi" (solar energy) to provide a slightly different example while maintaining the structure.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om solcellepaneler.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'solcellepaneler'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **User Content:**  I changed the user's request from "Find information om autonome biler" (Find information about autonomous cars) to "Find information om solcellepaneler" (Find information about solar panels).
+*   **Tool Call Query:** Correspondingly, I changed the `query` in the `search_web` tool call from "autonome biler" to "solcellepaneler".
+*   **Structure Maintained:** The overall JSON structure (role, content, tool_calls, name, arguments) remains identical to the original example.  The assistant provides an empty `content` and instead initiates a web search via the `search_web` tool.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided interaction (user request, assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hvad er de seneste fremskridt inden for kosmologi?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'seneste fremskridt kosmologi'}}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Content:**  I changed the user's question to "Hvad er de seneste fremskridt inden for kosmologi?" which translates to "What are the latest advancements in cosmology?".  This is a related topic to astrophysics.
+*   **Assistant Content:** Remains empty, as the assistant intends to use a tool.
+*   **Tool Call:** The `tool_calls` section is maintained, and the `query` argument is updated to "seneste fremskridt kosmologi" (latest advancements cosmology) to match the user's new question.  The `name` remains `search_web` as it's still a web search tool.
+
+
+
+This example follows the same pattern: a user asks a question, and the assistant responds with an empty message *and* a `tool_calls` section indicating it needs to use a web search to answer the question.  This is a common pattern in agents that use tools.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example (user request followed by assistant response with a tool call):
+
+```json
+{'messages': [{'role': 'user', 'content': 'Find information om bæredygtig transport i storbyer.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'search_web', 'arguments': {'query': 'bæredygtig transport storbyer'}}]}
+```
+
+**Explanation of the Danish:**
+
+*   **`Find information om...`**:  "Find information about..."
+*   **`bæredygtig transport`**: "sustainable transport" (a good equivalent for "green transport" in this context)
+*   **`storbyer`**: "big cities" or "metropolitan areas" (equivalent to "cities")
+*   The rest of the structure (roles, `tool_calls`, `search_web`, `arguments`, `query`) remains the same as the English example.
+
+
+
+This example follows the same pattern: a user asks for information, and the assistant responds with an empty content field and a `search_web` tool call to fulfill the request.  The `query` is translated into Danish.

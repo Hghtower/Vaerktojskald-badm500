@@ -1,0 +1,20 @@
+{"messages":[{"role":"user","content":"Find information om kvantecomputere."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"kvantecomputere"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter de nyeste nyheder om AI-udviklinger."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"nyeste AI-udviklinger nyheder"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde artikler om bæredygtig energi?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"bæredygtig energi"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter information om solenergi i Danmark."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"solenergi i Danmark"}}]}]}
+{"messages":[{"role":"user","content":"Find nyheder om elbiler og deres udvikling."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"elbiler udvikling nyheder"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde information om 5G teknologi?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"5G teknologi"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter artikler om klimaforandringer."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"klimaforandringer"}}]}]}
+{"messages":[{"role":"user","content":"Find information om virtuelle reality-briller."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"virtual reality briller"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter nyheder om robotteknologi."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"robotteknologi nyheder"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde artikler om maskinlæring?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"maskinlæring"}}]}]}
+{"messages":[{"role":"user","content":"Find information om blockchain-teknologi."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"blockchain teknologi"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter de nyeste trends inden for sundhedsteknologi."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"sundhedsteknologi nyeste trends"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde artikler om cybersikkerhed?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"cybersikkerhed"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter information om bæredygtige bygninger."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"bæredygtige bygninger"}}]}]}
+{"messages":[{"role":"user","content":"Find artikler om elektriske scootere."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"elektriske scootere"}}]}]}
+{"messages":[{"role":"user","content":"Kan du finde information om AI i sundhedssektoren?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"AI i sundhedssektoren"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter nyheder om grøn energi."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"grøn energi nyheder"}}]}]}
+{"messages":[{"role":"user","content":"Find information om autonome biler."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"autonome biler"}}]}]}
+{"messages":[{"role":"user","content":"Kan du søge efter de nyeste opdagelser inden for astrofysik?"},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"nyeste opdagelser astrofysik"}}]}]}
+{"messages":[{"role":"user","content":"Søg efter information om grøn transport i byer."},{"role":"assistant","content":"","tool_calls":[{"name":"search_web","arguments":{"query":"grøn transport byer"}}]}]}

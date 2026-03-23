@@ -1,0 +1,770 @@
+```json
+{'messages': [{'role': 'user', 'content': 'Hej, kan du lave et realistisk billede af en solnedgang over nogle bjerge?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over bjerge', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en futuristisk by i cyberpunk-stil?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'futuristisk by', 'style': 'cyberpunk'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg leder efter et billede af en rolig strand ved solopgang, kan du lave det?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'strand ved solopgang', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en magisk skov med lysende træer?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'magisk skov med lysende træer', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en moderne stue i minimalistisk stil.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'moderne minimalistisk stue', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du skabe et billede af en kat, der sidst har stået på en vindueskarm i regnvejr?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på vindueskarm i regnvejr', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en gammel borg på en bakketop i tåge.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel borg i tåge', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en robot, der arbejder i en fabrik?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'robot i fabrik', 'style': 'futuristic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg kunne godt tænke mig et billede af en hyggelig café i Paris om aftenen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig café i Paris om aftenen', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en drage, der flyver over en by?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage flyver over by', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en sneklædt skov med et lille træhus.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'sneklædt skov med træhus', 'style': 'realistic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en astronaut, der står på månen og kigger mod jorden?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'astronaut på månen ser mod jorden', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en farverig undervandsverden med fisk og koraller.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'undervandsverden med fisk og koraller', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en travl storby set fra oven om natten?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'storby om natten set fra oven', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en enhjørning i en eventyrskov.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'enhjørning i eventyrskov', 'style': 'fantasy'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en gammel bog med magiske symboler?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel bog med magiske symboler', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne se et billede af en cyklist, der kører gennem en skov om efteråret.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'cyklist i efterårsskov', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hundehvalp, der leger i en park?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hundehvalp leger i park', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en luksusyacht på åbent hav i solskin.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'luksusyacht på havet i solskin', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af et nordlys over et snedækket landskab?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'nordlys over snedækket landskab', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Hej, kan du lave et realistisk billede af en solnedgang over nogle bjerge?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over bjerge', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en futuristisk by i cyberpunk-stil?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'futuristisk by', 'style': 'cyberpunk'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg leder efter et billede af en rolig strand ved solopgang, kan du lave det?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'strand ved solopgang', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en magisk skov med lysende træer?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'magisk skov med lysende træer', 'style': 'fantasy'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en moderne stue i minimalistisk stil.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'moderne minimalistisk stue', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du skabe et billede af en kat, der sidst har stået på en vindueskarm i regnvejr?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på vindueskarm i regnvejr', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en gammel borg på en bakketop i tåge.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel borg i tåge', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en robot, der arbejder i en fabrik?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'robot i fabrik', 'style': 'futuristic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg kunne godt tænke mig et billede af en hyggelig café i Paris om aftenen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig café i Paris om aftenen', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en drage, der flyver over en by?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage flyver over by', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en sneklædt skov med et lille træhus.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'sneklædt skov med træhus', 'style': 'realistic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en astronaut, der står på månen og kigger mod jorden?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'astronaut på månen ser mod jorden', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en farverig undervandsverden med fisk og koraller.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'undervandsverden med fisk og koraller', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en travl storby set fra oven om natten?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'storby om natten set fra oven', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en enhjørning i en eventyrskov.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'enhjørning i eventyrskov', 'style': 'fantasy'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en gammel bog med magiske symboler?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel bog med magiske symboler', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne se et billede af en cyklist, der kører gennem en skov om efteråret.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'cyklist i efterårsskov', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hundehvalp, der leger i en park?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hundehvalp leger i park', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en luksusyacht på åbent hav i solskin.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'luksusyacht på havet i solskin', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af et nordlys over et snedækket landskab?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'nordlys over snedækket landskab', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Hej, kan du lave et realistisk billede af en solnedgang over nogle bjerge?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over bjerge', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en futuristisk by i cyberpunk-stil?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'futuristisk by', 'style': 'cyberpunk'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg leder efter et billede af en rolig strand ved solopgang, kan du lave det?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'strand ved solopgang', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en magisk skov med lysende træer?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'magisk skov med lysende træer', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en moderne stue i minimalistisk stil.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'moderne minimalistisk stue', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du skabe et billede af en kat, der sidst har været på en vindueskarm i regnvejr?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på vindueskarm i regnvejr', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en gammel borg på en bakketop i tåge.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel borg i tåge', 'style': 'realistic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en robot, der arbejder i en fabrik?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'robot i fabrik', 'style': 'futuristic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg kunne godt tænke mig et billede af en hyggelig café i Paris om aftenen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig café i Paris om aftenen', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en drage, der flyver over en by?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage flyver over by', 'style': 'fantasy'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en sneklædt skov med et lille træhus.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'sneklædt skov med træhus', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en astronaut, der står på månen og kigger mod jorden?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'astronaut på månen ser mod jorden', 'style': 'realistic'}}]}]}
+```
+
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en farverig undervandsverden med fisk og koraller.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'undervandsverden med fisk og koraller', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en travl storby set fra oven om natten?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'storby om natten set fra oven', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en enhjørning i en eventyrskov.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'enhjørning i eventyrskov', 'style': 'fantasy'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en gammel bog med magiske symboler?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'gammel bog med magiske symboler', 'style': 'fantasy'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne se et billede af en cyklist, der kører gennem en skov om efteråret.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'cyklist i efterårsskov', 'style': 'realistic'}}]}]}
+```
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hundehvalp, der leger i en park?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hundehvalp leger i park', 'style': 'realistic'}}]}]}
+```
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en luksusyacht på åbent hav i solskin.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'luksusyacht på havet i solskin', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af et nordlys over et snedækket landskab?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'nordlys over snedækket landskab', 'style': 'realistic'}}]}]}
+```
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk by om natten i cyberpunk-stil?"}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by om natten","style":"cyberpunk"}}]}
+{"messages":[{"role":"user","content":"Lav et portræt af en middelalderlig ridder i olie-maleristil."}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"portræt af middelalderlig ridder","style":"oil painting"}}]}
+{"messages":[{"role":"user","content":"Kan du tegne en sød kat, der spiller klaver, i tegneserie-stil?"}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat der spiller klaver","style":"cartoon"}}]}
+{"messages":[{"role":"user","content":"Lav et fotorealistisk billede af en astronaut, der svæver i rummet."}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"astronaut svæver i rummet","style":"photorealistic"}}]}
+{"messages":[{"role":"user","content":"Kan du skabe et vandfarvebillede af en rolig sø med koi-fisk?"}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig sø med koi-fisk","style":"watercolor"}}]}
+{"messages":[{"role":"user","content":"Kan du generere et billede af en magisk skov i impressionistisk stil?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"magisk skov","style":"impressionist"}}]}]}
+{"messages":[{"role":"user","content":"Lav et billede af en retro-futuristisk bil i art deco‑stil."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"retro-futuristisk bil","style":"art deco"}}]}]}
+{"messages":[{"role":"user","content":"Kan du vise en historisk slagscene malet i barokstil?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"historisk slagscene","style":"baroque"}}]}]}
+{"messages":[{"role":"user","content":"Skab et abstrakt portræt i kubistisk stil."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstrakt portræt","style":"cubism"}}]}]}
+{"messages":[{"role":"user","content":"Lav et billede af en rumstation i vaporwave‑æstetik."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rumstation","style":"vaporwave"}}]}]}
+{"messages":[{"role":"user","content":"Kan du generere et billede af en underjordisk by i steampunk‑stil?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"underjordisk by","style":"steampunk"}}]}]}
+{"messages":[{"role":"user","content":"Vis mig en futuristisk havn i neon‑cyberpunk stil."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk havn","style":"cyberpunk neon"}}]}]}
+{"messages":[{"role":"user","content":"Lav et billede af en mystisk ørken i surrealistisk stil."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"mystisk ørken","style":"surrealist"}}]}]}
+{"messages":[{"role":"user","content":"Kan du skabe et billede af en victoriansk gade i ukiyo‑e stil?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"victoriansk gade","style":"ukiyo-e"}}]}]}
+{"messages":[{"role":"user","content":"Vis et billede af en digital drømmeverden i low‑poly stil."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"digital drømmeverden","style":"low-poly"}}]}]}
+
+{"messages":[{"role":"user","content":"Kan du lave et billede af en tåget bjergtop i solnedgang?"}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"tåget bjergtop i solnedgang","style":"impressionist"}}]}
+{"messages":[{"role":"user","content":"Jeg vil gerne se en futuristisk by ved natten med neon-lys."}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by ved natten med neon-lys","style":"cyberpunk"}}]}
+{"messages":[{"role":"user","content":"Lav et billede af en rolig sø omgivet af kirsebærblomster i forår."}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig sø omgivet af kirsebærblomster i forår","style":"watercolor"}}]}
+{"messages":[{"role":"user","content":"Kan du skabe en surrealistisk skov med flydende klokker?"}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"surrealistisk skov med flydende klokker","style":"surrealism"}}]}
+{"messages":[{"role":"user","content":"Jeg vil have et vintage portræt af en pige i 1920'ernes stil."}],"assistant":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"vintage portræt af en pige i 1920'ernes stil","style":"art deco"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk by om natten?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by om natten","style":"cyberpunk"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en rolig strand ved solopgang?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig strand ved solopgang","style":"impressionist"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af et steampunk luftskib i skyerne?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"steampunk luftskib i skyerne","style":"steampunk"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en sød kat i rumdragt på månen?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"sød kat i rumdragt på månen","style":"cartoon"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en gammel japansk tempel i tåge?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"gammel japansk tempel i tåge","style":"traditional ink painting"}}]}]}
+
+{"messages":[{"role":"user","content":"Et billede af et futuristisk køkken med neonbelysning."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk køkken med neonbelysning","style":"cyberpunk"}}]]}
+{"messages":[{"role":"user","content":"Vis mig en klassisk victoriansk stue med rige tekstiler."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"klassisk victoriansk stue med rige tekstiler","style":"oil painting"}}]]}
+{"messages":[{"role":"user","content":"Jeg vil se en minimalistisk kontorplads i sort-hvid."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"minimalistisk kontorplads","style":"black and white photography"}}]]}
+{"messages":[{"role":"user","content":"Et udendørs loungeområde med tropisk vibe ved solnedgang."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"tropisk udendørs loungeområde ved solnedgang","style":"digital illustration"}}]]}
+{"messages":[{"role":"user","content":"Et rustikt landhus køkken med træborde og åbne hylder."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rustikt landhus køkken med træborde og åbne hylder","style":"watercolor"}}]]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk by ved solnedgang i cyberpunk-stil?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by ved solnedgang","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du skabe et billede af en middelalderlig ridder, der rider på en drage, i oljemaleri-stil?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"middelalderlig ridder på drage","style":"oil painting"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en rolig bjergsø med koi-fisk i vandet, i akvarel-stil?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig bjergsø med koi-fisk","style":"watercolor"}}]}}
+{"messages":[{"role":"user","content":"Kan du skabe et billede af et travlt marked i Marrakech, i impressionistisk stil?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"travlt marked i Marrakech","style":"impressionist"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af et portræt af en kvinde lavet af blomster, i surrealistisk stil?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"portræt af kvinde lavet af blomster","style":"surreal"}}]}}
+{"messages":[{"role":"user","content":"Create an illustration of a futuristic city skyline at night, illuminated by neon lights."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristic city skyline at night with neon lights","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Draw a cute cartoon cat floating in outer space, surrounded by stars and planets."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"cartoon cat floating in space with stars and planets","style":"cute cartoon"}}]}}
+{"messages":[{"role":"user","content":"Paint a serene ancient forest at sunrise, with mist rising between the trees."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"ancient forest at sunrise with mist","style":"oil painting"}}]}}
+{"messages":[{"role":"user","content":"Generate an abstract geometric pattern using bold primary colors."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstract geometric pattern with bold primary colors","style":"minimalist"}}]}}
+{"messages":[{"role":"user","content":"Sketch a portrait of a medieval knight in armor, holding a sword, in charcoal style."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"portrait of medieval knight in armor holding a sword","style":"charcoal sketch"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en kat, der læser i en boghandel?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat læser i boghandel","style":"watercolor"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk by om natten?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by om natten","style":"cyberpunk"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et portræt af en gammel konge?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"portræt af gammel konge","style":"oil painting"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en drage, der flyver over bjergene?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"drage flyver over bjergene","style":"fantasy"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en astronaut på Mars?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"astronaut på Mars","style":"realistic"}}]}]}
+{"messages":[{"role":"user","content":"Et maleri af en solnedgang over bjergene i akvarelstil."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"solnedgang over bjergene","style":"watercolor"}}]}}
+{"messages":[{"role":"user","content":"En futuristisk by om natten i cyberpunk‑æstetik."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by om natten","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Et sødt portræt af en kat med hat i tegneseriestil."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat med hat","style":"cartoon"}}]}}
+{"messages":[{"role":"user","content":"Et gammelt bibliotek med svævende bøger i fantasy‑illustration."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"gammelt bibliotek med svævende bøger","style":"fantasy illustration"}}]}}
+{"messages":[{"role":"user","content":"Et abstrakt geometrisk mønster i neonfarver."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstrakt geometrisk mønster","style":"neon"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en kat, der sidder på en neonbelyst gade i en futuristisk by?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat på neonbelyst gade i futuristisk by","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du generere et billede af en solnedgang over et bjerglandskab med farverige skyer?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"solnedgang over bjerglandskab med farverige skyer","style":"watercolor"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en robot, der spiller violin på en scene?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"robot spiller violin på scene","style":"steampunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du generere et billede af en undervandsby med havfruer og koraller?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"undervandsby med havfruer og koraller","style":"digital art"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en gammel bibliotek fyldt med flyvende bøger?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"gammelt bibliotek med flyvende bøger","style":"fantasy illustration"}}]}}
+{"messages":[{"role":"user","content":"Lav et billede af en solnedgang over tågede bjerge."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"solnedgang over tågede bjerge","style":"oil painting"}}]}
+{"messages":[{"role":"user","content":"Create an illustration of a futuristic cyberpunk street filled with neon signs."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristic cyberpunk street with neon signs","style":"digital illustration"}}]}
+{"messages":[{"role":"user","content":"Draw a whimsical cat floating with balloons."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"whimsical cat floating with balloons","style":"watercolor"}}]}
+{"messages":[{"role":"user","content":"Generate a retro 80s arcade scene."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"retro 80s arcade scene","style":"pixel art"}}]}
+{"messages":[{"role":"user","content":"Sketch a minimalist line drawing of a city skyline."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"minimalist line drawing of a city skyline","style":"line art"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en drage, der svæver over en futuristisk by om natten?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"drage svæver over futuristisk by om natten","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en gammel, rusten robot, der sidder i en blomstereng?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"gammel rusten robot i blomstereng","style":"impressionist"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en magisk skov med flydende lys og svævende øer?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"magisk skov med flydende lys og svævende øer","style":"fantasy watercolor"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en vintage bil, der kører gennem en ørken ved solnedgang?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"vintage bil i ørken ved solnedgang","style":"retro 1970s poster"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en gruppe pingviner, der holder en fest på isen?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"pingviner holder fest på isen","style":"cute cartoon"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk bysilhuet ved solnedgang?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk bysilhuet ved solnedgang","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Jeg vil gerne se en eventyrlig skov med lysende svampe."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"eventyrlig skov med lysende svampe","style":"watercolor"}}]}}
+{"messages":[{"role":"user","content":"Lav et billede af en middelalderlig slagscene med riddere i kamp."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"middelalderlig slagscene med riddere i kamp","style":"oil painting"}}]}}
+{"messages":[{"role":"user","content":"Kan du tegne en sød kat-astronaut, der svæver i rummet?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"søde kat-astronaut svævende i rummet","style":"pixel art"}}]}}
+{"messages":[{"role":"user","content":"Vis mig en abstrakt fortolkning af musik som farver og former."}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstrakt fortolkning af musik med farver og former","style":"digital abstract"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en fredfyldt bjergsø ved solopgang?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"bjergsø ved solopgang","style":"impressionist"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en cyberpunk-markedsgade fyldt med neonlys?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"cyberpunk-markedsgade med neonlys","style":"digital art"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af et indre af et middelalderligt slot med stearinlys?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"interiør af middelalderligt slot med stearinlys","style":"oil painting"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en sød kat, der spiller klaver, i bløde pastelfarver?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat der spiller klaver","style":"children's book illustration"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en abstrakt repræsentation af glæde med levende farver?"}],"assistant":{"content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstrakt repræsentation af glæde","style":"abstract expressionism"}}]}}
+{"messages":[{"role":"user","content":"Create an image of a futuristic city at sunset."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristic city at sunset","style":"cyberpunk"}}]]}
+{"messages":[{"role":"user","content":"Draw a medieval knight riding a dragon over a castle."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"medieval knight riding a dragon over a castle","style":"illustration"}}]]}
+{"messages":[{"role":"user","content":"Generate a serene beach scene with pastel colors."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"serene beach with pastel colors","style":"watercolor"}}]]}
+{"messages":[{"role":"user","content":"Produce a portrait of a cat wearing a top hat and monocle."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"cat wearing a top hat and monocle","style":"digital art"}}]]}
+{"messages":[{"role":"user","content":"Illustrate a steampunk airship floating above snow‑capped mountains."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"steampunk airship above snow‑capped mountains","style":"oil painting"}}]]}
+{"messages":[{"role":"user","content":"Kan du generere et billede af en futuristisk by ved solnedgang?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by ved solnedgang","style":"cyberpunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et billede af et steampunk luftskib, der svæver over skyerne?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"steampunk luftskib over skyerne","style":"steampunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du skabe et surrealistisk landskab med flydende øer?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"surrealistisk landskab med flydende øer","style":"surrealism"}}]}}
+{"messages":[{"role":"user","content":"Kan du lave et portræt af en victoriansk dame med robotarme?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"victoriansk dame med robotarme","style":"steampunk"}}]}}
+{"messages":[{"role":"user","content":"Kan du generere et minimalistisk sort-hvid mønster af geometriske former?"}],"assistant":{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"minimalistisk sort-hvid mønster af geometriske former","style":"minimalist"}}]}}
+{"messages":[{"role":"user","content":"Vis mig et billede af en futuristisk by om natten med neonbelysning."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by om natten med neonbelysning","style":"cyberpunk"}}]}]}
+{"messages":[{"role":"user","content":"Jeg vil gerne se en illustration af en middelalderlig markedstorg med handlende og farverige boder."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"middelalderlig markedstorg med handlende og farverige boder","style":"watercolor"}}]}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en rolig strand ved solopgang med bløde farver?"},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig strand ved solopgang med bløde farver","style":"impressionist"}}]}]}
+{"messages":[{"role":"user","content":"Vis mig en fantasy-illustration af en drage, der hviler på en bjergtop i tåge."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"drage på bjergtop i tåge","style":"fantasy illustration"}}]}]}
+{"messages":[{"role":"user","content":"Jeg vil gerne have et sort-hvid fotografi af en kvinde i 1920'ernes mode, stående ved en gammel jernbane."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"kvinde i 1920'ernes mode ved gammel jernbane","style":"black and white photography"}}]}]}
+
+{"messages":[{"role":"user","content":"Kan du lave et billede af en kat, der sidder på månen i impressionistisk stil?"}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"kat sidder på månen","style":"impressionist"}}]}
+{"messages":[{"role":"user","content":"Lav et futuristisk bylandskab om natten i cyberpunk‑stil."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk bylandskab om natten","style":"cyberpunk"}}]}
+{"messages":[{"role":"user","content":"Kan du tegne et portræt af en gammel mand i oljemaleriets klassiske stil?"}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"portræt af en gammel mand","style":"oil painting"}}]}
+{"messages":[{"role":"user","content":"Lav en drage, der svæver over bjergene, i anime‑stil."}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"drage svæver over bjergene","style":"anime"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et stillehavsområde med solnedgang i akvarelstil?"}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"stillehavsområde med solnedgang","style":"watercolor"}}]}
+{"messages":[{"role":"user","content":"Create a futuristic city skyline at night, illuminated with neon lights."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristic city skyline at night with neon lights","style":"cyberpunk"}}]]}
+{"messages":[{"role":"user","content":"Draw a medieval castle perched on a misty hill, in the style of an oil painting."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"medieval castle on misty hill","style":"oil painting"}}]]}
+{"messages":[{"role":"user","content":"Illustrate a cute cat astronaut floating in outer space, cartoon style."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"cat astronaut floating in space","style":"cartoon"}}]]}
+{"messages":[{"role":"user","content":"Paint a serene mountain lake at sunrise, using watercolor techniques."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"serene mountain lake at sunrise","style":"watercolor"}}]]}
+{"messages":[{"role":"user","content":"Generate an abstract representation of music, vibrant and dynamic, in digital art."},{"role":"assistant","content":"","tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstract representation of music, vibrant and dynamic","style":"digital art"}}]]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en futuristisk by ved solnedgang?"},{"role":"assistant","content":""}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"futuristisk by ved solnedgang","style":"cyberpunk"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af et middelalderslot i tåge?"},{"role":"assistant","content":""}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"middelalderslot i tåge","style":"oil painting"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en sød kat som astronaut?"},{"role":"assistant","content":""}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"sød kat astronaut","style":"cartoon"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en abstrakt repræsentation af tid?"},{"role":"assistant","content":""}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"abstrakt repræsentation af tid","style":"surreal"}}]}
+{"messages":[{"role":"user","content":"Kan du lave et billede af en rolig strand ved måneskin?"},{"role":"assistant","content":""}],"tool_calls":[{"name":"generate_image","arguments":{"prompt":"rolig strand ved måneskin","style":"realistic"}}]}
+```jsonl
+{"messages": [{"role": "user", "content": "Hej, kan du lave et realistisk billede af en skov med tåge?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "skov med tåge", "style": "realistic"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du generere et billede af en rumstation i en realistisk stil?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "rumstation", "style": "realistisk"}}]}]}
+```
+
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg vil gerne have et billede af en hyggelig café i Paris, kan du lave det?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hyggelig café i Paris", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en forladt by dækket af sne?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "forladt by dækket af sne", "style": "realistisk"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg ønsker et billede af et hyggeligt soveværelse i skandinavisk stil."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hyggeligt soveværelse skandinavisk stil", "style": "realistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en hund, der leger i sneen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hund der leger i sneen", "style": "cartoon"}}]} ]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en forladt hytte i en skov, omgivet af sne.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt hytte i sneklædt skov', 'style': 'impressionistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sidder på en vindueskarm og kigger ud?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på vindueskarm", "style": "realistic"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du vise mig et billede af en stille strand ved solnedtid?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'stille strand ved solnedtid', 'style': 'photorealistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du generere et billede af en kat, der sidder på et tag og kigger på månen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på tag, kigger på månen", "style": "realistisk"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en solnedgang over havet med en sejlbåd.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over havet med sejlbåd', 'style': 'impressionistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sidder på et tag og kigger på en stjerne?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på et tag kigger på en stjerne", "style": "cartoon"}}]} ]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hyggelig skov med et lille vandløb og dyr?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig skov med vandløb og dyr', 'style': 'impressionistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en stille skovsø ved solnedgang?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "stille skovsø ved solnedgang", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en drage, der vogter en skattekiste i en gammel hule.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage, der vogter en skattekiste i en gammel hule', 'style': 'realistisk'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en forladt hytte i en tåget skov?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt hytte i en tåget skov', 'style': 'realistisk'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Vis mig et billede af en kat, der sidder på en vindueskarm og kigger ud på snevejr."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på vindueskarm, snevejr", "style": "photorealistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sover på en vindueskarm?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat sover på vindueskarm", "style": "cartoon"}}]} ]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Vis mig et billede af en rød sportsvogn, der kører langs en snoet bjergvej i solnedgangen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'rød sportsvogn på en snoet bjergvej i solnedgangen', 'style': 'photorealistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en ensom hytte i en skov dækket af efterårsfarver?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "ensom hytte i efterårs skov", "style": "impressionistic"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Hej, kan du lave et realistisk billede af en skov med tåge?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "skov med tåge", "style": "realistic"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du generere et billede af en rumstation i en realistisk stil?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "rumstation", "style": "realistisk"}}]}]}
+```
+
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg vil gerne se et billede af en hyggelig café i Paris, kan du lave det?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hyggelig café i Paris", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en forladt by dækket af sne?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt by dækket af sne', 'style': 'realistisk'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg ønsker et billede af et hyggeligt soveværelse i skandinavisk stil."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hyggeligt skandinavisk soveværelse", "style": "realistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en hund, der leger i sneen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hund der leger i sneen", "style": "cartoon"}}]} ]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en forladt hytte i en skov, omgivet af sne.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt hytte i sneklædt skov', 'style': 'impressionistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sidder på et tag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på tag", "style": "impressionistisk"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du vise mig et billede af en solnedgang over en dansk strand?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over en dansk strand', 'style': 'photorealistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en kat, der sidder på et tag og kigger på månen?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på tag, kigger på månen', 'style': 'realistisk'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en solnedgang over havet med en sejlbåd.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over havet med sejlbåd', 'style': 'impressionistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sidder på et tag og kigger på en fuldmåne?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på tag kigger på fuldmåne", "style": "impressionistisk"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en hyggelig skov med et lille vandfald?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "hyggelig skov med vandfald", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en stille skovsø ved solnedgang?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "stille skovsø ved solnedgang", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en drage, der vogter en skattekiste i en gammel hule.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage, der vogter en skattekiste i en gammel hule', 'style': 'realistic'}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du generere et billede af en forladt hytte i en tåget skov?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "forladt hytte i en tåget skov", "style": "realistisk"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Jeg vil gerne se et billede af en kat, der sidder på en vindueskarm og kigger ud på snevejr."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat på vindueskarm, snevejr", "style": "impressionistic"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave et billede af en kat, der sover på en vindueskarm i solskin?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "generate_image", "arguments": {"prompt": "kat sover på vindueskarm i solskin", "style": "realistic"}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Vis mig et billede af en rød sportsvogn, der kører langs en snoet bjergvej i solnedgangen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'rød sportsvogn på en snoet bjergvej i solnedgangen', 'style': 'photorealistic'}}]}]}
+```
+```jsonl
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en ensom fyr på en klippe med udsigt over havet?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'ensom fyr på klippe med udsigt over havet', 'style': 'impressionistic'}}]}]}
+```
+Okay, here's a similar example in Danish, mirroring the user request and assistant response structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Hej, kan du lave et realistisk billede af en skov med tåge?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'skov med tåge', 'style': 'realistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User prompt:** Changed "solnedgang over bjerge" (sunset over mountains) to "skov med tåge" (forest with fog).  This keeps the request for a realistic image of a natural scene.
+*   **Tool call:** The `prompt` argument within the `generate_image` tool call was updated to reflect the new user request ("skov med tåge").  The `style` remains "realistic".
+*   The structure (user message, assistant message with tool call) is identical to the original example.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the user request and assistant response with a tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en rumstation i en retro-futuristisk stil?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'rumstation', 'style': 'retro-futuristisk'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+* **User Prompt:**  I changed the request to "Can you generate an image of a space station in a retro-futuristic style?" (`Kan du generere et billede af en rumstation i en retro-futuristisk stil?`).  This keeps the "generate image" intent but uses a different subject and style.
+* **Tool Call Arguments:** I updated the `prompt` to "rumstation" (space station) and the `style` to "retro-futuristisk" (retro-futuristic) to match the new user request.
+* **Structure:** The overall JSON structure remains the same, following the pattern of user message followed by assistant message containing a tool call.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the user request and assistant response with a tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne se et billede af en hyggelig café i Paris, med regn på vinduerne.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig café i Paris, regn på vinduerne', 'style': 'impressionistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Message:** Changed the request to "I would like to see a picture of a cozy café in Paris, with rain on the windows." (`Jeg vil gerne se et billede af en hyggelig café i Paris, med regn på vinduerne.`)
+*   **Assistant Response:**  Kept the empty content (`''`) as the assistant is initiating a tool call.
+*   **Tool Call:**
+    *   `name`: Remains `generate_image` (assuming this is the name of the image generation tool).
+    *   `arguments`:
+        *   `prompt`: Updated to reflect the user's new request: `"hyggelig café i Paris, regn på vinduerne"` (cozy café in Paris, rain on the windows).
+        *   `style`: Changed to `"impressionistic"` to demonstrate a different style option. You can adjust this as needed.
+
+
+
+This example follows the same pattern as the original: a user makes a request for an image, and the assistant responds with a tool call to generate it, including a prompt and a style.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en forladt by dækket af sne?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt by dækket af sne', 'style': 'realistisk'}}]} ]}
+```
+
+**Translation & Explanation:**
+
+* **`Kan du lave et billede af en forladt by dækket af sne?`** - "Can you create an image of an abandoned city covered in snow?" (User request)
+* **`role`: `user`** - Identifies the message as coming from the user.
+* **`content`**: The actual user request.
+* **`role`: `assistant`** - Identifies the message as coming from the assistant (the AI).
+* **`content`**:  Empty string, as the assistant is responding with a tool call, not text.
+* **`tool_calls`**: An array containing information about the tool the assistant wants to use.
+* **`name`: `generate_image`** - The name of the tool (assumed to be an image generation tool).
+* **`arguments`**: A dictionary containing the arguments for the tool.
+    * **`prompt`: `forladt by dækket af sne`** - The prompt for the image generation tool ("abandoned city covered in snow").
+    * **`style`: `realistisk`** - The desired style ("realistic").
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant responding with a `tool_calls` object containing the necessary information to generate the image.  I've changed the subject matter to an abandoned, snowy city and used a different style ("realistic") to demonstrate flexibility.
+Okay, here's a similar example in Danish, mirroring the user request and assistant response structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af et køkken i skandinavisk stil.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'skandinavisk køkken', 'style': 'realistic'}}]}]}
+```
+
+**Translation Breakdown:**
+
+*   **"Jeg vil gerne have et billede af et køkken i skandinavisk stil."** - "I would like a picture of a kitchen in Scandinavian style." (Replaces "stue" - living room - with "køkken" - kitchen, and "minimalistisk" with "skandinavisk" - Scandinavian)
+*   **"moderne minimalistisk stue"** - "modern minimalist living room" is replaced with **"skandinavisk køkken"** - "Scandinavian kitchen".
+*   The rest of the structure (role, content, tool calls, arguments) remains the same, as it's about the interaction *around* the image generation, not the request itself.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided exchange:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hund, der leger i sneen?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hund der leger i sneen', 'style': 'tegneserie'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **`Kan du lave et billede af en hund, der leger i sneen?`** - "Can you create an image of a dog playing in the snow?" (User request)
+* **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`** -  The assistant's response, indicating it will use a tool.
+* **`{'name': 'generate_image', 'arguments': {'prompt': 'hund der leger i sneen', 'style': 'tegneserie'}}`** -  The tool call.
+    * **`name': 'generate_image'`** - The name of the tool (image generation).
+    * **`arguments': {'prompt': 'hund der leger i sneen', 'style': 'tegneserie'}`** - The arguments passed to the tool:
+        * **`prompt': 'hund der leger i sneen'`** - The image description (dog playing in the snow).
+        * **`style': 'tegneserie'`** -  The desired style (cartoon).  I changed this to 'tegneserie' (cartoon) to show a different style option than 'realistic'.
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant indicating it will use an image generation tool and providing the necessary arguments (prompt and style).
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en forladt hytte i en skov, omgivet af sne.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt hytte i sneklædt skov', 'style': 'impressionistic'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **User Message:** "Tegn et billede af en forladt hytte i en skov, omgivet af sne."  (Draw a picture of an abandoned cabin in a forest, surrounded by snow.)
+* **Assistant Message:**  This starts with an empty `content` field (as in the original).
+* **Tool Call:**
+    * `name`: 'generate_image' -  Indicates the assistant wants to use an image generation tool.
+    * `arguments`:
+        * `prompt`: 'forladt hytte i sneklædt skov' (abandoned cabin in a snow-covered forest) - The description for the image.
+        * `style`: 'impressionistic' -  Requests the image be generated in an impressionistic style.  I've changed the style to demonstrate flexibility.
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant initiating a tool call to generate it, providing a prompt and a style.
+Okay, here's a similar example in Danish, mirroring the user request and assistant response structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en kat, der spiller klaver?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat spiller klaver', 'style': 'tegneserie'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **`{'role': 'user', 'content': 'Kan du lave et billede af en kat, der spiller klaver?'}`**:  This is the user's request.  "Can you create an image of a cat playing the piano?"
+* **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It's empty content because the assistant is *calling a tool* to fulfill the request, not providing the image directly.
+* **`[{'name': 'generate_image', 'arguments': {'prompt': 'kat spiller klaver', 'style': 'tegneserie'}}]`**: This is the tool call.
+    * **`'name': 'generate_image'`**:  Specifies the tool to use (an image generation tool).
+    * **`'arguments': {'prompt': 'kat spiller klaver', 'style': 'tegneserie'}`**:  Provides the arguments for the tool:
+        * **`'prompt': 'kat spiller klaver'`**: The text prompt for the image ("cat playing piano").
+        * **`'style': 'tegneserie'`**:  Requests a cartoon style.  (Equivalent to "futuristic" in the original example).
+
+
+
+This structure is common in systems that use tools (like image generation, search, etc.) within a conversational AI.  The assistant doesn't *do* the action, it *requests* a tool to do it.
+Okay, here's a similar example in Danish, mirroring the user request and assistant response with a tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne have et billede af en lille boghandel i Rom, med mange bøger og varme lys.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'lille boghandel i Rom, mange bøger, varme lys', 'style': 'impressionistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Request:** Changed the scene to a "little bookstore in Rome" ("lille boghandel i Rom") with details about books and lighting.
+*   **Assistant Response:**  Kept the structure the same, with an empty `content` field and a `tool_calls` array.
+*   **Tool Call:**  The `prompt` argument now reflects the new user request. I also changed the `style` to "impressionistic" to demonstrate flexibility. You could use other styles like "photorealistic", "painting", etc.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en kat, der sidder på et tag og kigger på månen?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på tag, kigger på månen', 'style': 'realistisk'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **User Message:** "Kan du generere et billede af en kat, der sidder på et tag og kigger på månen?" - "Can you generate an image of a cat sitting on a roof and looking at the moon?"
+* **Assistant Message:**  Empty `content` field, indicating it's relying on a tool.
+* **Tool Call:**
+    * `name`: 'generate_image' -  The name of the tool to use.
+    * `arguments`:
+        * `prompt`: 'kat på tag, kigger på månen' - "cat on roof, looking at the moon" (the image description).
+        * `style`: 'realistisk' - "realistic" (the desired art style).
+
+
+
+This example follows the same pattern: a user request for an image, followed by an assistant response that *only* contains a tool call to generate the image, passing the necessary prompt and style information.  I've chosen a different subject (cat and moon) to demonstrate flexibility.  I also changed the style to "realistisk" to show a different option.
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en solnedgang over havet med en sejlbåd.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'solnedgang over havet med sejlbåd', 'style': 'impressionistic'}}]}]}
+```
+
+**Translation Breakdown:**
+
+*   **"Tegn et billede af..."** - "Draw a picture of..."
+*   **"solnedgang over havet med en sejlbåd"** - "sunset over the sea with a sailboat"
+*   **"impressionistic"** -  I chose this style to vary it slightly from the "realistic" style in the original example.  You could use other styles like "photorealistic", "cartoon", etc.
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant acknowledging the request and calling a tool ("generate\_image") with the appropriate arguments (prompt and style).
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en kat, der sidder på et tag og kigger på en fuldmåne?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på tag kigger på fuldmåne', 'style': 'tegneserie'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **User Message:** "Kan du lave et billede af en kat, der sidder på et tag og kigger på en fuldmåne?"  (Can you make a picture of a cat sitting on a roof and looking at a full moon?)
+* **Assistant Message:**  Empty `content` field, indicating the assistant is using a tool.
+* **Tool Call:**
+    * `name`: 'generate_image' -  The name of the tool being called.
+    * `arguments`:
+        * `prompt`: 'kat på tag kigger på fuldmåne' (cat on roof looking at full moon) - The text prompt for the image generation.
+        * `style`: 'tegneserie' (cartoon) -  Specifies the desired style for the image.  I chose "cartoon" as a different style than "realistic" in the original example.
+
+
+
+This structure follows the original example: a user request for an image, followed by an assistant response that *only* contains a tool call to generate the image, with a prompt and style.
+Okay, here's a similar example in Danish, mirroring the structure of the provided conversation:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en hyggelig skov med et lille vandløb og nogle dyr?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'hyggelig skov med vandløb og dyr', 'style': 'impressionistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+* **User Prompt:** Changed to "Can you make a picture of a cozy forest with a small stream and some animals?" (`Kan du lave et billede af en hyggelig skov med et lille vandløb og nogle dyr?`) -  This is a different request, but maintains the "I want an image of..." structure.
+* **`prompt` argument:**  Updated to reflect the new user request: `"hyggelig skov med vandløb og dyr"` (cozy forest with stream and animals).
+* **`style` argument:** Changed to `"impressionistic"` to demonstrate a different style option.  This isn't essential, but shows flexibility.
+* **Structure:** The `role`, `content`, and `tool_calls` structure remains identical to the original example.  The assistant provides an empty `content` and uses a `tool_call` to request image generation.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the user request and assistant response structure:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en stille strand ved solnedgangstid?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'strand ved solnedgang', 'style': 'impressionistisk'}}]}]}
+```
+
+**Translation & Explanation:**
+
+* **User Message:** "Kan du lave et billede af en stille strand ved solnedgangstid?" - "Can you create an image of a quiet beach at sunset?"
+* **Assistant Message:**  The assistant acknowledges the request but doesn't provide the image directly. Instead, it uses a "tool call".
+* **Tool Call:**
+    * `name`: `generate_image` -  This indicates the assistant is using a tool to generate an image.
+    * `arguments`:
+        * `prompt`: `strand ved solnedgang` - "beach at sunset" - This is the text the image generation tool will use to create the image.
+        * `style`: `impressionistisk` - "impressionistic" - This specifies the artistic style for the image.  I've chosen "impressionistic" to show a different style than the original example.
+
+
+
+This structure is common in AI systems that can *call* other tools (like image generators) to fulfill a user's request.  The assistant doesn't *have* the image, it *requests* it from another service.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Tegn et billede af en drage, der vogter en skjult skat i en gammel hule.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'drage, skjult skat, gammel hule', 'style': 'realistisk fantasy'}}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Prompt:** Changed to "Tegn et billede af en drage, der vogter en skjult skat i en gammel hule." (Draw a picture of a dragon guarding a hidden treasure in an old cave.)
+*   **Arguments:**
+    *   `prompt`: Changed to "drage, skjult skat, gammel hule" (dragon, hidden treasure, old cave) - a concise description for the image generator.
+    *   `style`: Changed to "realistisk fantasy" (realistic fantasy) - to suggest a more detailed and believable style.
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant initiating a tool call to an image generation tool with a relevant prompt and style.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du generere et billede af en forladt hytte i en tåget skov?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'forladt hytte i en tåget skov', 'style': 'realistisk'}}]} ]}
+```
+
+**Explanation of the changes:**
+
+*   **User prompt:** Changed to "Kan du generere et billede af en forladt hytte i en tåget skov?" (Can you generate an image of an abandoned cabin in a foggy forest?)
+*   **Tool call arguments:**
+    *   `prompt` is updated to match the new user request: `"forladt hytte i en tåget skov"`
+    *   `style` is changed to `"realistisk"` (realistic) to demonstrate a different style option.  You could also use "fantasy", "impressionist", etc.
+
+
+
+This example follows the same pattern: a user request for an image, followed by the assistant indicating a tool call to generate that image, including the prompt and style.
+Okay, here's a similar example in Danish, mirroring the user request and assistant response format:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Jeg vil gerne se et billede af en kat, der sidder på en vindueskarm og kigger ud på snevejr.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kat på vindueskarm, snevejr', 'style': 'fotorealistisk'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Request:** Changed the subject to a cat looking out a window at a snowstorm.  ("kat, der sidder på en vindueskarm og kigger ud på snevejr.")
+*   **Assistant Response:**  The `prompt` argument in `generate_image` was updated to reflect the new request ("kat på vindueskarm, snevejr"). I also changed `realistic` to `fotorealistisk` which is a more common term for photorealistic style in Danish.
+*   The structure (role, content, tool\_calls) remains the same, as that's the format you provided.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en kattekilling, der sover i en vindueskarm?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'kattekilling sover i vindueskarm', 'style': 'realistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **"hundehvalp leger i park"** (puppy playing in a park) was changed to **"kattekilling sover i vindueskarm"** (kitten sleeping in a windowsill).
+*   I kept the `role`, `content`, `tool_calls`, `name`, and `style` consistent to maintain the same structure.  This is important for a system expecting this format.
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided English example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav et billede af en smuk, hvid strand med turkis vand og palmer i solskin.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'smuk hvid strand, turkis vand, palmer, solskin', 'style': 'realistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User prompt:** Changed to "Lav et billede af en smuk, hvid strand med turkis vand og palmer i solskin." (Create an image of a beautiful white beach with turquoise water and palm trees in sunshine.)
+*   **`prompt` argument:**  Adjusted to match the Danish prompt: "smuk hvid strand, turkis vand, palmer, solskin" (beautiful white beach, turquoise water, palm trees, sunshine).
+*   **`style` argument:** Remains "realistic" as it's a common style choice for image generation.
+
+This example follows the same pattern: a user request for an image, followed by the assistant indicating a tool call to generate that image with a specific prompt and style.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave et billede af en majestætisk hval der svømmer i havet?'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'generate_image', 'arguments': {'prompt': 'majestætisk hval der svømmer i havet', 'style': 'realistic'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User prompt:** Changed to "Kan du lave et billede af en majestætisk hval der svømmer i havet?" (Can you make a picture of a majestic whale swimming in the ocean?).
+*   **Tool call prompt:** Updated to "majestætisk hval der svømmer i havet" to match the user's request.
+*   The `style` remains 'realistic' as it's a common and sensible default.
+
+This example follows the same pattern: a user request for an image, followed by the assistant indicating a tool call to generate that image with a specific prompt and style.

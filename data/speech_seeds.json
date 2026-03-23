@@ -158,5 +158,166 @@
         {"name": "text_to_speech", "arguments": {"text": "Projektteamet mødes hver fredag kl. 9.", "voice": "male"}}
       ]}
     ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lave lyd af denne tekst Godmorgen og velkommen til dagens møde."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Godmorgen og velkommen til dagens møde.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs denne højt med kvindestemme: Vi sætter stor pris på jeres indsats."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi sætter stor pris på jeres indsats.", "voice": "female"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du læse denne tekst op: Husk at opdatere systemet inden deadline."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Husk at opdatere systemet inden deadline.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs højt i mandlig stemme: Vi arbejder på at forbedre vores service."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi arbejder på at forbedre vores service.", "voice": "male"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lav lyd af denne sætning Velkommen til vores online kursus."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Velkommen til vores online kursus.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs denne tekst højt med kvindestemme Tak fordi du tog dig tid til at deltage."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Tak fordi du tog dig tid til at deltage.", "voice": "female"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lave lyd af denne tekst: Dette er en kort introduktion til emnet."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Dette er en kort introduktion til emnet.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs højt med mandlig stemme: Alle deltagere bedes tage plads."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Alle deltagere bedes tage plads.", "voice": "male"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lav lyd af denne tekst: Vi glæder os til at arbejde sammen med jer."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi glæder os til at arbejde sammen med jer.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs denne højt med kvindestemme: Husk at gemme dit arbejde løbende."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Husk at gemme dit arbejde løbende.", "voice": "female"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lave lyd af denne sætning: Vi starter kurset om få minutter."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi starter kurset om få minutter.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs højt i mandlig stemme: Kontakt support hvis du har spørgsmål."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Kontakt support hvis du har spørgsmål.", "voice": "male"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lav lyd af denne tekst: Vi har forbedret funktionaliteten i systemet."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi har forbedret funktionaliteten i systemet.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs denne tekst højt med kvindestemme: Tak for din tålmodighed."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Tak for din tålmodighed.", "voice": "female"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lave lyd af denne tekst: Mødet afsluttes om ti minutter."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Mødet afsluttes om ti minutter.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs højt med mandlig stemme: Husk at logge ud når du er færdig."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Husk at logge ud når du er færdig.", "voice": "male"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Lav lyd af denne sætning: Dette er en påmindelse om mødet i morgen."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Dette er en påmindelse om mødet i morgen.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs denne højt med kvindestemme: Vi vender tilbage med en opdatering senere."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi vender tilbage med en opdatering senere.", "voice": "female"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du lave lyd af denne tekst: Tak for din interesse i vores produkt."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Tak for din interesse i vores produkt.", "voice": "neutral"}}
+      ]}
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Læs højt i mandlig stemme: Vi håber at se dig igen snart."},
+      {"role": "assistant", "content": "", "tool_calls": [
+        {"name": "text_to_speech", "arguments": {"text": "Vi håber at se dig igen snart.", "voice": "male"}}
+      ]}
+    ]
   }
+
 ]

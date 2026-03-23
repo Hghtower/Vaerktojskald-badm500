@@ -10025,3 +10025,584 @@
 ```jsonl
 {'messages': [{'role': 'user', 'content': 'Læs højt i mandlig stemme: Projektteamet mødes hver fredag kl. 9.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Projektteamet mødes hver fredag kl. 9.', 'voice': 'male'}}]}]}
 ```
+{"messages":[{"role":"user","content":"Hej, kan du lave lyd af denne tekst: 'Godmorgen, alle sammen! Velkommen til dagens møde.'"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Godmorgen, alle sammen! Velkommen til dagens møde.","voice":"cheerful"}}]}]}
+{"messages":[{"role":"user","content":"Please generate an audio file for the following sentence: \"The future belongs to those who innovate.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The future belongs to those who innovate.","voice":"inspirational"}}]}]}
+{"messages":[{"role":"user","content":"Puedes crear una grabación de este verso: \"Caminante, no hay camino, se hace camino al andar.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Caminante, no hay camino, se hace camino al andar.","voice":"calm"}}]}]}
+{"messages":[{"role":"user","content":"Bitte erzeugen Sie eine Sprachausgabe für: \"Künstliche Intelligenz revolutioniert die Industrie.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Künstliche Intelligenz revolutioniert die Industrie.","voice":"robotic"}}]}]}
+{"messages":[{"role":"user","content":"こんにちは、次の文章を音声にしてください：\"皆さん、今日はご参加いただきありがとうございます。\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"皆さん、今日はご参加いただきありがとうございます。","voice":"polite"}}]}]}
+{"messages":[{"role":"user","content":"Læs denne sætning med en dyb baritonstemme: 'Velkommen til vores konference.'"}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til vores konference.","voice":"male_deep"}}]}
+{"messages":[{"role":"user","content":"Please read the following paragraph in an enthusiastic American English female voice: 'Innovation drives progress, and together we can achieve greatness.'"}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Innovation drives progress, and together we can achieve greatness.","voice":"female_american_enthusiastic"}}]}
+{"messages":[{"role":"user","content":"Übersetze den folgenden Satz ins Spanische und sprich ihn mit einer sanften weiblichen Stimme: 'Die Sonne scheint heute besonders hell.'"}],"tool_calls":[{"name":"translate_and_speak","arguments":{"text":"Die Sonne scheint heute besonders hell.","target_language":"es","voice":"female_spanish_soft"}}]}
+{"messages":[{"role":"user","content":"Summarize the article below in a formal British male voice: 'The recent study shows a significant increase in renewable energy adoption across Europe, with solar power leading the growth.'"}],"tool_calls":[{"name":"summarize_and_speak","arguments":{"text":"The recent study shows a significant increase in renewable energy adoption across Europe, with solar power leading the growth.","style":"formal","voice":"male_british_formal"}}]}
+{"messages":[{"role":"user","content":"Kan du lave lyd af denne tekst: Velkommen til vores webinar om bæredygtighed."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til vores webinar om bæredygtighed.","voice":"neutral"}}]}]}
+{"messages":[{"role":"user","content":"Please generate an audio file for the following sentence in a cheerful tone: \"Good morning, team! Let's have a productive day.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Good morning, team! Let's have a productive day.","voice":"cheerful"}}]}]}
+{"messages":[{"role":"user","content":"Haz una grabación de este texto con una voz femenina y tono formal: \"Estimados colegas, les presento el informe trimestral.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Estimados colegas, les presento el informe trimestral.","voice":"female_formal"}}]}]}
+{"messages":[{"role":"user","content":"Create a slow‑paced audio of: \"The night was quiet, and the stars shimmered above.\" Use a calm, deep voice."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The night was quiet, and the stars shimmered above.","voice":"deep_calm","speed":"slow"}}]}]}
+{"messages":[{"role":"user","content":"Gib mir bitte eine Sprachausgabe des Satzes: \"Willkommen zum Workshop über Künstliche Intelligenz.\" mit einer enthusiastischen Stimme."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Willkommen zum Workshop über Künstliche Intelligenz.","voice":"enthusiastic"}}]}]}
+{"messages":[{"role":"user","content":"Læs højt i en rolig kvindelig stemme: Mødet starter klokken 15:00."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Mødet starter klokken 15:00.","voice":"female","style":"calm"}}]}
+{"messages":[{"role":"user","content":"Read aloud with excitement in a child voice: Happy birthday, Alex!"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Happy birthday, Alex!","voice":"child","style":"excited"}}]}
+{"messages":[{"role":"user","content":"Translate to Spanish and read in a deep male voice: Good morning, everyone."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Buenos días a todos.","voice":"male","style":"deep"}}]}
+{"messages":[{"role":"user","content":"Read slowly in a British accent: Please wait for further instructions."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Please wait for further instructions.","voice":"male","accent":"british","speed":"slow"}}]}
+{"messages":[{"role":"user","content":"Læs højt i en energisk mandlig stemme: Vi har vundet konkurrencen!"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Vi har vundet konkurrencen!","voice":"male","style":"energetic"}}]}
+{"messages":[{"role":"user","content":"Lav lyd af denne sætning Velkommen til den årlige konference."}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til den årlige konference.","voice":"neutral"}}]}
+{"messages":[{"role":"user","content":"Create an audio clip saying: \"Thank you for joining us today!\" with an enthusiastic tone."}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Thank you for joining us today!","voice":"enthusiastic"}}]}
+{"messages":[{"role":"user","content":"Genera una grabación de la frase: \"Buenos días, ¿cómo están?\" con una voz femenina y calmada."}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Buenos días, ¿cómo están?","voice":"female_calm"}}]}
+{"messages":[{"role":"user","content":"Veuillez créer un audio pour la phrase suivante: «Bienvenue à notre séminaire», avec un ton formel masculin."}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Bienvenue à notre séminaire","voice":"male_formal"}}]}
+{"messages":[{"role":"user","content":"Erstelle eine Sprachausgabe für den Satz: \"Willkommen zum Workshop\" im robotischen Stil."}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Willkommen zum Workshop","voice":"robotic"}}]}
+{"messages":[{"role":"user","content":"Read this sentence aloud with a calm male voice: \"The meeting will start at nine o'clock sharp.\""}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The meeting will start at nine o'clock sharp.","voice":"male","style":"calm"}}]}
+{"messages":[{"role":"user","content":"Generate a high‑resolution illustration of a futuristic cityscape at sunset, in the style of cyber‑punk art."}],"assistant":"","tool_calls":[{"name":"image_generation","arguments":{"prompt":"futuristic cityscape at sunset, cyber‑punk style","resolution":"3840x2160","art_style":"cyber‑punk"}}]}
+{"messages":[{"role":"user","content":"Translate the following English paragraph into Spanish: \"Our company values innovation, teamwork, and customer satisfaction above all else.\""}],"assistant":"","tool_calls":[{"name":"translation","arguments":{"source_language":"en","target_language":"es","text":"Our company values innovation, teamwork, and customer satisfaction above all else."}}]}
+{"messages":[{"role":"user","content":"Summarize this article in three bullet points: \"[Long article text goes here]\""}],"assistant":"","tool_calls":[{"name":"summarization","arguments":{"text":"[Long article text goes here]","bullet_points":3}}]}
+{"messages":[{"role":"user","content":"Read the following Danish phrase with an enthusiastic female voice: \"Vi er klar til at starte projektet!\""}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Vi er klar til at starte projektet!","voice":"female","style":"enthusiastic"}}]}
+{"messages":[{"role":"user","content":"Kan du læse denne sætning op med en rolig stemme: 'Solen skinner i dag.'"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Solen skinner i dag.","voice":"calm"}}]}]}
+{"messages":[{"role":"user","content":"Please generate an enthusiastic narration for: 'Welcome to the future of AI!'"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Welcome to the future of AI!","voice":"excited"}}]}]}
+{"messages":[{"role":"user","content":"Fai una lettura lenta e profonda del seguente verso: 'Nel silenzio della notte, i sogni volano'."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Nel silenzio della notte, i sogni volano","voice":"deep"}}]}]}
+{"messages":[{"role":"user","content":"Read this technical instruction in a clear, neutral tone: 'Press the red button for five seconds to start the machine.'"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Press the red button for five seconds to start the machine.","voice":"neutral"}}]}]}
+{"messages":[{"role":"user","content":"Kan du synge denne lille børnerim med en munter stemme: 'Lille Peter spiser æbler'?"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Lille Peter spiser æbler","voice":"cheerful"}}]}]}
+{"messages":[{"role":"user","content":"Læs højt i en mandlig stemme: Vi skal mødes klokken ni i morgen."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Vi skal mødes klokken ni i morgen.","voice":"male"}}]]}
+{"messages":[{"role":"user","content":"Read this aloud in a friendly female voice: \"The deadline for the project is next Friday.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The deadline for the project is next Friday.","voice":"female_friendly"}}]]}
+{"messages":[{"role":"user","content":"Lee en voz masculina: \"El informe debe entregarse mañana a primera hora.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"El informe debe entregarse mañana a primera hora.","voice":"male"}}]]}
+{"messages":[{"role":"user","content":"Lis à haute voix avec une voix féminine douce : « N'oubliez pas de vérifier les données avant la réunion. »"},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"N'oubliez pas de vérifier les données avant la réunion.","voice":"female_soft"}}]]}
+{"messages":[{"role":"user","content":"Lies laut in einer neutralen Stimme: \"Die Präsentation beginnt um 10 Uhr.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Die Präsentation beginnt um 10 Uhr.","voice":"neutral"}}]]}
+{"messages":[{"role":"user","content":"Play this text: Don't forget the meeting at 3PM."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Don't forget the meeting at 3PM.","voice":"cheerful"}}]}]}
+{"messages":[{"role":"user","content":"Génère un audio de ce texte: Veuillez soumettre le formulaire avant lundi."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Veuillez soumettre le formulaire avant lundi.","voice":"formal"}}]}]}
+{"messages":[{"role":"user","content":"Erstelle eine Sprachausgabe für: Bitte prüfen Sie die Anlage."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Bitte prüfen Sie die Anlage.","voice":"neutral"}}]}]}
+{"messages":[{"role":"user","content":"Read aloud: \"The quick brown fox jumps over the lazy dog.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The quick brown fox jumps over the lazy dog.","voice":"neutral"}}]}]}
+{"messages":[{"role":"user","content":"Make a voice note: Remember to water the plants tonight."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Remember to water the plants tonight.","voice":"soft"}}]}]}
+{"messages":[{"role":"user","content":"Læs denne tekst højt med en mandlig stemme: \"Velkommen til mødet.\""}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til mødet.","voice":"male"}}]}
+{"messages":[{"role":"user","content":"Læs denne sætning med en børnestemme: \"Det er tid til leg!\""}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Det er tid til leg!","voice":"child"}}]}
+{"messages":[{"role":"user","content":"Læs dette citat i en robotisk tone: \"Systemet er klar til at starte.\""}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Systemet er klar til at starte.","voice":"robot"}}]}
+{"messages":[{"role":"user","content":"Læs følgende med en rolig, afslappet kvindestemme: \"Tag en dyb indånding og slap af.\""}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Tag en dyb indånding og slap af.","voice":"female","style":"calm"}}]}
+{"messages":[{"role":"user","content":"Læs denne tekst med en energisk, entusiastisk mandlig stemme: \"Lad os komme i gang!\""}],"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Lad os komme i gang!","voice":"male","style":"energetic"}}]}
+{"messages":[{"role":"user","content":"Kan du lave lyd af denne sætning: 'Velkommen til vores årlige generalforsamling.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til vores årlige generalforsamling.","voice":"neutral"}}]}
+{"messages":[{"role":"user","content":"Læs venligst op: 'Tak for din tålmodighed' med en rolig, beroligende stemme."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Tak for din tålmodighed","voice":"calm"}}]}
+{"messages":[{"role":"user","content":"Kan du sige 'Hej, hvad kan jeg hjælpe dig med i dag?' i en energisk og glad tone?"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Hej, hvad kan jeg hjælpe dig med i dag?","voice":"cheerful"}}]}
+{"messages":[{"role":"user","content":"Giv mig en seriøs oplæsning af: 'Dette er en vigtig meddelelse til alle medarbejdere.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Dette er en vigtig meddelelse til alle medarbejdere.","voice":"serious"}}]}
+{"messages":[{"role":"user","content":"Kan du læse 'Hej, jeg er en robot' med en futuristisk robotstemme?"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Hej, jeg er en robot","voice":"robotic"}}]}
+{"messages":[{"role":"user","content":"Læs højt med kvindelig stemme: Velkommen til kurset."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til kurset.","voice":"female"}}]}
+{"messages":[{"role":"user","content":"Read aloud in a calm male voice in English: The meeting has been postponed."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The meeting has been postponed.","voice":"male"}}]}
+{"messages":[{"role":"user","content":"Læs højt med hurtig hastighed: Husk at aflevere rapporten i morgen."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Husk at aflevere rapporten i morgen.","voice":"male"}}]}
+{"messages":[{"role":"user","content":"Læs med dramatisk tone: Dette er den sidste chance!"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Dette er den sidste chance!","voice":"female"}}]}
+{"messages":[{"role":"user","content":"Spil denne sætning med en glad stemme: Hej, velkommen til vores butik."},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Hej, velkommen til vores butik.","voice":"cheerful"}}]}]}
+{"messages":[{"role":"user","content":"Please read the following paragraph in a calm British accent: \"The quick brown fox jumps over the lazy dog.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The quick brown fox jumps over the lazy dog.","voice":"calm_british"}}]}]}
+{"messages":[{"role":"user","content":"Kan du læse denne besked på en robotisk stemme? \"Systemet er klar til at starte.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Systemet er klar til at starte.","voice":"robotic"}}]}]}
+{"messages":[{"role":"user","content":"Read the French phrase with a romantic tone: \"Je t'aime plus que tout.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Je t'aime plus que tout.","voice":"romantic_french"}}]}]}
+{"messages":[{"role":"user","content":"Play the following text in a deep, authoritative voice: \"Attention all personnel, evacuate the building immediately.\""},{"role":"assistant","content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Attention all personnel, evacuate the building immediately.","voice":"deep_authoritative"}}]}]}
+{"messages":[{"role":"user","content":"Læs dette digt med en rolig mandlig stemme: 'Stjernerne blinker over natten, stille som en drøm.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Stjernerne blinker over natten, stille som en drøm.","voice":"male","style":"calm"}}]}
+{"messages":[{"role":"user","content":"Read the headline in a robotic voice: 'Tech stocks soar as market rebounds.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Tech stocks soar as market rebounds.","voice":"male","style":"robotic"}}]}
+{"messages":[{"role":"user","content":"Læs denne børnehistorie med en munter kvindestemme: 'Der var engang en lille kanin, der elskede at hoppe i regnen.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Der var engang en lille kanin, der elskede at hoppe i regnen.","voice":"female","style":"cheerful"}}]}
+{"messages":[{"role":"user","content":"Read the meditation guide softly: 'Breathe in deeply, feel the air fill your lungs, and exhale slowly.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Breathe in deeply, feel the air fill your lungs, and exhale slowly.","voice":"female","style":"soft"}}]}
+{"messages":[{"role":"user","content":"Læs dette motiverende citat med en energisk mandlig stemme: 'Succes er ikke endelig, fiasko er ikke fatal: Det er modet til at fortsætte, der tæller.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Succes er ikke endelig, fiasko er ikke fatal: Det er modet til at fortsætte, der tæller.","voice":"male","style":"energetic"}}]}
+{"messages":[{"role":"user","content":"Kan du læse denne sætning højt med en glad stemme: 'Velkommen til vores nye app!'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Velkommen til vores nye app!","voice":"cheerful"}}]}
+{"messages":[{"role":"user","content":"Please generate a calm narration for: 'The sun sets over the quiet town.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The sun sets over the quiet town.","voice":"neutral"}}]}
+{"messages":[{"role":"user","content":"Hazme una lectura en tono serio de: 'Este es un aviso importante para todos los usuarios.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Este es un aviso importante para todos los usuarios.","voice":"serious"}}]}
+{"messages":[{"role":"user","content":"Read the following in a robotic voice: 'System reboot initiated. Please wait.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"System reboot initiated. Please wait.","voice":"robotic"}}]}
+{"messages":[{"role":"user","content":"Translate to French and then read aloud: 'Your order has been shipped and will arrive tomorrow.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Votre commande a été expédiée et arrivera demain.","voice":"neutral"}}]}
+{"messages":[{"role":"user","content":"Read aloud in a calm female voice: The meeting has been rescheduled to 3PM."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"The meeting has been rescheduled to 3PM.","voice":"female_calm"}}]}}
+{"messages":[{"role":"user","content":"朗读以下内容，用中文女声：请在明天上午提交报告。"}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"请在明天上午提交报告。","voice":"female_chinese"}}]}}
+{"messages":[{"role":"user","content":"Speak with an enthusiastic teenage male voice: Hey team, great job on the project!"}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Hey team, great job on the project!","voice":"male_teen_enthusiastic"}}]}}
+{"messages":[{"role":"user","content":"Läs upp med en svensk barnröst: Hej, jag heter Emma och jag gillar att rita."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Hej, jag heter Emma och jag gillar att rita.","voice":"female_child_swedish"}}]}}
+{"messages":[{"role":"user","content":"Read in a deep, authoritative male voice: This is a security alert. Please evacuate the building immediately."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"This is a security alert. Please evacuate the building immediately.","voice":"male_deep_authoritative"}}]}}
+{"messages":[{"role":"user","content":"Lav en kort introduktion til AI på dansk."}],"assistant":{"tool_calls":[{"name":"text_to_speech","arguments":{"text":"AI, eller kunstig intelligens, er maskiners evne til at udføre opgaver, som normalt kræver menneskelig intelligens.","voice":"neutral"}}]}}
+{"messages":[{"role":"user","content":"Read this English sentence with an enthusiastic tone: \"Congratulations on your promotion!\""}],"assistant":{"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Congratulations on your promotion!","voice":"enthusiastic"}}]}}
+{"messages":[{"role":"user","content":"Please narrate the following poem in a calm, soothing voice: \"Stjernerne blinker over natten, stille som en drøm.\""}],"assistant":{"tool_calls":[{"name":"text_to_speech","arguments":{"text":"Stjernerne blinker over natten, stille som en drøm.","voice":"calm"}}]}}
+{"messages":[{"role":"user","content":"Generate a friendly reminder in Spanish: \"No olvides enviar el informe antes del viernes.\""}],"assistant":{"tool_calls":[{"name":"text_to_speech","arguments":{"text":"No olvides enviar el informe antes del viernes.","voice":"friendly"}}]}}
+{"messages":[{"role":"user","content":"Create a formal announcement in French: \"La réunion aura lieu le lundi à 10h00 dans la salle principale.\""}],"assistant":{"tool_calls":[{"name":"text_to_speech","arguments":{"text":"La réunion aura lieu le lundi à 10h00 dans la salle principale.","voice":"formal"}}]}}
+{"messages":[{"role":"user","content":"Læs højt med mandlig stemme: Vores næste møde er planlagt til tirsdag kl. 14."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Vores næste møde er planlagt til tirsdag kl. 14.","voice":"male"}}]}}
+{"messages":[{"role":"user","content":"Read aloud with a child voice: Don't forget to water the plants today."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Don't forget to water the plants today.","voice":"child"}}]}}
+{"messages":[{"role":"user","content":"Read aloud in a British female accent: Good morning, the meeting will start at 9AM."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Good morning, the meeting will start at 9AM.","voice":"british_female"}}]}}
+{"messages":[{"role":"user","content":"Lies laut mit weiblicher Stimme: Bitte lesen Sie: Das Seminar beginnt um 16 Uhr."}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Bitte lesen Sie: Das Seminar beginnt um 16 Uhr.","voice":"german_female"}}]}}
+{"messages":[{"role":"user","content":"Read aloud with an enthusiastic tone: Listen up! The sale starts tomorrow!"}],"assistant":{"content":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Listen up! The sale starts tomorrow!","voice":"enthusiastic_female"}}]}}
+{"messages":[{"role":"user","content":"Kan du læse denne sætning højt: 'Mød mig ved indgangen kl. 18:00.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Mød mig ved indgangen kl. 18:00.","voice":"neutral"}}]}
+{"messages":[{"role":"user","content":"Please say this in a cheerful tone: 'Welcome to the grand opening!'" }],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Welcome to the grand opening!","voice":"cheerful"}}]}
+{"messages":[{"role":"user","content":"Lee esta frase en español con una voz formal: 'Por favor, firme el documento antes de salir.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Por favor, firme el documento antes de salir.","voice":"formal"}}]}
+{"messages":[{"role":"user","content":"Récite ce poème en français avec une voix poétique: 'Sous le ciel d\'azur, les rêves s\'éveillent.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Sous le ciel d'azur, les rêves s'éveillent.","voice":"poetic"}}]}
+{"messages":[{"role":"user","content":"Bitte geben Sie diese Warnung mit einer ernsten Stimme aus: 'Achtung! Der Bereich ist gesperrt.'"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Achtung! Der Bereich ist gesperrt.","voice":"serious"}}]}
+{"messages":[{"role":"user","content":"Læs højt i rolig kvindelig stemme: Mødet starter kl. 10."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Mødet starter kl. 10.","voice":"female"}}]}
+{"messages":[{"role":"user","content":"Read with excitement in a teenage male voice: Let's win the game!"}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"Let's win the game!","voice":"teen_male"}}]}
+{"messages":[{"role":"user","content":"Read in a robotic voice: System initializing."}],"assistant":"","tool_calls":[{"name":"text_to_speech","arguments":{"text":"System initializing.","voice":"robot"}}]}
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du læse denne tekst højt: \"Jeg elsker at læse bøger om videnskab.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at læse bøger om videnskab.", "voice": "neutral"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs denne sætning højt med en mandestemme: \"Hvad er klokken?\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Hvad er klokken?", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte denne sætning til engelsk: Jeg elsker at spise æbler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Jeg elsker at spise æbler.", "target_language": "en"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i en kvindelig stemme: Jeg elsker at gå på stranden."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at gå på stranden.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Lav lyd af denne sætning: Velkommen til vores arrangement."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Velkommen til vores arrangement.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs denne sætning højt med en mandestemme: \"Mødet er afslutningsvist.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Mødet er afslutningsvist.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte denne sætning til engelsk: Jeg elsker at spise æbler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Jeg elsker at spise æbler.", "target_language": "en"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Send en påmindelse til Peter om at ringe til mig i morgen formiddag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Send en påmindelse til Peter om at ringe til mig i morgen formiddag.", "voice": "male"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Oversæt 'Hello, how are you?' til dansk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Hello, how are you?", "target_language": "da"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs denne sætning højt med en mandestemme: \"Hvad er klokken?\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Hvad er klokken?", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave lyd af denne sætning: Vi ses på fredag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vi ses på fredag.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt med kvindelig stemme Jeg skal handle mælk og brød."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg skal handle mælk og brød.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave en lydfil af denne sætning: Husk at aflevere rapporten i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Husk at aflevere rapporten i morgen.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Sig det her med mandestemme: \"Mødet er i gang.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Mødet er i gang.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte denne sætning til engelsk: \"Jeg elsker at spise æbler.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Jeg elsker at spise æbler.", "target_language": "en"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i kvindelig stemme: Jeg elsker at gå på stranden."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at gå på stranden.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du læse dette op: \"Vi ses i morgen.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vi ses i morgen.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt med mandestemme: Jeg skal handle ind til aftensmaden i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg skal handle ind til aftensmaden i morgen.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du læse denne sætning højt: Glem ikke at lukke døren bag dig."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Glem ikke at lukke døren bag dig.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i kvindelig stemme: Vejret i dag er solrigt og varmt."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vejret i dag er solrigt og varmt.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du læse denne tekst højt: \"Jeg elsker at læse bøger og drikke kaffe.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at læse bøger og drikke kaffe.", "voice": "neutral"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs denne sætning højt med en mandestemme: \"Hvad er klokken?\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Hvad er klokken?", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte 'Hello, how are you?' til dansk?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Hello, how are you?", "target_language": "da"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i en kvindelig stemme: Jeg elsker at gå ture i skoven."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at gå ture i skoven.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Lav lyd af denne sætning: Vi glæder os til at se dig i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vi glæder os til at se dig i morgen.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs denne sætning højt med en mandestemme: \"Mødet er afslutningsvis udsat på ubestemt tid.\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Mødet er afslutningsvis udsat på ubestemt tid.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte denne sætning til engelsk: Jeg elsker at spise æbler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Jeg elsker at spise æbler.", "target_language": "en"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Send en påmindelse til Peter om at ringe til mig i morgen formiddag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Send en påmindelse til Peter om at ringe til mig i morgen formiddag.", "voice": "male"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Oversæt 'Hello, how are you?' til dansk."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Hello, how are you?", "target_language": "da"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Fortæl mig om vejret i København i morgen med en mandlig stemme."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg undersøger vejret i København i morgen.", "voice": "male"}}]}, {"role": "assistant", "content": "I morgen i København forventes der let skyet med en temperatur på 15 grader Celsius og en let brise."},]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave lyd af denne sætning: Jeg elsker at spise æbler."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at spise æbler.", "voice": "neutral"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt med kvindelig stemme Jeg skal handle mælk og brød."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg skal handle mælk og brød.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Send venligst rapporten til mig senest fredag eftermiddag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Send venligst rapporten til mig senest fredag eftermiddag.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs dette højt med mandestemme: Mødet er i gang."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Mødet er i gang.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du oversætte denne sætning til engelsk: 'Jeg elsker at spise æbler.'"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "translation", "arguments": {"text": "Jeg elsker at spise æbler.", "target_language": "en"}}]}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i kvindelig stemme: Jeg elsker at gå på stranden."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg elsker at gå på stranden.", "voice": "female"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du læse dette op: \"Vi ses i morgen!\""}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vi ses i morgen!", "voice": "neutral"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt med mandestemme: Jeg skal handle mælk og brød i morgen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Jeg skal handle mælk og brød i morgen.", "voice": "male"}}]} ]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Kan du lave lyd af denne sætning: Mød mig på caféen i morgen klokken 14."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Mød mig på caféen i morgen klokken 14.", "voice": "neutral"}}]}
+```
+```jsonl
+{"messages": [{"role": "user", "content": "Læs højt i kvindelig stemme: Vejret i dag er solrigt og varmt."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "text_to_speech", "arguments": {"text": "Vejret i dag er solrigt og varmt.", "voice": "female"}}]} ]}
+```
+Okay, here's a similar example in Danish, mimicking the format of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave lyd af denne tekst: "Jeg elsker at læse bøger og drikke kaffe."'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at læse bøger og drikke kaffe.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'messages': [...]}`**:  This is the standard structure for a conversation with an AI, containing a list of messages.
+*   **`{'role': 'user', 'content': '...'}`**:  This represents the user's input - the request to generate audio.
+*   **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the AI's response.  It's empty content because the action is being delegated to a tool.
+*   **`[{'name': 'text_to_speech', 'arguments': {...}}]`**: This indicates that the AI is calling a "text\_to\_speech" tool.
+*   **`{'text': '...', 'voice': 'neutral'}`**:  These are the arguments being passed to the text-to-speech tool:
+    *   `text`: The text to be spoken.
+    *   `voice`:  The desired voice (here, "neutral").  You could change this to other options if the tool supports them (e.g., "male", "female", specific names, etc.).
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs denne sætning højt med en mandestemme: "Jeg elsker at læse bøger."'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at læse bøger.', 'voice': 'male'}}]}]}
+```
+
+**Explanation of the Danish example:**
+
+* **`{'role': 'user', 'content': 'Læs denne sætning højt med en mandestemme: "Jeg elsker at læse bøger."'} `**: This is the user's prompt.  It asks to read the sentence "Jeg elsker at læse bøger." (I love to read books) aloud using a male voice.
+* **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It's empty content because the action is delegated to a tool.
+* **`[{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at læse bøger.', 'voice': 'male'}}]`**: This is the tool call.
+    * **`'name': 'text_to_speech'`**: Specifies the tool to use (text-to-speech).
+    * **`'arguments': {'text': 'Jeg elsker at læse bøger.', 'voice': 'male'}`**:  Provides the arguments for the tool:
+        * **`'text': 'Jeg elsker at læse bøger.'`**: The text to be read.
+        * **`'voice': 'male'`**: The desired voice (male).
+
+
+
+This structure is identical to your original example, just using different Danish text and requesting a male voice instead of a female voice.  It's designed for a system that can interpret tool calls and execute the text-to-speech function accordingly.
+Okay, here's a similar example in Danish, following the same format of a user request and an assistant response with a `text_to_speech` tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du læse denne sætning højt: "Jeg elsker at spise æbler om efteråret."'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at spise æbler om efteråret.', 'voice': 'dansk'}}]}
+```
+
+**Explanation:**
+
+*   **User Message:**  The user asks to have a sentence read aloud ("Kan du læse denne sætning højt?").  The sentence is: "Jeg elsker at spise æbler om efteråret." (I love to eat apples in the autumn).
+*   **Assistant Response:** The assistant doesn't provide text directly, but instead makes a `tool_call`.
+*   **`tool_call`:**
+    *   `name`:  `text_to_speech` -  This indicates the tool to be used.
+    *   `arguments`:
+        *   `text`: "Jeg elsker at spise æbler om efteråret." - The text to be spoken.
+        *   `voice`: `dansk` -  Specifies a Danish voice (assuming the TTS tool supports voice selection).  You could also use other voice options if the tool allows, like "female" or "male" if those are available.
+
+
+
+This structure allows the AI to delegate the actual speech synthesis to a dedicated tool, which is a common pattern in AI systems that integrate with external capabilities.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs højt i en kvindelig stemme: Jeg er meget glad for at møde dig i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg er meget glad for at møde dig i morgen.', 'voice': 'female'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'role': 'user', 'content': 'Læs højt i en kvindelig stemme: Jeg er meget glad for at møde dig i morgen.'}`**:  This is the user's prompt. It asks the assistant to read a sentence aloud in a female voice.  The sentence itself is "Jeg er meget glad for at møde dig i morgen." (I am very happy to meet you tomorrow).
+*   **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It's empty content because the action is delegated to a tool.
+*   **`[{'name': 'text_to_speech', 'arguments': {'text': 'Jeg er meget glad for at møde dig i morgen.', 'voice': 'female'}} ]`**: This is the tool call.
+    *   **`'name': 'text_to_speech'`**:  Specifies the tool to use (text-to-speech).
+    *   **`'arguments': {'text': 'Jeg er meget glad for at møde dig i morgen.', 'voice': 'female'}`**:  Provides the arguments for the tool:
+        *   **`'text'`**: The text to be read.
+        *   **`'voice'`**: The desired voice (female).
+
+
+
+This structure is common in systems that use tools – the assistant doesn't *directly* perform the action, but instead calls a tool to do it.
+Okay, here's a similar example in Danish, mimicking the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Lav lyd af denne sætning: Velkommen til vores arrangement.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Velkommen til vores arrangement.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation of the changes:**
+
+*   **User message:** I changed the sentence to "Velkommen til vores arrangement." (Welcome to our event.)  This is a common phrase used in workshops or events.
+*   **Assistant message:** The structure remains the same, calling the `text_to_speech` tool with the new sentence and a `neutral` voice.
+
+
+
+
+Okay, here's a similar example in Danish, following the same format:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs denne sætning højt med en mandestemme: "Mødet er afsluttes nu."'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Mødet er afsluttes nu.', 'voice': 'male'}}]}]}
+```
+
+**Explanation:**
+
+*   **`role: 'user'`**:  The user provides the instruction.
+*   **`content`**: The text to be read aloud.
+*   **`role: 'assistant'`**: The assistant acknowledges the request.
+*   **`tool_calls`**:  Indicates the use of a tool (in this case, text-to-speech).
+*   **`name: 'text_to_speech'`**: Specifies the tool to use.
+*   **`arguments`**:  Contains the parameters for the tool:
+    *   **`text`**: The text to be spoken.
+    *   **`voice`**:  The desired voice ("male" in this case).
+
+
+
+I've used a different sentence to demonstrate the pattern with new content.  The key is the structure of requesting text-to-speech with a specified voice.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du læse denne sætning højt: Vi skal mødes i morgen klokken 10.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Vi skal mødes i morgen klokken 10.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'role': 'user', 'content': '...'}`**: This represents the user's request.  I've changed the text to a different Danish sentence: "We need to meet tomorrow at 10 o'clock."
+*   **`{'role': 'assistant', 'content': ''}`**:  The assistant doesn't provide a textual response, it indicates it will use a tool.
+*   **`'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': '...', 'voice': 'neutral'}}]}`**: This is the tool call.
+    *   `'name': 'text_to_speech'` indicates the tool to be used.
+    *   `'arguments': {'text': '...', 'voice': 'neutral'}` provides the necessary arguments for the tool:
+        *   `'text'`: The Danish sentence to be spoken.
+        *   `'voice': 'neutral'` specifies a neutral voice (you could change this to other voice options if available).
+
+
+
+
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Send en påmindelse til Peter om at ringe til lægen i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Send en påmindelse til Peter om at ringe til lægen i morgen.', 'voice': 'male'}}]}]}
+```
+
+**Explanation of the elements:**
+
+*   **`{'messages': [...]}`**:  This is the outer structure, containing a list of messages.
+*   **`{'role': 'user', 'content': '...'}`**: This represents a message *from* the user.  I've provided a new Danish sentence as the `content`.
+*   **`{'role': 'assistant', 'content': ''}`**: This represents a message *from* the assistant. It's currently empty because the assistant's action is to use a tool.
+*   **`'tool_calls': [...]`**: This indicates that the assistant wants to use a tool.
+*   **`{'name': 'text_to_speech', 'arguments': {...}}`**: This specifies the tool to use (in this case, `text_to_speech`).
+*   **`{'text': '...', 'voice': 'male'}`**: This provides the arguments for the tool.  `text` is the Danish sentence to be spoken, and `voice` is set to `male` to request a male voice.
+
+
+
+This example follows the same pattern: a user request, followed by an assistant response that *doesn't* directly answer the request, but instead calls a tool to fulfill it.  The tool call includes the text to be processed and the desired voice.
+Okay, here's a similar example in Danish, following the same format of a user request and an assistant response with a tool call for text-to-speech:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs denne sætning højt: Mød mig på caféen klokken tre.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Mød mig på caféen klokken tre.', 'voice': 'dansk_standard'}}]}
+```
+
+**Explanation of the changes:**
+
+*   **User Content:** Changed the request to "Læs denne sætning højt: Mød mig på caféen klokken tre." (Read this sentence aloud: Meet me at the cafe at three o'clock.)
+*   **Tool Call Arguments:**
+    *   `text`:  Now contains the Danish sentence "Mød mig på caféen klokken tre."
+    *   `voice`: Changed to `dansk_standard` to indicate a standard Danish voice (assuming your text-to-speech tool supports this).  You might need to adjust this to the specific voice name your tool uses.  `neutral` isn't really applicable for Danish.
+
+
+
+This structure mimics the original example, requesting a text-to-speech conversion of a Danish sentence.  The assistant provides an empty content field and a tool call with the necessary arguments.
+Okay, here's a similar example in Danish, mimicking the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Sig denne sætning højt med en mandestemme: "Jeg elsker dansk sommer!"'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker dansk sommer!', 'voice': 'male'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'messages': [...]}`**:  The outer structure, containing a list of messages.
+*   **`{'role': 'user', 'content': '...'}`**:  The user's message, requesting something.  I've changed the text to a different Danish sentence.
+*   **`{'role': 'assistant', 'content': ''}`**: The assistant's response.  It's empty because the action is handled by a tool call.
+*   **`'tool_calls': [...]`**: A list of tool calls the assistant wants to make.
+*   **`{'name': 'text_to_speech', 'arguments': {...}}`**:  Specifies the tool to use (text-to-speech) and its arguments.
+*   **`{'text': '...', 'voice': '...'}`**: The arguments for the text-to-speech tool:
+    *   `text`: The Danish sentence to be spoken.
+    *   `voice`:  Set to `'male'` to request a male voice.
+
+
+
+This example follows the same pattern: a user request for text-to-speech with a specified voice, and the assistant responding with a tool call to fulfill that request.
+Okay, here's a similar example in Danish, mimicking the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave lyd af denne sætning: Vi ses på fredag!'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Vi ses på fredag!', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'messages': [...]}`**:  This is the outer structure, containing a list of messages.
+*   **`[{'role': 'user', 'content': '...'}]`**: The first message is from the user, requesting something.  I've used "Vi ses på fredag!" (See you Friday!) as the sentence.
+*   **`[{'role': 'assistant', 'content': '', ...}]`**: The assistant's response.  `content` is empty because the assistant isn't directly *saying* anything, it's triggering a tool.
+*   **`'tool_calls': [...]`**:  This indicates the assistant is using a tool.
+*   **`[{'name': 'text_to_speech', ...}]`**:  The tool being used is `text_to_speech`.
+*   **`'arguments': {'text': '...', 'voice': '...'}`**: The arguments passed to the tool:
+    *   `'text'`: The Danish sentence to be spoken.
+    *   `'voice'`:  Set to 'neutral' as in the original example.
+
+
+
+This structure tells a system to use a text-to-speech tool to generate audio from the given Danish sentence.
+Okay, here's a similar example in Danish, following the same format:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs højt med kvindelig stemme Jeg skal handle mælk og brød.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg skal handle mælk og brød.', 'voice': 'female'}}]}]}
+```
+
+**Explanation:**
+
+*   **User Message:**  "Læs højt med kvindelig stemme Jeg skal handle mælk og brød." (Read aloud with a female voice: I need to buy milk and bread.)
+*   **Assistant Message:**  Contains an empty `content` field and a `tool_calls` array.
+*   **Tool Call:**  Uses the `text_to_speech` tool.
+    *   `text`:  "Jeg skal handle mælk og brød." (The text to be read aloud)
+    *   `voice`: "female" (Specifies a female voice)
+
+
+
+This structure mimics your original example, requesting text-to-speech with a specific voice.  I've changed the sentence and voice to demonstrate the pattern.
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du læse denne sætning højt: Husk at aflevere rapporten i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Husk at aflevere rapporten i morgen.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation of the changes and why it's similar:**
+
+* **User Message:**  I've changed the user's request to something different but still asking for text-to-speech.  "Kan du læse denne sætning højt: Husk at aflevere rapporten i morgen." translates to "Can you read this sentence aloud: Remember to submit the report tomorrow."
+* **Assistant Message:**  The assistant's response remains the same structure: an empty `content` field and a `tool_calls` array.
+* **Tool Call:**  The `tool_calls` array contains a single call to a `text_to_speech` tool.
+* **Arguments:** The `arguments` within the tool call specify:
+    * `text`: The Danish sentence to be read.
+    * `voice`:  Set to `neutral` to indicate a standard, non-emotional voice.
+
+
+
+This example follows the same pattern: a user request for text-to-speech, and an assistant response that *doesn't* directly provide the audio, but instead calls a tool to generate it.  This is common in systems where the AI doesn't have built-in TTS capabilities but relies on external tools.
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Sig dette højt med mandestemme: "Mødet begynder om ti minutter."'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Mødet begynder om ti minutter.', 'voice': 'male'}}]}]}
+```
+
+**Explanation of the Danish:**
+
+* **"Sig dette højt med mandestemme:"** - "Say this aloud with a male voice:"
+* **"Mødet begynder om ti minutter."** - "The meeting starts in ten minutes."
+* **`voice: 'male'`** -  Specifies a male voice for the text-to-speech function.
+
+
+
+This example follows the same pattern: a user instruction requesting text-to-speech with a specified voice, followed by the assistant's response containing a `tool_call` to the `text_to_speech` function with the appropriate arguments.
+Okay, here's a similar example in Danish, mimicking the structure of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave lyd af denne sætning: Mødet er i morgen klokken 10:00 i konferencelokalet.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Mødet er i morgen klokken 10:00 i konferencelokalet.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation:**
+
+*   **User Message:**  The user asks to have a Danish sentence read aloud.
+*   **Assistant Message:** The assistant doesn't directly *provide* the audio, but instead makes a "tool call" to a hypothetical `text_to_speech` tool.  This tool call includes:
+    *   `name`: The name of the tool ("text\_to\_speech").
+    *   `arguments`:  A dictionary containing the parameters for the tool:
+        *   `text`: The Danish sentence to be read.
+        *   `voice`:  Set to "neutral" (you could specify other voices if the tool supports it).
+
+
+
+This structure is common in systems that use external tools (like text-to-speech engines) to perform actions. The system would then take the `tool_calls` information and actually execute the tool to generate the audio.
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs højt i kvindelig stemme: Jeg elsker at gå ture i skoven.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at gå ture i skoven.', 'voice': 'female'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'role': 'user', 'content': 'Læs højt i kvindelig stemme: Jeg elsker at gå ture i skoven.'}`**: This is the user's request.  It asks the assistant to read a sentence aloud in a female voice.  The sentence itself is "Jeg elsker at gå ture i skoven." (I love to go for walks in the forest).
+*   **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It doesn't contain any text directly (hence `content: ''`), but instead indicates that it needs to use a tool.
+*   **`[{'name': 'text_to_speech', 'arguments': {...}}]`**: This is the tool call.
+    *   **`'name': 'text_to_speech'`**: Specifies the tool to use (text-to-speech).
+    *   **`'arguments': {'text': 'Jeg elsker at gå ture i skoven.', 'voice': 'female'}`**:  Provides the arguments for the tool:
+        *   **`'text': 'Jeg elsker at gå ture i skoven.'`**: The text to be read.
+        *   **`'voice': 'female'`**:  The desired voice (female).
+
+
+
+This structure is common in systems that use tools – the assistant doesn't *do* the action directly, it *requests* a tool to do it.
+Okay, here's a similar example in Danish, following the same format of a user message and an assistant response with a `text_to_speech` tool call:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs denne sætning højt: "Vi ses i morgen tidlig!"'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Vi ses i morgen tidlig!', 'voice': 'dansk'}}]}
+```
+
+**Explanation:**
+
+*   **User Message:**  "Læs denne sætning højt: "Vi ses i morgen tidlig!"" (Read this sentence aloud: "See you tomorrow morning!")
+*   **Assistant Response:**  Empty content (`''`) because the action is performed by the tool.
+*   **`tool_calls`:** Contains a single tool call.
+    *   `name`: `"text_to_speech"` -  Indicates the tool to use.
+    *   `arguments`:
+        *   `text`: `"Vi ses i morgen tidlig!"` - The text to be spoken.
+        *   `voice`: `"dansk"` - Specifies a Danish voice (assuming the TTS system supports it - "neutral" is also a valid option).  You might need to adjust this depending on the specific TTS system's voice options (e.g., "female_dansk", "male_dansk").
+
+
+
+This structure mimics your original example, requesting a text-to-speech action with specific text and voice parameters.
+Okay, here's a similar example in Danish, mirroring the structure of the provided JSON:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs højt med mandestemme: Jeg skal handle mælk og brød i morgen.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg skal handle mælk og brød i morgen.', 'voice': 'male'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'role': 'user', 'content': 'Læs højt med mandestemme: Jeg skal handle mælk og brød i morgen.'}`**:  This is the user's prompt. It asks the assistant to read a sentence aloud using a male voice.  The sentence itself is "Jeg skal handle mælk og brød i morgen." (I need to buy milk and bread tomorrow).
+*   **`{'role': 'assistant', 'content': '', 'tool_calls': [...]}`**: This is the assistant's response.  It's empty content (`''`) because the assistant doesn't *say* anything directly. Instead, it uses a tool.
+*   **`[{'name': 'text_to_speech', 'arguments': {'text': 'Jeg skal handle mælk og brød i morgen.', 'voice': 'male'}} ]`**: This is the tool call.
+    *   `'name': 'text_to_speech'` indicates the assistant is using a text-to-speech tool.
+    *   `'arguments': {'text': 'Jeg skal handle mælk og brød i morgen.', 'voice': 'male'}` provides the arguments for the tool:
+        *   `'text'`: The text to be read.
+        *   `'voice'`: The desired voice (male in this case).
+
+
+
+This structure is common in systems where an AI assistant doesn't directly perform actions but instead calls external tools to do so.  It's a way to separate the AI's reasoning from the actual execution of tasks.
+Okay, here's a similar example in Danish, mirroring the structure of your provided example:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Kan du lave lyd af denne sætning: Jeg elsker at spise æbler om efteråret.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Jeg elsker at spise æbler om efteråret.', 'voice': 'neutral'}}]}]}
+```
+
+**Explanation:**
+
+*   **`{'messages': [...]}`**:  This is the standard structure for a conversation with a language model.
+*   **`[{'role': 'user', 'content': ...}]`**:  Represents the user's input.  I've provided a new Danish sentence: "Jeg elsker at spise æbler om efteråret." (I love to eat apples in the autumn.)
+*   **`[{'role': 'assistant', 'content': '', ...}]`**: Represents the assistant's response.  The `content` is empty because the assistant is *calling a tool* to generate the audio, rather than directly providing the audio itself.
+*   **`'tool_calls': [...]`**:  This indicates the assistant wants to use a tool.
+*   **`[{'name': 'text_to_speech', 'arguments': ...}]`**:  Specifies the tool to use (in this case, `text_to_speech`) and its arguments.
+*   **`{'text': 'Jeg elsker at spise æbler om efteråret.', 'voice': 'neutral'}`**:  The arguments for the `text_to_speech` tool:
+    *   `text`: The Danish sentence to be spoken.
+    *   `voice`:  Set to `neutral` for a standard, non-emotional voice.
+
+
+
+This structure tells a system (like an agent) to use a text-to-speech tool to generate audio from the provided Danish sentence.
+Okay, here's a similar example in Danish, mirroring the structure of the provided one:
+
+```json
+{'messages': [{'role': 'user', 'content': 'Læs højt i kvindelig stemme: Husk at aflevere rapporten senest på onsdag.'}, {'role': 'assistant', 'content': '', 'tool_calls': [{'name': 'text_to_speech', 'arguments': {'text': 'Husk at aflevere rapporten senest på onsdag.', 'voice': 'female'}}]}]}
+```
+
+**Explanation:**
+
+*   **User Message:**  "Læs højt i kvindelig stemme: Husk at aflevere rapporten senest på onsdag." (Read aloud in a female voice: Remember to submit the report by Wednesday at the latest.)
+*   **Assistant Message:** Contains an empty `content` field and a `tool_calls` array.
+*   **Tool Call:**  Uses the `text_to_speech` tool.
+    *   `text`: The text to be read aloud ("Husk at aflevere rapporten senest på onsdag.").
+    *   `voice`:  Set to "female" to specify the desired voice.
+
+
+
+
