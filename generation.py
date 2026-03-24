@@ -1,4 +1,4 @@
-from vllm import LLM, SamplingParams
+from vllm import LLM
 
 import asyncio
 import json
@@ -18,14 +18,14 @@ from tqdm import tqdm
 
 #URL for lokal server vi vil lave inference fra.
 CLIENT = [
-    'https://api.ordbogen.ai/v1'
+    #'https://api.ordbogen.ai/v1'
+    'http://localhost:8000/v1'
 ]
-client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
-
-ordbogen_client = None 
+#client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
+client = OpenAI(base_url=CLIENT[0], api_key="")
 def init_worker():
-    global ordbogen_client
-    ordbogen_client = client
+    global client
+    client = client
 
 #MODEL = "unsloth/gemma-3-4b-it-unsloth-bnb-4bit"
 #MODEL = "ordbogen/gemma"
@@ -358,12 +358,6 @@ def generate_text(query: str) -> str:
 #             save_to_file(writefile, output)
 
 def main(dataset, outfile: str):
-    # await asyncio.gather(construct_data("data/weather_seeds.jsonl", "data/weather_data.jsonl"),
-    #                      construct_data("data/gramma_seeds.jsonl", "data/gramma_data.jsonl"),
-    #                      construct_data("data/image_seeds.jsonl", "data/image_data.jsonl"),
-    #                      construct_data("data/speech_seeds.jsonl", "data/speech_data.jsonl"),
-    #                      construct_data("data/web_seeds.jsonl", "data/web_data.jsonl"))
- 
     rows_to_process = dataset
 
     if not rows_to_process:
