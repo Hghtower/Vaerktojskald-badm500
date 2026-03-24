@@ -320,17 +320,18 @@ def save_to_file(filepath: str, response: str):
         f.write(response + "\n")
 
 #Generate a similar example in Danish. Only generate valid json\n"
+prompt = ""
 def generate_text(query: str) -> str:
     """Generate the text owowow"""
     try:
         #print(ordbogen_client)
-        chat_completion = ordbogen_client.chat.completions.create(
+        chat_completion = client.chat.completions.create(
             messages=[
                 {
                     "role": "user",
                     "content": (
                         f"{query}\n"
-                        f"{PROMPT_WEATHER}"
+                        f"{prompt}"
                         #"Generate Similar example. USE JSON"
                     ),
                 }
@@ -386,18 +387,45 @@ def main(dataset, outfile: str):
 
 ## Entrypoint ##
 if __name__ == "__main__":
+
+    # Load datasett #
     dataset_weather = load_seed_data("data/weather_seeds.jsonl")
     dataset_gramma = load_seed_data("data/gramma_seeds.jsonl")
     dataset_image = load_seed_data("data/image_seeds.jsonl")
     dataset_speech = load_seed_data("data/speech_seeds.jsonl")
     dataset_web = load_seed_data("data/web_seeds.jsonl")
     
-    output_weather = "data/WEATHER_data.jsonl"
-    output_gramma = "data/gramma_data.jsonl"
-    output_image = "data/image_data.jsonl"
-    output_speech = "data/speech_data.jsonl"
-    output_web = "data/web_data.jsonl"
-   
-    print(prompts[0])
+    # Set output file #
+    output_weather = "data/weather_target.jsonl"
+    output_gramma = "data/gramma_target.jsonl"
+    output_image = "data/image_target.jsonl"
+    output_speech = "data/speech_target.jsonl"
+    output_web = "data/web_target.jsonl"
+    
+    prompt = prompts[0]
+    print(prompt)
 
     main(dataset_weather, output_weather)
+
+    prompt = prompts[1]
+    print(prompt)
+
+    main(dataset_gramma, output_gramma)
+
+    prompt = prompts[2]
+    print(prompt)
+
+    main(dataset_image, output_image)
+
+    prompt = prompts[3]
+    print(prompt)
+
+    main(dataset_speech, output_speech)
+
+    prompt = prompts[4]
+    print(prompt)
+
+    main(dataset_web, output_web)
+
+    print("Yay finished")
+
