@@ -31,7 +31,7 @@ def init_worker():
 #MODEL = "ordbogen/gemma"
 #MODEL = "odin-medium"
 MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
-NUM_PROCESSES = 20
+NUM_PROCESSES = 40
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
@@ -88,7 +88,7 @@ Rules:
 - Each sample must be unique
 - The tool call MUST always be correct and aligned with the user request
 
-Generate 20 samples."""
+Generate 5 samples."""
 
 PROMPT_IMAGE = """You are generating training data for a large language model that learns to call tools.
 
@@ -147,7 +147,7 @@ Rules:
 - Each sample must be unique
 - The tool call MUST always be correct and aligned with the request
 
-Generate 20 samples."""
+Generate 5 samples."""
 
 PROMPT_SPEECH = """You are generating training data for a large language model that learns to call tools.
 
@@ -205,7 +205,7 @@ Rules:
 - Each sample must be unique
 - The tool call must always be correct and aligned with the user request
 
-Generate 20 samples."""
+Generate 5 samples."""
 
 PROMPT_WEB = """You are generating training data for a large language model that learns to call tools.
 
@@ -260,12 +260,12 @@ Rules:
 - Ensure each sample is different.
 - Ensure the query always matches the user request accurately.
 
-Generate 20 samples."""
+Generate 5 samples."""
 
 PROMPT_WEATHER = """You are generating training data for a large language model that learns to call tools." \
-"\n" \
-"Your task:\n" \
-Create 1 JSON sample. The sample must follow this exact structure:
+
+"Your task:"
+Create multiple JSON samples. The samples must follow this exact structure:
 
 {
   "messages": [
@@ -285,10 +285,11 @@ Create 1 JSON sample. The sample must follow this exact structure:
 
 Requirements:
 - The user message MUST be natural, varied, and realistic (different phrasing every time).
+- The user request should contain a variety of different cities or locations, with a preference for Denmark or northern Europe.
 - The assistant MUST ALWAYS call the correct tool.
 - The tool name MUST be exactly: get_weather
 - The arguments MUST ALWAYS be correct and extracted from the user message:
-  - "location": the city mentioned
+  - "location": the city or area mentioned
   - "unit": 
       - "celsius" unless the user explicitly asks for Fahrenheit
       - "fahrenheit" if the user mentions Fahrenheit
@@ -300,7 +301,7 @@ Requirements:
 - Keep outputs strictly valid JSON.
 - Do NOT include explanations.
 
-Generate 1 sample."""
+Generate 5 samples."""
 
 prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB]
 
