@@ -1,4 +1,4 @@
-#from vllm import LLM, SamplingParams
+from vllm import LLM, SamplingParams
 
 import asyncio
 import json
@@ -27,10 +27,11 @@ def init_worker():
     global ordbogen_client
     ordbogen_client = client
 
-
 #MODEL = "unsloth/gemma-3-4b-it-unsloth-bnb-4bit"
-MODEL = "ordbogen/gemma"
+#MODEL = "ordbogen/gemma"
 #MODEL = "odin-medium"
+MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
+NUM_PROCESSES = 20
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
@@ -301,6 +302,8 @@ Requirements:
 
 Generate 1 sample."""
 
+prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB]
+
 def load_seed_data(file: str):
     output = []
     with open(file, "r", encoding="utf-8") as zike:
@@ -345,25 +348,50 @@ def generate_text(query: str) -> str:
         print(f"Error: {error}")
         return ""
 
-async def construct_data(file: str, writefile: str):
-    seeds = load_seed_data(file)
+# async def construct_data(file: str, writefile: str):
+#     seeds = load_seed_data(file)
+#
+#     for i in seeds:
+#         #print(i)
+#         output = await generate_text(i, client)
+#         if writefile != "none":
+#             save_to_file(writefile, output)
 
-    for i in seeds:
-        #print(i)
-        output = await generate_text(i, client)
-        if writefile != "none":
-            save_to_file(writefile, output)
+def main(dataset, outfile: str):
+    # await asyncio.gather(construct_data("data/weather_seeds.jsonl", "data/weather_data.jsonl"),
+    #                      construct_data("data/gramma_seeds.jsonl", "data/gramma_data.jsonl"),
+    #                      construct_data("data/image_seeds.jsonl", "data/image_data.jsonl"),
+    #                      construct_data("data/speech_seeds.jsonl", "data/speech_data.jsonl"),
+    #                      construct_data("data/web_seeds.jsonl", "data/web_data.jsonl"))
+ 
+    rows_to_process = dataset
 
-async def main():
-    await asyncio.gather(construct_data("data/weather_seeds.jsonl", "data/weather_data.jsonl"),
-                         construct_data("data/gramma_seeds.jsonl", "data/gramma_data.jsonl"),
-                         construct_data("data/image_seeds.jsonl", "data/image_data.jsonl"),
-                         construct_data("data/speech_seeds.jsonl", "data/speech_data.jsonl"),
-                         construct_data("data/web_seeds.jsonl", "data/web_data.jsonl"))
+    if not rows_to_process:
+        print("All items processed!")
+        exit()
 
+    print(
+        f"Starting processing for {len(dataset_weather)} items with {NUM_PROCESSES} processes..."
+    )
+
+    with open(outfile, "a", encoding="utf-8") as file:
+        with multiprocessing.Pool(
+            processes=NUM_PROCESSES, initializer=init_worker
+        ) as pool:
+            results = pool.imap_unordered(generate_text, rows_to_process, chunksize=1)
+            for result in tqdm(results, total=len(rows_to_process)):
+                try:
+                    if result:
+                        result = result.replace("```json", "")
+                        result = result.replace("```", "")
+                        file.write(json.dumps(json.loads(result)) + '\n')
+                        file.flush()
+                except Exception as e:
+                    print(e)
+                    pass
+
+## Entrypoint ##
 if __name__ == "__main__":
-    NUM_PROCESSES = 20
-
     dataset_weather = load_seed_data("data/weather_seeds.jsonl")
     dataset_gramma = load_seed_data("data/gramma_seeds.jsonl")
     dataset_image = load_seed_data("data/image_seeds.jsonl")
@@ -375,37 +403,7 @@ if __name__ == "__main__":
     output_image = "data/image_data.jsonl"
     output_speech = "data/speech_data.jsonl"
     output_web = "data/web_data.jsonl"
-    
-    rows_to_process = dataset
+   
+    print(prompts[0])
 
-    if not rows_to_process:
-        print("All items processed!")
-        exit()
-
-    print(
-        f"Starting processing for {len(dataset_weather)} items with {NUM_PROCESSES} processes..."
-    )
-
-    with open(output_weather, "a", encoding="utf-8") as file:
-        with multiprocessing.Pool(
-            processes=NUM_PROCESSES, initializer=init_worker
-        ) as pool:
-            results = pool.imap_unordered(generate_text, dataset_weather, chunksize=1)
-            for result in tqdm(results, total=len(dataset_weather)):
-                try:
-                    if result:
-                        result = result.replace("```json", "")
-                        result = result.replace("```", "")
-                        file.write(json.dumps(json.loads(result)) + '\n')
-                        file.flush()
-                except Exception as e:
-                    print(e)
-                    pass
-
-
-
-
-
-
-
-
+    main(dataset_weather, output_weather)
