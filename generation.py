@@ -6,6 +6,7 @@ import random
 import os
 import multiprocessing
 
+from pydantic import BaseModel
 
 from pathlib import Path
 from openai import AsyncOpenAI, OpenAI
@@ -15,6 +16,7 @@ from tqdm import tqdm
 # jq -c '.[]' fil1.json > fil1.jsonl
 #
 ###
+
 
 #URL for lokal server vi vil lave inference fra.
 CLIENT = [
@@ -386,6 +388,34 @@ def main(dataset, outfile: str):
                     print(e)
                     pass
 
+def prompt_inbreeding(dataset, outfile: str):
+    rows_to_process = dataset
+
+    if not rows_to_process:
+        print("All items processed!")
+        exit()
+
+    print(
+        f"Starting processing for {len(dataset_weather)} items with {NUM_PROCESSES} processes..."
+    )
+
+    with open(outfile, "w", encoding="utf-8") as file:
+        with multiprocessing.Pool(
+            processes=NUM_PROCESSES, initializer=init_worker
+        ) as pool:
+            results = pool.imap_unordered(generate_text, rows_to_process, chunksize=1)
+            for result in tqdm(results, total=len(rows_to_process)):
+                try:
+                    if result:
+                        result = result.replace("```jsonl", "")
+                        result = result.replace("```json", "")
+                        result = result.replace("```", "")
+                        file.write(json.dumps(json.loads(result)) + '\n')
+                        file.flush()
+                except Exception as e:
+                    print(e)
+                    pass
+
 ## Entrypoint ##
 if __name__ == "__main__":
 
@@ -402,11 +432,20 @@ if __name__ == "__main__":
     output_image = "data/image_target.jsonl"
     output_speech = "data/speech_target.jsonl"
     output_web = "data/web_target.jsonl"
-    
+
+
+    # Prompt inbreeding #
+
     prompt = prompts[0]
     print(prompt)
+    for i in range(5): 
+      if i == 0: 
+        main(dataset_weather, output_weather)
+      else:
+        datar = load_seed_data(output_weather)
+        main(datar, output_weather)
 
-    main(dataset_weather, output_weather)
+    exit()
 
     prompt = prompts[1]
     print(prompt)
