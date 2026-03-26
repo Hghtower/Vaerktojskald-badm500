@@ -1,0 +1,4080 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg og hende gik til parken i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg og hende gik til parken i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning, den lyder: De er spiser æbler hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De er spiser æbler hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Hun har ingen tid at mødes i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun har ingen tid at mødes i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal at købe nye sko i butikken."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at købe nye sko i butikken."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Ham og mig elsker at spille fodbold."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Ham og mig elsker at spille fodbold."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i denne sætning – han spiser ikke mere fordi han er mæt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "han spiser ikke mere fordi han er mæt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi skal til at rejse i sommer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal til at rejse i sommer."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: De var meget glade fordi de har vundet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de har vundet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hun vil gerne at du kommer i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at du kommer i dag."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har spist morgenmad i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har spist morgenmad i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende – De gik til skole hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til skole hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Hun kan ikke finde sine nøgler i dag fordi hun glemte dem i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke finde sine nøgler i dag fordi hun glemte dem i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal at mødes i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at mødes i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning – han løber hurtigtere end mig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "han løber hurtigtere end mig."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning? Jeg har gået til skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået til skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun elsker at løbe hver morgene."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun elsker at løbe hver morgene."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: De spiser altid pizzaer til frokost."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De spiser altid pizzaer til frokost."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi var gået hjem når regnen startede."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi var gået hjem når regnen startede."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Han er de bedste spiller på holdet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han er de bedste spiller på holdet."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg gå i skole i går og ser min ven."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg gå i skole i går og ser min ven."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning - hun har spist morgenmad før hun gik i arbejde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "hun har spist morgenmad før hun gik i arbejde."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de vindte konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de vindte konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal mødes i morgen tidlig men jeg har ikke tid."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i morgen tidlig men jeg har ikke tid."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med at rette: Han elsker at spille fodbold men han kan ikke løbe hurtig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han elsker at spille fodbold men han kan ikke løbe hurtig."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Hun elsker at løbe hver morgen men hun løber sjældent."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun elsker at løbe hver morgen men hun løber sjældent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var spiste pizza til aftensmad."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var spiste pizza til aftensmad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: Vi skal mødes i fredag kl. 3."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag kl. 3."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han har ingen venner fordi hun er meget stille."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har ingen venner fordi hun er meget stille."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Han har spist pizza hver dag sidste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har spist pizza hver dag sidste uge."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Vi skal til at møde ham i morgen tidligt?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal til at møde ham i morgen tidligt?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: De gik til butikken men de købte ingen mælk."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til butikken men de købte ingen mælk."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hendes bil er meget hurtigere end mig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes bil er meget hurtigere end mig."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Hun gå til skole hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun gå til skole hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: De spiser altid frokoster på kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De spiser altid frokoster på kl. 12."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning – jeg har ikke set ham i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "jeg har ikke set ham i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Vi skal gå i biografen i aften?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal gå i biografen i aften?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg har skrevet: Han har mange bøger men kan han ikke læse dem alle."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har mange bøger men kan han ikke læse dem alle."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning for mig: Jeg har set den film i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har set den film i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hej, jeg tror der er fejl i denne sætning – vi gik til stranden i søndag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "vi gik til stranden i søndag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Han har spist morgenmad før han gik i skole."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har spist morgenmad før han gik i skole."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne sætning: Mig kan godt lide at løbe hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Mig kan godt lide at løbe hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst denne sætning for fejl: Jeg gik til biblioteket i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg gik til biblioteket i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har spist morgenmad før jeg gå i skole."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har spist morgenmad før jeg gå i skole."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Han løber hurtigt fordi hende er træt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han løber hurtigt fordi hende er træt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Vi skal på stranden i morgen men jeg har ikke solcremen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal på stranden i morgen men jeg har ikke solcremen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne: De har spist pizza og drikke sodavand."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De har spist pizza og drikke sodavand."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hun gik til butikken fordi hun skulle købe mælk men hun glemte hendes pung."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun gik til butikken fordi hun skulle købe mælk men hun glemte hendes pung."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har en hund som er løbe hurtigt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har en hund som er løbe hurtigt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i denne sætning – Vi gik til stranden men regnede hele dagen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi gik til stranden men regnede hele dagen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hun har spist morgenmad og så gik hun på arbejde tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun har spist morgenmad og så gik hun på arbejde tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var glade fordi de har vundet konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi de har vundet konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han sagde at han vil komme i morgen men han er allerede her."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han sagde at han vil komme i morgen men han er allerede her."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning? Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: De spiser æbler hver dag men hun elsker."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De spiser æbler hver dag men hun elsker."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Vi skal mødes i fredag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hun kan ikke at komme til festen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke at komme til festen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne? Børnene leger i parken mens regner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Børnene leger i parken mens regner."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået til skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået til skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun kan ikke spiser så meget."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke spiser så meget."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de vandt konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de vandt konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal mødes i fredag kl. 3."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag kl. 3."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han har en kat som er sort og den er meget venlige."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har en kat som er sort og den er meget venlige."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning for mig: Hun gå i skole hver dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun gå i skole hver dag?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Vi har spist pizza i går men vi er stadig sulten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi har spist pizza i går men vi er stadig sulten."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: De biler er hurtigere end den gamle?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De biler er hurtigere end den gamle?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: Jeg vil gerne at du hjælper mig med at lave mad."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg vil gerne at du hjælper mig med at lave mad."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hendes hund løber hurtigt fordi den er glade."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes hund løber hurtigt fordi den er glade."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun kan ikke komme fordi hun er sygt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke komme fordi hun er sygt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: De skal at mødes i morgen tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De skal at mødes i morgen tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi har spist middag allerede."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi har spist middag allerede."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han sagde at han vil komme næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han sagde at han vil komme næste uge."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning - Hun er mere smartere end mig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun er mere smartere end mig."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Jeg kan ikke finde min nøgler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg kan ikke finde min nøgler."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi gik til parken men de regnede hele dagen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi gik til parken men de regnede hele dagen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Han har spist en æble."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har spist en æble."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun har spiser æblet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun har spiser æblet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de har vundet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de har vundet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal til at mødes i fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal til at mødes i fredag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han gik til supermarkedet og købte mange frugt og grøntsager."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han gik til supermarkedet og købte mange frugt og grøntsager."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning? Jeg har gået til skole hver dag sidste år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået til skole hver dag sidste år."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i følgende: Hun spiser altid æbler i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun spiser altid æbler i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: De var gået hjem tidligt i går men de var stadig sultne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var gået hjem tidligt i går men de var stadig sultne."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning – vi har aldrig set så mange stjerner i nat."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "vi har aldrig set så mange stjerner i nat."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med at rette: Han kan ikke finde sine nøgler fordi han tabt dem i parken."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han kan ikke finde sine nøgler fordi han tabt dem i parken."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning, den lyder mærkeligt: Hun vil gerne at komme i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at komme i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Børnene lege i parken hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Børnene lege i parken hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Jeg har aldrig så mange mennesker på en koncert."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har aldrig så mange mennesker på en koncert."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi skal mødes i fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i denne sætning – hun elsker læse bøger hver dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "hun elsker læse bøger hver dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De gik til parken men de kom for sent."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til parken men de kom for sent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi har spist pizza igår og vi var glade."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi har spist pizza igår og vi var glade."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: Hunden løber hurtigere end katten som var langsom."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hunden løber hurtigere end katten som var langsom."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Hun vil gerne at møde os i aften."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at møde os i aften."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De har spist pizza og drikke sodavand."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De har spist pizza og drikke sodavand."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal til at rejse til Danmark i sommeren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal til at rejse til Danmark i sommeren."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: Vi har spiste frokost klokken to."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi har spiste frokost klokken to."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Hun har spist en æble."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun har spist en æble."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: De gik til parken i går men de kom sent."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til parken i går men de kom sent."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Jeg kan ikke finde min nøgle der ligger på bordet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg kan ikke finde min nøgle der ligger på bordet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi skal mødes i fredag klokken otte."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag klokken otte."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han har gået i skole siden fem år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har gået i skole siden fem år."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun kan ikke lide at spiser is."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke lide at spiser is."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de har vundet konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de har vundet konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal mødes på fredag kl 15.00, men jeg kan ikke komme."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes på fredag kl 15.00, men jeg kan ikke komme."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hendes bil er hurtigere end mig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes bil er hurtigere end mig."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg spiser aftensmad i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg spiser aftensmad i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning, hun gik til skole i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "hun gik til skole i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: De er meget glade fordi de har vundet konkurrencen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De er meget glade fordi de har vundet konkurrencen?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal at mødes i fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at mødes i fredag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hendes hund løber hurtigtere end katten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes hund løber hurtigtere end katten."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg var gå til arbejde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg var gå til arbejde."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning, hun har spist en æble."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "hun har spist en æble."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De gik til stranden i går men de har ikke taget solcreme."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til stranden i går men de har ikke taget solcreme."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal mødes i fredag kl. 10."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag kl. 10."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han elsker at løbe hver dag men han ikke kan løbe hurtigt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han elsker at løbe hver dag men han ikke kan løbe hurtigt."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning for mig: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Hun og mig spiser pizza i aften."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun og mig spiser pizza i aften."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Vi skal at mødes i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at mødes i morgen?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: De løb hurtigere end jeg selv."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De løb hurtigere end jeg selv."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han har spiste frokost allerede."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har spiste frokost allerede."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Han kan ikke finde hans nøgle fordi han har mistet den."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han kan ikke finde hans nøgle fordi han har mistet den."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: De var meget glade da de vinde konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade da de vinde konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Hendes bror og mig gik til biografen i aftes."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes bror og mig gik til biografen i aftes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: På trods af regnen, vi gik ud og spille fodbold."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "På trods af regnen, vi gik ud og spille fodbold."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Hun vil gerne at spise nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at spise nu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de har vundet konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de har vundet konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal mødes i fredag kl 14."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag kl 14."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Han så på ham selv i spejlet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han så på ham selv i spejlet."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i denne sætning: Hun elsker at spiser is."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun elsker at spiser is."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var spillede fodbold i parken."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var spillede fodbold i parken."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal besøge vores bedsteforældre på næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal besøge vores bedsteforældre på næste uge."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hunden løb hurtigt fordi var den bange."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hunden løb hurtigt fordi var den bange."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har spist morgenmad i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har spist morgenmad i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: Vi gik til butikken og købte nogle æble."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi gik til butikken og købte nogle æble."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Han elsker at læse bøger hver dag men hun har ingen tid."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han elsker at læse bøger hver dag men hun har ingen tid."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: De var glade fordi vandt de konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi vandt de konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hun har gået til skole i fem år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun har gået til skole i fem år."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i denne: Hun elsker at spille piano og sang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun elsker at spille piano og sang."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var meget glade fordi de har vundet konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var meget glade fordi de har vundet konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal at mødes i morgen tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at mødes i morgen tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hendes bil er hurtigere end mig."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hendes bil er hurtigere end mig."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har ikke spiste endnu i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har ikke spiste endnu i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Han gik til skole i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han gik til skole i morgen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi skal mødes i fredag kl. 3."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag kl. 3."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: De har spist pizzaer i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De har spist pizzaer i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Hun vil gerne at gå i biografen i nat."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at gå i biografen i nat."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har spist en æble i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har spist en æble i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: De gik til stranden men de glemte deres solcreme."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De gik til stranden men de glemte deres solcreme."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Hun vil gerne at komme med på turen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun vil gerne at komme med på turen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i sætningen: Vi skal mødtes på cafeen kl 15."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødtes på cafeen kl 15."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han har aldrig været i Danmark før, men han elsker de danske mad."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har aldrig været i Danmark før, men han elsker de danske mad."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: De skal at spise nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De skal at spise nu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Hun var meget glad fordi hun får en ny bil."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun var meget glad fordi hun får en ny bil."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi gik til parken men vi har set regnen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi gik til parken men vi har set regnen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Han elsker at at løbe hver morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han elsker at at løbe hver morgen."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning - de var meget glade for at se hende."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "de var meget glade for at se hende."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Han kan ikke spiser så meget."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han kan ikke spiser så meget."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal mødes i fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes i fredag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Han løber hurtigere end mig til at vinde løbet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han løber hurtigere end mig til at vinde løbet."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Han spiser altid morgenmad mens han løber."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han spiser altid morgenmad mens han løber."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De var glade fordi de har vundet konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi de har vundet konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal mødes på fredag kl 3pm."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes på fredag kl 3pm."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hun kan ikke kan finde sine nøgler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke kan finde sine nøgler."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har gået i skole i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har gået i skole i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i følgende: Hun kan ikke finde hendes nøgler fordi de er væk."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke finde hendes nøgler fordi de er væk."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? De spiser morgenmad tidligt i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De spiser morgenmad tidligt i dag."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Vi skal til at besøge vores bedstemor i næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal til at besøge vores bedstemor i næste uge."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Han har aldrig har set den film før."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har aldrig har set den film før."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg vil gerne gik hjem nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg vil gerne gik hjem nu."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne sætning, tak: Han har spiste pizza i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han har spiste pizza i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? Vi skal mødes på mandag tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal mødes på mandag tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: De var glade fordi de har vundet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi de har vundet."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Hun kan ikke kommer i dag fordi hun er syg."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke kommer i dag fordi hun er syg."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Han vil at gå i biografen i går."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han vil at gå i biografen i går."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek venligst grammatikken i følgende: Mig elsker at løbe i parken."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Mig elsker at løbe i parken."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt? I går vi så en koncert i København."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "I går vi så en koncert i København."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i denne sætning: De var glade fordi hun vinder konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi hun vinder konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med at rette: Han sagde at hun er gået hjem tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Han sagde at hun er gået hjem tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du rette denne sætning: Jeg har spist morgenmad før jeg gik til arbejde?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Jeg har spist morgenmad før jeg gik til arbejde?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tjek grammatikken i denne: De var glade fordi de vandt konkurrencen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "De var glade fordi de vandt konkurrencen."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lyder dette korrekt: Hun kan ikke finde hendes nøgler i huset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Hun kan ikke finde hendes nøgler i huset."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg tror der er fejl i: Vi skal at mødes i morgen tidligt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Vi skal at mødes i morgen tidligt."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du hjælpe med denne: Børnene leger i parken mens deres mor lave mad i køkkenet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "Børnene leger i parken mens deres mor lave mad i køkkenet."
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

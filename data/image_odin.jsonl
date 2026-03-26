@@ -1,0 +1,4280 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du generere et billede af en futuristisk by i cyberpunk-stil?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en magisk skov med glødende svampe."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "magisk skov med glødende svampe",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en solnedgang over en rolig sø i realistisk stil."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over rolig sø",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en astronaut på en fremmed planet med to måner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på fremmed planet med to måner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over et bjergtop i en fantasy‑verden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjergtop",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en robot, der arbejder i en fabrik?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "robot i fabrik",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en solopgang over en fjord, så det ser helt naturligt ud."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solopgang over en fjord",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en middelalderborg i en magisk verden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over middelalderborg",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en cybernetisk kat, der går på en neonbelyst gade i en futuristisk storby."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cybernetisk kat på neon gade",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af et vikingeskib, der sejler gennem en stormfuld hav."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "vikingeskib i storm",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en hyggelig café i Paris om aftenen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "hyggelig café i Paris om aftenen",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en middelalderborg i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over middelalderborg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en neonbelyst cyberpunk-markedsplads i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk-markedsplads i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation med store glasdøre, der ser ud over en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation med glasdøre over blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en norsk fjord med høje fjelde og en rolig sø i foråret."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "norsk fjord med høje fjelde og rolig sø i foråret",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en gammel borg på en bakketop i tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel borg på bakketop i tåge",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en sø ved solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over sø ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en neonbelyst cyberpunkby om natten med regn."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonbelyst cyberpunkby om natten i regn",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation i kredsløb omkring en rød planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb omkring rød planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe børn, der leger i en blomstereng med sommerfugle."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "børn leger i blomstereng med sommerfugle",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en drage, der flyver over en by?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage flyver over by",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en solnedgang ved en stille sø i fjeldene."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang ved stille sø i fjeldene",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by med svævende biler og neonlys om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med svævende biler og neonlys om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe astronauter, der udforsker en fremmed planet med røde klipper."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronauter udforsker fremmed planet med røde klipper",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en elver i en magisk skov, omgivet af glødende svampe."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "elver i magisk skov med glødende svampe",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en rolig strand ved solopgang?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rolig strand ved solopgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by i nat med neonlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neonlys",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et bjerg i en magisk solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerg ved magisk solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe pingviner på isen, mens de ser på nordlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner på isen under nordlys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der planter et flag på en fremmed planet med to måner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut planter flag på fremmed planet med to måner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hej, kan du lave et realistisk billede af en solnedgang over nogle bjerge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over bjerge",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by ved nat med neonlys og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neonlys og flyvende biler",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have en illustration af en drage, der svæver over et gammelt slot i tågen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammelt slot i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en realistisk illustration af en gruppe pingviner, der går på isen ved solopgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner på is ved solopgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en rumstation i kredsløb omkring en blå planet med stjerner i baggrunden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rumstation i kredsløb omkring blå planet med stjerner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en kat, der sidder på en vindueskarm i regnvejr?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "kat på vindueskarm i regnvejr",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by om natten med flyvende biler og neonlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med flyvende biler og neonlys",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et bjerg ved solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svæver over bjerg ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gammel træhytte ved en stille sø i tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel træhytte ved stille sø i tåge",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der vandrer på en fremmed planet med to måner på himlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på fremmed planet med to måner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en solnedgang over en stille sø i fjeldene?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over stille sø i fjeldene",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over en gotisk borg i tågen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gotisk borg i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en travl neonbelyst gade i en cyberpunk by om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "travl neonbelyst gade i cyberpunk by om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af et futuristisk rumstation med store vinduer, der viser en stjernehimmel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation med store vinduer og stjernehimmel",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe børn, der leger i en blomstereng på en klar forårsdag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gruppe børn leger i blomstereng på klar forårsdag",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en magisk skov med lysende træer?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "magisk skov med lysende træer",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en travl gade i København ved solnedgang med mennesker og cykler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "travl gade i København ved solnedgang med mennesker og cykler",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by på Mars med røde sandklitter og højteknologiske bygninger."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by på Mars med røde sandklitter og højteknologiske bygninger",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en cyberpunk-markedsplads om natten med neonlys, hologrammer og regn."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk-markedsplads om natten med neonlys, hologrammer og regn",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en majestætisk isbjørn, der svømmer i det arktiske vand under nordlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "majestætisk isbjørn svømmer i arktisk vand under nordlys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en fredelig skov ved solnedgang?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "skov ved solnedgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over et gammelt slot."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over gammelt slot",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk rumstation i kredsløb om en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation omkring blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en travl neonbelyst cyberpunk-by om natten set fra oven."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neon cyberpunk by om natten set fra oven",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe pingviner, der danser på isen under stjernerne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner danser på is under stjerner",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en cyklist, der kører gennem en skov om efteråret?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyklist i efterårsskov",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et sneklædt bjerg i en episk fantasy‑stil."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over sneklædt bjerg",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en neonbelyst cyberpunk‑by om natten med regn."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk by om natten med neonlys og regn",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et futuristisk billede af en rumstation, der kredser om Jorden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb om Jorden",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en rolig sø med svaner ved solopgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "sø med svaner ved solopgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en sneklædt skov med et lille træhus?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "sneklædt skov med lille træhus",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en majestætisk drage, der svæver over en middelalderborg."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over middelalderborg",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk storby om natten med masser af neon."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk storby om natten med neon",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe pingviner på en isflade under det grønne nordlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner på isflade under nordlys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der står på en fremmed planet med to store ringformede måner på himlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på fremmed planet med to ringmåner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du generere et billede af en gammel bog med magiske symboler?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel bog med magiske symboler",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en solnedgang over en stille sø i fjeldene."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over stille sø i fjeldene",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en cyberpunk by ved natten med neonlys og regn."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk by om natten med neonlys og regn",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en drage, der svæver over en middelalderborg i tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over middelalderborg i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af et futuristisk rumskib, der lander på en fremmed planet med to måner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumskib lander på fremmed planet med to måner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en farverig undervandsverden med fisk og koraller."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "farverig undervandsverden med fisk og koraller",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by om natten med neonlys og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neonlys og flyvende biler",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have en illustration af en drage, der svæver over et bjerg i en mystisk tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerg i mystisk tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en solnedgang på en savanne med løver der hviler under acacia træerne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang på savanne med løver under acacia træer",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en rumstation i kredsløb omkring en blå planet med stjerner i baggrunden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rumstation i kredsløb omkring blå planet med stjerner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en astronaut, der står på månen og kigger mod jorden?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på månen ser mod jorden",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over et bjerg ved solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svæver over bjerg ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en neonbelyst cyberpunk-gade i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonbelyst cyberpunk-gade i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk by med flyvende biler og glitrende skyskrabere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med flyvende biler og glitrende skyskrabere",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en norsk fjord med spejlbillede af fjelde i vandet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "norsk fjord med spejlbillede af fjelde i vandet",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en enhjørning i en eventyrskov?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "enhjørning i eventyrskov",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af solnedgangen over en stille sø i fjeldene."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over stille sø i fjeldene",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by om natten med neonbelysning."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neonbelysning",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe astronauter, der udforsker en fremmed planet med røde ørkener."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronauter udforsker fremmed planet med røde ørkener",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gammel, rustik kaffebar i Paris på en regnfuld dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rustik kaffebar i Paris på regnfuld dag",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en luksusyacht på åbent hav i solskin."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "luksusyacht på åbent hav i solskin",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en gotisk borg ved måneskin."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gotisk borg ved måneskin",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en neonbelyst cyberpunk-gade i regnvejr om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk-gade i regnvejr om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk by med flyvende biler og skinnende skyskrabere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med flyvende biler og skyskrabere",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en majestætisk elg, der vandrer gennem en tåget skov ved solopgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "majestætisk elg i tåget skov ved solopgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en hundehvalp, der leger i en park?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "hundehvalp leger i park",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by om natten med neonlys og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neonlys og flyvende biler",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over en bjergtop i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svæver over bjergtop i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gammel dansk fiskerhavn med både og fiskere i tidligt morgengry."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel dansk fiskerhavn med både og fiskere i morgengry",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en robotkat, der leger med en laserbold i et moderne laboratorium."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "robotkat leger med laserbold i moderne laboratorium",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af et nordlys over et snedækket landskab?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "nordlys over snedækket landskab",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by ved havet om natten med neon-lys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by ved havet om natten med neon-lys",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over en gammel borg i tågen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammel borg i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe pingviner, der danser på isflager under en klar blå himmel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner danser på isflager under klar blå himmel",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der går på en fremmed planet med to måner på himlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på fremmed planet med to måner",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en solnedgang over havet med en sejlbåd?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over hav med sejlbåd",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over et bjerglandskab i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerglandskab i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by om natten med neonbelysning og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neon og flyvende biler",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en kat, der sidder på en vindueskarm og ser på regnen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "kat på vindueskarm ser på regn",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en magisk skov med glødende svampe og en lille fe, der flyver mellem træerne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "magisk skov med glødende svampe og fe",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en hyggelig hytte i snevejr?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "hyggelig hytte i snevejr",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over en gammel borg i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammel borg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en travl neonbelyst gade i en cyberpunk by om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonbelyst gade i cyberpunk by om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation med store glasdøre, der svæver over en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation med glasdøre svævende over blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe pingviner, der danser på isen under nordlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner danser på is under nordlys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en drage, der svæver over et bjerg i solnedgang?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en travl gade i København på en regnfuld dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "travl gade i København på regnfuld dag",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af et cyberpunk-agtigt neonmarked om natten i Tokyo."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonmarked i Tokyo om natten, cyberpunk",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation, der kredser om en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation omkring blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en elverkriger i grønne skove med magisk lys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "elverkriger i grøn skov med magisk lys",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en familie, der sidder omkring et lejrbål?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "familie omkring lejrbål",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over et bjerg i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerg ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by om natten med neonlys og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neon og flyvende biler",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en kat, der leger med en bold i en solrig have."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "kat leger med bold i solrig have",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en cyberpunk-markedsplads med regn og hologrammer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk-markedsplads i regn med hologrammer",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en travl gade i Tokyo om natten med neonlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "travl gade i Tokyo om natten med neonlys",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en rolig skov ved solnedgang med en lille sø."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rolig skov ved solnedgang med lille sø",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et bjergtop i tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjergtop i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation i kredsløb omkring en farverig planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb omkring farverig planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gammel dansk fiskerby ved havet med både i havnen og månen på himlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel dansk fiskerby ved havet med både i havnen og månen på himlen",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en futuristisk robot, der går gennem en neonbelyst by om natten?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk robot i neonby",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en majestætisk drage, der svæver over sneklædte bjergtoppe ved solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over sneklædte bjergtoppe",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en rolig sø ved solnedgang med reflekterende vand og træer i baggrunden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over rolig sø med træer",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en avanceret rumstation, der kredser om en blå planet med stjerner i baggrunden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "avanceret rumstation i kredsløb om blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en enhjørning, der drikker fra en klar kilde i en mystisk skov."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "enhjørning ved klar kilde i mystisk skov",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en flyvende bil i en futuristisk by."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "flyvende bil i futuristisk by",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en majestætisk enhjørning, der løber gennem en regnbue-skov."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "majestætisk enhjørning i regnbue-skov",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en solnedgang over en stille sø med svævende lanterner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over stille sø med svævende lanterner",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation i kredsløb omkring en blå planet, med mange rumskibe."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb omkring blå planet med rumskibe",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gammel japansk landsby i sneen med lysende papirlanterner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel japansk landsby i sneen med papirlanterner",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en stille sø omgivet af bjerge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "stille sø omgivet af bjerge",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over en gammel borg i solnedgangen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammel borg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et cyberpunk-billede af en regnfuld neon-lys gade i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "regnfuld neon-lys gade i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en futuristisk rumstation, der kredser om en farverig gasplanet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation omkring farverig gasplanet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en flok pingviner, der leger på isen ved Sydpolen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "flok pingviner leger på isen ved Sydpolen",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en troldmand, der kaster en besværgelse?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "troldmand kaster besværgelse",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en rolig fjord ved solopgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solopgang over stille fjord",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en regnfuld neonbelyst cyberpunk-gade om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "regnfuld neonbelyst cyberpunk-gade om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af et futuristisk rumskib med holografisk kontrolpanel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "interiør af rumskib med holografisk kontrolpanel",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en kat, der cykler gennem en park."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "kat på cykel i park",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en moderne kontorbygning med glasfacade."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "moderne kontorbygning med glasfacade",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en gammel borg i solnedgangen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammel borg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en neonbelyst cyberpunk-gade i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonbelyst cyberpunk-gade i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation i kredsløb omkring en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb omkring blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe pingviner, der danser på isen under stjernehimlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner danser på is under stjernehimmel",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en fredelig skov ved solnedgang?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "fredelig skov ved solnedgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en cyberpunk-markedsplads om natten med neonlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "cyberpunk-markedsplads om natten med neonlys",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et bjerg i en magisk verden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over bjerg i magisk verden",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation, der kredser om en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation kredser om blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe børn, der leger i en farverig bypark med balloner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "børn leger i farverig bypark med balloner",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en kat, der sover på en sofa i sollys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "kat sover på sofa i sollys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en bjergtop ved solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svæver over bjergtop ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en cykelkøreklar robot i en neonbelyst cyberpunkby om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "robot cykel i neon cyberpunkby om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation, der kredser om en farverig gasplanet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation kredser om farverig gasplanet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en rolig skovsø med svømmende ænder i foråret."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rolig skovsø med svømmende ænder i foråret",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en gammel landsby i middelalderen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "gammel middelalderlandsby med bindingsværk og torv",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en bjergtop i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over bjergtop ved solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by om natten med neon‑lys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk neonby om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en rolig skovsø med svaner i tidligt morgengry."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "skovsø med svaner i morgengry",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en rumstation i kredsløb omkring en rød planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rumstation i kredsløb omkring rød planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en løber, der træner i en park ved solopgang?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "løber i park ved solopgang",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en futuristisk by om natten med flyvende biler og neonlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med flyvende biler og neonlys om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der svæver over et gammelt slot i tåge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gammelt slot i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en gruppe pingviner, der leger på en isflage under den klare blå himmel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner leger på isflage under klar blå himmel",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der går på en eksotisk alien-planet med tolv måner i horisonten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut på alien-planet med tolv måner i horisonten",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en rumstation, der kredser om jorden?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "rumstation omkring jorden",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en norsk fjord i solnedgang med refleksion i vandet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "norsk fjord ved solnedgang med vandrefleksion",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en drage, der flyver over et middelalderligt slot i en tåget dal."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over middelalderligt slot i tåge",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en neonbelyst cyberpunk-marked i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neon cyberpunk-marked i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe børn, der leger i en blomstereng på en sommerdag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "børn leger i blomstereng på sommerdag",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en drage, der sover på en bunke guld?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage sover på guld",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en solnedgang over en stille sø med svævende både."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over stille sø med svævende både",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en travl Tokyo-gade om natten med neonlys og regn."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "Tokyo-gade om natten med neonlys og regn",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk rumstation i kredsløb omkring en blå planet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk rumstation i kredsløb omkring blå planet",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe børn, der leger i en blomstereng på en sommerdag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "børn leger i blomstereng på sommerdag",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en mystisk portal i en skov?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "mystisk portal i skov",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en solnedgang over en rolig sø i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "solnedgang over rolig sø i Danmark",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by med svævende biler og neon-lys om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med svævende biler og neon-lys om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en drage, der vogter en skat i en gammel borg."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage vogter skat i gammel borg",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en gruppe pingviner, der danser på isen under stjernehimlen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "pingviner danser på is under stjernehimmel",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en regnfuld dag i en storby med paraplyer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "regnfuld storby med paraplyer",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en middelalderborg i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over middelalderborg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk metrostation på Mars med mennesker i rumdragter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk metrostation på Mars med mennesker i rumdragter",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en neonbelyst cyberpunk-gade om natten med regn og hologrammer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neonbelyst cyberpunk-gade om natten med regn og hologrammer",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en fredelig skovsø med svaner og liljekonvaller ved morgengry."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "fredelig skovsø med svaner og liljekonvaller ved morgengry",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en surfer på en stor bølge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "surfer på stor bølge",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en drage, der flyver over en bjergtop i solnedgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage over bjergtop i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en neonbelyst cyberpunk-vej i Tokyo om natten."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "neon cyberpunk-vej i Tokyo om natten",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en futuristisk by med svævende biler og høje glasbygninger."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by med svævende biler og glasbygninger",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en sølvfarvet ulv, der står på en isklædt sø under nordlys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "sølvfarvet ulv på isklædt sø under nordlys",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave et billede af en luksusvilla med pool ved havet?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "luksusvilla med pool ved havet",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Generér et billede af en drage, der svæver over en gotisk borg i solnedgangen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "drage svævende over gotisk borg i solnedgang",
+              "style": "fantasy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne have et billede af en futuristisk by om natten med neonbelysning og flyvende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "futuristisk by om natten med neon og flyvende biler",
+              "style": "cyberpunk"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Skab et billede af en norsk fjord med høje bjerge og et roligt vand."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "norsk fjord med høje bjerge og roligt vand",
+              "style": "realistic"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en illustration af en astronaut, der planter et træ på Mars under en rød himmel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "astronaut planter træ på Mars under rød himmel",
+              "style": "futuristic"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

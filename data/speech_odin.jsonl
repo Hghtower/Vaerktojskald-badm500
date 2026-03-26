@@ -1,0 +1,4280 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked højt: Velkommen til kurset i dag!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til kurset i dag!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med en mandlig stemme: Mødet starter kl. 09:30."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter kl. 09:30.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en kvindestemme? Påmindelse: husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: husk at aflevere rapporten inden fredag.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Tak for din tilmelding, vi ses snart."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding, vi ses snart.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen, team! Vi har en vigtig præsentation i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, team! Vi har en vigtig præsentation i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt: Godmorgen, vi starter mødet kl. 09:30."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, vi starter mødet kl. 09:30.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt i en kvindelig stemme: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Påmindelse: aflever opgaven inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: aflever opgaven inden fredag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Velkommen til årets konference. Vi håber, du får en god oplevelse."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til årets konference. Vi håber, du får en god oplevelse.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Husk at drikke vand regelmæssigt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at drikke vand regelmæssigt.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med en kvindestemme: Vi har modtaget alle jeres kommentarer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi har modtaget alle jeres kommentarer.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af følgende besked? Mødets referat: Projektet er færdigt til tiden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet er færdigt til tiden.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme: Tak for din tålmodighed, vi vender tilbage snarest."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse – husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen alle sammen, lad os starte dagen med et smil."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen alle sammen, lad os starte dagen med et smil.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked: Husk at aflevere projektet inden tirsdag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere projektet inden tirsdag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, venligst med en kvindelig stemme: Velkommen til mødet, lad os starte."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet, lad os starte.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse – Husk at tjekke kalenderen for næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at tjekke kalenderen for næste uge.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen, teamet! Vi har en vigtig deadline i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Vi har en vigtig deadline i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt: Projektet skal være færdigt inden udgangen af måneden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet skal være færdigt inden udgangen af måneden.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt i en kvindelig stemme: Velkommen til mødet kl. 14:00 i lokale 3."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet kl. 14:00 i lokale 3.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende besked: Husk at aflevere rapporten senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen, husk at tage medicinen efter morgenmaden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, husk at tage medicinen efter morgenmaden.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Velkommen til dagens møde, vi starter om fem minutter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til dagens møde, vi starter om fem minutter.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs højt: 'Husk at aflevere rapporten senest fredag kl. 15:00.' Brug en kvindelig stemme."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag kl. 15:00.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette for mig? 'Tak for din tålmodighed, vi vender tilbage snarest.' Tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme: Godmorgen team, lad os få en produktiv dag!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen team, lad os få en produktiv dag!",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Påmindelse – møde om 10 minutter i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – møde om 10 minutter i konferencerummet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Velkommen til vores præsentation om kunstig intelligens."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores præsentation om kunstig intelligens.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked højt, venligst: Tak for din tilmelding til workshoppen i næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til workshoppen i næste uge.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme? Godmorgen, teamet! Vi starter mødet om fem minutter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Vi starter mødet om fem minutter.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende tekst - Husk at aflevere rapporten inden fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag kl. 12.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme: Hej! Dette er en påmindelse om, at du har en aftale i morgen kl. 15."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Hej! Dette er en påmindelse om, at du har en aftale i morgen kl. 15.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Hej alle sammen, velkommen til mødet i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Hej alle sammen, velkommen til mødet i dag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt – 'Vi skal aflevere rapporten senest fredag kl. 17:00!'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi skal aflevere rapporten senest fredag kl. 17:00!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Tak for din tålmodighed, vi vender tilbage snarest."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende: Godmorgen! Husk at tjekke din e‑mail for vigtige opdateringer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen! Husk at tjekke din e‑mail for vigtige opdateringer.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme: Projektet er færdigt, og vi kan nu gå videre til næste fase."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet er færdigt, og vi kan nu gå videre til næste fase.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af følgende med en mandlig stemme: Godmorgen alle sammen, lad os starte mødet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen alle sammen, lad os starte mødet.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt: Påmindelse – husk at aflevere rapporten inden fredag kl. 17."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – husk at aflevere rapporten inden fredag kl. 17.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en kvindestemme? Tak for din tid, vi ser frem til samarbejdet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tid, vi ser frem til samarbejdet.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne besked: 'Der er en ændring i tidsplanen, mødet flyttes til kl. 15.'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Der er en ændring i tidsplanen, mødet flyttes til kl. 15.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en neutral stemme: Velkommen til workshoppen om digital transformation!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til workshoppen om digital transformation!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Mødets referat er vedhæftet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødets referat er vedhæftet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt - Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme? Påmindelse: Tjek din e‑mail i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tjek din e‑mail i morgen.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme: Velkommen til vores årlige konference."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige konference.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Tak for din deltagelse i workshoppen i går, vi ser frem til næste gang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din deltagelse i workshoppen i går, vi ser frem til næste gang.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne tekst med en kvindelig stemme: Tak for din tilstedeværelse."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilstedeværelse.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked højt – Vi mødes på kontoret kl. 14:00 i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi mødes på kontoret kl. 14:00 i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en mandlig stemme: Projektet er færdigt, og vi kan gå videre til næste fase."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet er færdigt, og vi kan gå videre til næste fase.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende: Husk at indsende din rapport senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at indsende din rapport senest fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale denne tekst med en kvindelig stemme? På vegne af bestyrelsen ønsker vi dig en glædelig jul."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "På vegne af bestyrelsen ønsker vi dig en glædelig jul.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af: Hej allesammen, velkommen til mødet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Hej allesammen, velkommen til mødet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, venligst: Påmindelse: aflever opgaven inden fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: aflever opgaven inden fredag kl. 12.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme? Tak for din tålmodighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende med en mandlig stemme: Velkommen til vores nye kursus i programmering."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye kursus i programmering.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende besked: Dette er en vigtig meddelelse til alle deltagere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Dette er en vigtig meddelelse til alle deltagere.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt denne besked med en kvindelig stemme: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs venligst følgende tekst højt: Mødet starter kl. 14:00 i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter kl. 14:00 i konferencerummet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme? Påmindelse: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: Husk at aflevere rapporten inden fredag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Velkommen til den årlige sommerfest! Vi glæder os til at se jer alle."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til den årlige sommerfest! Vi glæder os til at se jer alle.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Dagens menu består af fisk, kylling og vegetarisk."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Dagens menu består af fisk, kylling og vegetarisk.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs højt i mandlig stemme: Vi har opdateret planen for næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi har opdateret planen for næste uge.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked? 'Mødet er flyttet til tirsdag kl. 14:00.'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet er flyttet til tirsdag kl. 14:00.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende i en kvindelig stemme: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen, teamet! Vi starter med statusopdateringen nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Vi starter med statusopdateringen nu.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked: Velkommen til mødet kl. 10.00."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet kl. 10.00.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt – Tak for din tilmelding!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Godmorgen, hvordan har du det?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, hvordan har du det?",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende instruktioner, venligst: Tænd for computeren, log ind, og åbn programmet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tænd for computeren, log ind, og åbn programmet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme: Påmindelse – aflever opgaven inden fredag kl. 17."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – aflever opgaven inden fredag kl. 17.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne højt med kvindestemme: Velkommen til mødet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked? Mødet starter klokken ni."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter klokken ni.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med mandlig stemme: Tak for din tålmodighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen alle sammen! Vi har en travl dag foran os."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen alle sammen! Vi har en travl dag foran os.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt i en neutral stemme: Velkommen til dagens møde kl. 10."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til dagens møde kl. 10.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked i en kvindelig stemme: Husk at aflevere rapporten senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende tekst: Projektet skal afsluttes inden udgangen af året."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet skal afsluttes inden udgangen af året.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning i en mandlig stemme af: Vigtige oplysninger: Næste uge er ferietid."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vigtige oplysninger: Næste uge er ferietid.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Tak for din tålmodighed og samarbejde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed og samarbejde.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Husk at medbringe alle nødvendige dokumenter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at medbringe alle nødvendige dokumenter.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt for mig, brug venligst en kvindelig stemme: Velkommen til vores nye medarbejderkursus."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye medarbejderkursus.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en mandlig stemme? Godmorgen, teamet! Vi har et vigtigt møde kl. 10."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Vi har et vigtigt møde kl. 10.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende besked: Påmindelse: aflever din rapport senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: aflever din rapport senest fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale denne instruktion: Tænd for maskinen, vent på grønt lys, og tryk på startknappen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tænd for maskinen, vent på grønt lys, og tryk på startknappen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked: Husk at aflevere rapporten senest fredag kl. 15:00."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag kl. 15:00.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs højt: Velkommen til vores årlige møde om bæredygtighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige møde om bæredygtighed.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en kvindelig stemme? Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en mandlig stemme: Der er en ændring i tidsplanen, mødet starter nu kl. 10 i stedet for 9."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Der er en ændring i tidsplanen, mødet starter nu kl. 10 i stedet for 9.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne instruktion: Tryk på knappen, vent i fem sekunder, og slip derefter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tryk på knappen, vent i fem sekunder, og slip derefter.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Godmorgen og velkommen til dagens møde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen og velkommen til dagens møde.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked højt – Husk at aflevere rapporten inden fredag!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Tak for din tilmelding til workshoppen i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til workshoppen i morgen.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende tekst, brug en mandlig stemme: Velkommen til vores årlige konference. Vi håber, I får en inspirerende dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige konference. Vi håber, I får en inspirerende dag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale denne påmindelse: Drik vand regelmæssigt og tag en kort gåtur hver time."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Drik vand regelmæssigt og tag en kort gåtur hver time.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt med kvindestemme: Påmindelse, husk at aflevere rapporten inden fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse, husk at aflevere rapporten inden fredag kl. 12.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt: Velkommen til vores årlige sommerfest på byens torv!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige sommerfest på byens torv!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med mandlig stemme? Mød mig ved indgangen kl. 9:00 i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mød mig ved indgangen kl. 9:00 i morgen.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne besked: 'Tak for din tilmelding, vi ser frem til at se dig den 15. april.'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding, vi ser frem til at se dig den 15. april.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen! Dagens agenda er: 1) Projektstatus, 2) Budgetgennemgang, 3) Eventuelt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen! Dagens agenda er: 1) Projektstatus, 2) Budgetgennemgang, 3) Eventuelt.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked op: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs venligst højt følgende tekst med en kvindelig stemme: Tak for din tålmodighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette for mig? Mødeplanen for i morgen er kl. 09:00 i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødeplanen for i morgen er kl. 09:00 i konferencerummet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne instruktion med en mandlig stemme? Sluk for computeren, og tænd den igen efter 5 sekunder."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Sluk for computeren, og tænd den igen efter 5 sekunder.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Påmindelse – husk at bestille billetter til konferencen senest tirsdag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – husk at bestille billetter til konferencen senest tirsdag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne højt med kvindestemme: Vi sætter stor pris på jeres indsats."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi sætter stor pris på jeres indsats.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave en lydfil af denne besked? \"Mødet starter kl. 14:30 i lokalet B-2.\""
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter kl. 14:30 i lokalet B-2.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme: Tak for din tålmodighed og samarbejde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed og samarbejde.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse - husk at aflevere rapporten senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med kvindestemme: Velkommen til den årlige konference om bæredygtighed!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til den årlige konference om bæredygtighed!",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs højt i mandlig stemme: Vi arbejder på at forbedre vores service."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi arbejder på at forbedre vores service.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked? 'Mødet starter klokken ni i morgen.'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter klokken ni i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende i en kvindelig stemme: Tak for din bestilling, vi sender den snart."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din bestilling, vi sender den snart.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af dette: Påmindelse – husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette højt? 'Velkommen til vores nye webshop, hvor du kan finde alt fra bøger til elektronik.'"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye webshop, hvor du kan finde alt fra bøger til elektronik.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Velkommen til vores online kursus."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores online kursus.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs venligst denne besked højt: Tak for din tilmelding til workshoppen i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til workshoppen i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme? Godmorgen, teamet! Vi starter mødet om fem minutter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Vi starter mødet om fem minutter.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende tekst – Husk at aflevere rapporten senest fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag kl. 12.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme: Hej, jeg er klar til at præsentere projektet nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Hej, jeg er klar til at præsentere projektet nu.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked højt: Tak for din hjælp i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din hjælp i dag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med mandlig stemme: Velkommen til vores nye kontor."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye kontor.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med kvindestemme? Godmorgen, vi mødes kl. 10 i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, vi mødes kl. 10 i konferencerummet.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af dette: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette for mig: Tak for din tålmodighed og forståelse."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed og forståelse.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Hej, velkommen til mødet i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Hej, velkommen til mødet i dag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, venligst: Påmindelse: husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Tak for din tålmodighed, vi vender tilbage snarest."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende besked: Godmorgen team, lad os starte med dagens agenda."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen team, lad os starte med dagens agenda.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme? Her er teksten: Vigtige oplysninger: sikkerhed først, brug altid beskyttelsesudstyr."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vigtige oplysninger: sikkerhed først, brug altid beskyttelsesudstyr.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse højt med mandlig stemme: Velkommen til dagens møde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til dagens møde.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked med en kvindelig stemme – Husk at aflevere rapporten inden fredag!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag!",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende: Påmindelse – mødet starter kl. 14:00 i lokale 3."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – mødet starter kl. 14:00 i lokale 3.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne tekst: Tak for din deltagelse i workshoppen, vi ses næste uge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din deltagelse i workshoppen, vi ses næste uge.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en neutral stemme? Godmorgen, her er dagens agenda: 1. Introduktion, 2. Projektstatus, 3. Diskussion."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, her er dagens agenda: 1. Introduktion, 2. Projektstatus, 3. Diskussion.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs venligst denne tekst højt – Godmorgen team, husk mødet kl. 10."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen team, husk mødet kl. 10.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Velkommen til vores årlige konference!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige konference!",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende instruktioner, tak: Tænd for maskinen, tryk på startknappen, og vent på grønt lys."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tænd for maskinen, tryk på startknappen, og vent på grønt lys.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette med en mandlig stemme? Påmindelse: aflever rapporten inden fredag kl. 17."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "aflever rapporten inden fredag kl. 17.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked højt med en kvindelig stemme: Velkommen til vores webinar i morgen kl. 10."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores webinar i morgen kl. 10.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs højt i mandlig stemme: Husk at aflevere rapporten senest fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende? Påmindelse: Mød os i kantinen kl. 12:30 for frokost."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse: Mød os i kantinen kl. 12:30 for frokost.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne tekst med en kvindelig stemme: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Dagens agenda inkluderer budgetgennemgang, projektopdatering og Q&A."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Dagens agenda inkluderer budgetgennemgang, projektopdatering og Q&A.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne tekst: Mødet afsluttes om ti minutter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet afsluttes om ti minutter.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne besked højt: Husk at aflevere rapporten senest fredag kl. 15:00."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten senest fredag kl. 15:00.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en kvindelig stemme? Tak for din tålmodighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Velkommen til årets konference om bæredygtig udvikling!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til årets konference om bæredygtig udvikling!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en mandlig stemme: Der er ingen adgang for uvedkommende."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Der er ingen adgang for uvedkommende.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked: Mødet starter klokken 10:30 i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter klokken 10:30 i konferencerummet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, venligst med en kvindelig stemme: Velkommen til vores årlige sommerfest!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores årlige sommerfest!",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Husk at gemme rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at gemme rapporten inden fredag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse: Husk at drikke vand hver time."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at drikke vand hver time.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Tak for din tålmodighed, vi vender tilbage snarest."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Velkommen til dagens møde."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til dagens møde.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt – Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette for mig: Tak for din hjælp, vi ses snart."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din hjælp, vi ses snart.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende med en kvindelig stemme: Godmorgen, teamet! Lad os starte."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, teamet! Lad os starte.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale denne besked med en mandlig stemme? Din reservation er bekræftet til kl. 18:30."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Din reservation er bekræftet til kl. 18:30.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med kvindestemme: Velkommen til mødet i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet i dag.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne besked? Tak for din hjælp!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din hjælp!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme: Godmorgen, lad os starte dagen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, lad os starte dagen.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Påmindelse – aflever rapporten senest fredag kl. 15."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – aflever rapporten senest fredag kl. 15.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette højt: Tak for din tålmodighed."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Vi mødes klokken 15 i konferencerummet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Vi mødes klokken 15 i konferencerummet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, venligst: Tak for din tilmelding til kurset."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til kurset.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme: Velkommen til dagens workshop!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til dagens workshop!",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af følgende besked, brug en mandlig stemme: Husk at aflevere rapporten inden fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag kl. 12.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale denne korte påmindelse: Drik vand regelmæssigt."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Drik vand regelmæssigt.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked højt med en kvindelig stemme? Mødet starter kl. 14:00 i lokalet B."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter kl. 14:00 i lokalet B.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne påmindelse højt: Husk at købe mælk på vejen hjem."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at købe mælk på vejen hjem.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med mandlig stemme? Din kode er 8392. Brug den straks."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Din kode er 8392. Brug den straks.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne besked: Tak for din tilmelding til workshoppen den 12. maj."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til workshoppen den 12. maj.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en kvindelig stemme - Godmorgen! Dagens vejrudsigt er solrig med let brise."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen! Dagens vejrudsigt er solrig med let brise.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt: Velkommen til mødet klokken ti."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til mødet klokken ti.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af følgende besked med en kvindelig stemme? Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale dette: 'Tak for din tålmodighed, vi vender tilbage snarest.' Tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snarest.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette med en mandlig stemme: Godmorgen, lad os starte dagen med et smil."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, lad os starte dagen med et smil.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne påmindelse: - Køb mælk - Betal regninger - Ring til mor."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "- Køb mælk - Betal regninger - Ring til mor.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du læse denne besked højt: Tak for din tålmodighed, vi vender tilbage snart."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tålmodighed, vi vender tilbage snart.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med kvindestemme: Mødet starter kl. 14:00 i lokalet A."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødet starter kl. 14:00 i lokalet A.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Påmindelse: Husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Velkommen til vores nye kursus i digital markedsføring!"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye kursus i digital markedsføring!",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen! Dagens agenda er at gennemgå budgettet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen! Dagens agenda er at gennemgå budgettet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af denne sætning: Velkommen til vores nye butik."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Velkommen til vores nye butik.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt, brug en kvindelig stemme: Tak for din tilmelding til nyhedsbrevet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for din tilmelding til nyhedsbrevet.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Mødets agenda: 1. Statusopdatering, 2. Budgetgennemgang."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Mødets agenda: 1. Statusopdatering, 2. Budgetgennemgang.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af denne besked: Husk at aflevere rapporten inden fredag kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Husk at aflevere rapporten inden fredag kl. 12.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Godmorgen, team! Vi starter mødet om fem minutter."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, team! Vi starter mødet om fem minutter.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du lave lyd af: Godmorgen, velkommen til mødet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Godmorgen, velkommen til mødet.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Læs denne tekst højt med en kvindelig stemme: Du er inviteret til frokost kl. 12."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Du er inviteret til frokost kl. 12.",
+              "voice": "female"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du sige dette: Påmindelse – husk at aflevere rapporten inden fredag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Påmindelse – husk at aflevere rapporten inden fredag.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du indtale følgende med en mandlig stemme? Vigtige nyheder: Projektet er færdigt til tiden."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Projektet er færdigt til tiden.",
+              "voice": "male"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lav en oplæsning af: Tak for hjælpen, vi ses i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "Tak for hjælpen, vi ses i morgen.",
+              "voice": "neutral"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4260 @@
+[{"messages": [{"role": "user", "content": "Kan du give mig vejrudsigten for K\u00f8benhavn i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver vejret i Oslo i morgen, og kan du vise det i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Fort\u00e6l mig, hvordan vejret er i Aalborg lige nu."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Er der regn i Malm\u00f6 senere i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver temperaturen i Reykjavik i aften?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du vise mig vejret i Aalborg i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturen i K\u00f8benhavn lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Jeg planl\u00e6gger en tur til Oslo i morgen, hvad bliver vejret der?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig dagens vejrudsigt for Malm\u00f6 i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan ser vejret ud i G\u00f6teborg i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Hvordan ser vejret ud i K\u00f8benhavn lige nu i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig dagens temperatur i Malm\u00f6 i celsius?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver vejret i Oslo i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejrprognosen for Aalborg senere i dag, gerne i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Er der regn i G\u00f6teborg i de kommende timer? Angiv temperaturen i Celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret ser ud i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturerne i Oslo i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Er det varmt i Stockholm i morgen? Jeg vil gerne have temperaturen i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Stockholm", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig en kort vejropdatering for Reykjavik senere i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan ser vejret ud i Malm\u00f6 i nat?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret ser ud i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "What's the weather forecast for Stockholm tomorrow?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Stockholm", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejrudsigten i K\u00f8benhavn i Fahrenheit, tak."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Er det regn i Bergen i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Bergen", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Jeg vil gerne vide den aktuelle temperatur i Reykjavik, venligst i celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvad temperaturen er i K\u00f8benhavn lige nu i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er vejret i \u00c5rhus i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejrudsigten for Malm\u00f6 i morgen, i Celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Er det koldt i Oslo i n\u00e6ste uge? Jeg vil gerne have svar i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hent den aktuelle temperatur for G\u00f6teborg senere i dag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Hvordan ser vejret ud i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig dagens temperatur i Oslo i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver vejret i K\u00f8benhavn i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Jeg vil gerne vide, hvilken temperatur der er i Troms\u00f8 senere i dag, helst i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Troms\u00f8", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Kan du hurtigt fort\u00e6lle mig, hvad vejret er i Malm\u00f6 lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret er i K\u00f8benhavn i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "What's the forecast for Oslo tomorrow?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hej, jeg vil gerne vide, om det regner i Aalborg lige nu, og gerne i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Vil du give mig vejrudsigten for Stockholm i de n\u00e6ste par timer?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Stockholm", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du sige mig, om der er sne i Reykjavik i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret ser ud i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturerne i Oslo i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturen i Reykjavik i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig vejrudsigten for G\u00f6teborg i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejret i Malm\u00f6 senere i dag, gerne i celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvad temperaturen er i K\u00f8benhavn lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er vejret i Aarhus i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aarhus", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Jeg vil gerne vide, hvordan vejret ser ud i Odense i dag."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Odense", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig temperaturforholdene i Malm\u00f6 i Fahrenheit senere i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver temperaturen i Helsinki i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Helsinki", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret ser ud i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver temperaturen i Oslo i morgen? Jeg foretr\u00e6kker Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Er det solrigt i Malm\u00f6 i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Malm\u00f6", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan ser vejrudsigten ud for Reykjavik senere p\u00e5 eftermiddagen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vil du give mig vejrinformation for G\u00f6teborg i weekenden?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Hvordan ser vejret ud i K\u00f8benhavn lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du give mig temperaturerne i Oslo i Fahrenheit for i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad bliver vejret i Aalborg i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Aalborg", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig den aktuelle vejrudsigt for G\u00f6teborg senere p\u00e5 ugen, i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Er det koldt i Reykjavik i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du give mig vejret i Svendborg i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Svendborg", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturen i K\u00f8benhavn lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejrudsigten for \u00c5rhus i dag i celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan ser vejret ud i Oslo i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig den aktuelle temperatur i Helsinki i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Helsinki", "unit": "fahrenheit"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig vejret i K\u00f8benhavn i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturerne i \u00c5rhus lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejrudsigten for G\u00f6teborg i dag, gerne i Celsius."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Jeg planl\u00e6gger en tur til Oslo i morgen; hvad bliver vejret der i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan ser vejret ud i Reykjavik senere i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Hvordan er vejret i Nyborg lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Nyborg", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig temperaturen i K\u00f8benhavn i dag?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er vejrudsigten for \u00c5rhus i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Er det varmt i Oslo i Fahrenheit?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Vis mig vejret i G\u00f6teborg senere p\u00e5 ugen."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "G\u00f6teborg", "unit": "celsius"}}]}]}]
+[{"messages": [{"role": "user", "content": "Kan du fort\u00e6lle mig, hvordan vejret ser ud i K\u00f8benhavn lige nu?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "K\u00f8benhavn", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvad er temperaturerne i Oslo i Fahrenheit i morgen?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Oslo", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Jeg planl\u00e6gger en tur til \u00c5rhus i n\u00e6ste uge, kan du give mig dagens vejr i Celsius?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "\u00c5rhus", "unit": "celsius"}}]}]}, {"messages": [{"role": "user", "content": "Hvordan er vejret i Stockholm senere i dag? Angiv venligst i Fahrenheit."}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Stockholm", "unit": "fahrenheit"}}]}]}, {"messages": [{"role": "user", "content": "Vil du v\u00e6re s\u00e5 venlig at give mig den aktuelle temperatur i Reykjavik?"}, {"role": "assistant", "content": "", "tool_calls": [{"name": "get_weather", "arguments": {"location": "Reykjavik", "unit": "celsius"}}]}]}]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i Århus i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's the forecast for Stockholm later today?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for Oslo i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan bliver vejret i København i weekenden?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Reykjavik i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturen i Århus i morgen? Jeg vil gerne have den i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Malmö i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejrudsigten ud for Oslo senere på ugen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vil du give mig den aktuelle temperatur i Reykjavik, tak?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret er i Århus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's the weather like today in Oslo?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser temperaturerne ud i Stockholm i morgen? Jeg vil gerne have det i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det regnvejr i Aalborg senere?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Give me the current temperature for Helsinki, please."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Helsinki",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the forecast for Oslo tomorrow? I'd like it in Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hej, jeg planlægger en tur til Århus i weekenden. Hvad bliver temperaturen der?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Will it rain in Reykjavik later today?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me the weather in Malmö for this afternoon, please."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig vejret i København i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturerne i Århus lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejrudsigten for Malmö i dag, gerne i Celsius."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det koldt i Oslo i morgen? Jeg vil gerne have temperaturen i Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Göteborg senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Göteborg",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejret ud i København lige nu? Jeg vil gerne have det i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig temperaturerne i Århus i Fahrenheit for i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejrudsigten i Oslo i morgen? Angiv temperaturen i celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg planlægger en tur til Malmö, så jeg har brug for at vide, hvad temperaturen vil være i Fahrenheit senere på ugen."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det koldt i Reykjavik i dag? Vis mig temperaturen i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig den aktuelle temperatur i København i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejret i Aarhus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for Oslo i dag, gerne i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide, hvor varmt det er i Stockholm i Fahrenheit senere på dagen."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Fortæl mig venligst temperaturen i Reykjavik i dag."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturerne i Århus i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for Malmö i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det solskin i Oslo i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejret ud i Reykjavik senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturen i Århus i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrforholdene i Oslo i morgen, gerne i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Malmö senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hurtigt, hvad er vejret i Reykjavik nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du vise mig vejret i Aalborg i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aalborg",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejrudsigten ud for København i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne vide, hvad temperaturen er i Oslo i morgen, men i Fahrenheit, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Malmö lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig en kort oversigt over vejret i Reykjavik senere?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejrudsigten ud i Aarhus i løbet af eftermiddagen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig temperaturen i Oslo i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the weather like in Reykjavik right now?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me the forecast for Malmö tomorrow, in Fahrenheit please."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det regn i Aalborg senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aalborg",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan er vejret i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, om det bliver varmt i Oslo i morgen, i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturerne i Aalborg senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Stockholm i aften?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for Reykjavik i dag, gerne i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvad temperaturen er i København lige nu i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Aarhus i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne vide, hvordan vejret ser ud i Oslo i morgen, i Celsius."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det varmt i Malmö senere i dag? Giv mig temperaturen i Fahrenheit, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er den nuværende temperatur i Reykjavik?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i Aarhus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturerne i Oslo i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det varmt i Reykjavik i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig en vejrudsigt for København i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan er vejret i Malmö senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du vise vejret i København i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejrudsigten for Oslo i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejret i Aarhus lige nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejret ud i Stockholm i morgen, gerne i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Stockholm",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig en kort oversigt over vejret i Reykjavik senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvad vejret er i Århus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejrudsigten ud for Stockholm i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg planlægger en tur til Oslo, så jeg vil gerne vide, om det er varmt i Fahrenheit der i dag."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad bliver vejret i Aalborg i weekenden?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Helsinki senere på dagen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Helsinki",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i Århus i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the weather like today in Oslo?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig temperaturerne i Stockholm i Fahrenheit for i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Stockholm",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan er vejret lige nu i København?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig en prognose for vejret i Aalborg i næste uge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aalborg",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig vejret i København i Fahrenheit lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejrudsigten ud i Århus i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturen i Oslo i morgen, men i Fahrenheit, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du tjekke vejret i Malmö for senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig den aktuelle temperatur i Reykjavik, helst i Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejret ud i København lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvad temperaturen er i Århus i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne vide vejrudsigten for Odense i Fahrenheit i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Odense",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Malmö senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig temperaturerne i Reykjavik i Fahrenheit nu."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig den aktuelle temperatur i København i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Århus lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg planlægger en tur til Oslo i morgen, kan du fortælle mig, hvad temperaturen vil være i Celsius?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejrudsigten for Göteborg i dag, helst i Fahrenheit, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Göteborg",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejret ud i Tallinn senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Tallinn",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's the weather forecast for Oslo tomorrow?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejret i Malmö i dag, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "How hot will it be in Reykjavik this weekend in Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Aalborg senere på ugen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i Aarhus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturen i Helsinki i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Helsinki",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide vejrudsigten for Oslo i morgen, i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der sol i København i løbet af eftermiddagen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig den aktuelle temperatur i Reykjavik?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejret ud i København lige nu i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig dagens temperatur i Århus?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad bliver vejret i Oslo i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil vide, om det er koldt i Reykjavik i Fahrenheit senere i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturforholdene i Malmö i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the temperature in Oslo tomorrow in Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejrudsigten for Århus i dag, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How's the weather looking in Stockholm later this week?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Stockholm",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig den aktuelle temperatur i Reykjavik i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i Aarhus lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad bliver temperaturen i Oslo i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne vide, om det regner i Malmö senere i dag."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show me the forecast for Helsinki this afternoon in Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Helsinki",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er der sne i Reykjavik i weekenden?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig vejret i København i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejrudsigten ud i Århus i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide, hvad temperaturen er i Oslo i morgen, men i Fahrenheit tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejret lige nu i Malmö?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, om det regner i Bergen senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Bergen",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i Aarhus lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg planlægger en tur til Göteborg i morgen. Hvad er vejrudsigten der i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Göteborg",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad bliver temperaturen i København i løbet af dagen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er der regn i Oslo senere i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig en kort oversigt over vejret i Malmö i næste uge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hej, kan du fortælle mig, hvad temperaturen er i København lige nu i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Aarhus i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig en opdatering på vejret i Oslo i Fahrenheit senere?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vil du venligst vise mig den aktuelle temperatur i Stockholm?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Stockholm",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad bliver vejret i Reykjavik i morgen, helst i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturen i Oslo i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide vejrudsigten for Aarhus i morgen, men i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan bliver vejret i Stockholm senere på ugen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig den aktuelle temperatur i Reykjavik i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i Århus i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturerne i Oslo i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejrudsigten for Stockholm i næste uge, men jeg vil have den i Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Stockholm",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det koldt i Reykjavik lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig vejret i København i eftermiddag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvad vejret er i Aarhus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er temperaturen i Oslo i Fahrenheit om morgenen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for København i dag i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der sne i Reykjavik i morgen? Angiv temperatur i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejret ud i Malmö senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret er i København lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturerne i Århus i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det varmt i Oslo i morgen? Jeg vil have svaret i Fahrenheit."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejrudsigten ud for Göteborg senere på ugen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Göteborg",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du give mig den aktuelle temperatur i Reykjavik, men i Fahrenheit, tak?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvad temperaturen er i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejret i Århus i Fahrenheit i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide, om det regner i Malmö i dag, og hvad temperaturerne er i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig den aktuelle temperatur i Oslo, men i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad bliver vejret i Aalborg senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig den aktuelle temperatur i København i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejret i Aarhus lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aarhus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide, hvordan vejret ser ud i Oslo i morgen, i Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig temperaturforholdene i Malmö for i dag, men i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det koldt i Reykjavik senere i dag? Jeg foretrækker svar i celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan er vejret i København lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Copenhagen",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me the weather forecast for Aarhus today?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig temperaturen i Fahrenheit i Oslo i morgen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er vejret i Helsingør senere på ugen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Helsingør",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What's the weather like in Reykjavik right now?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvad temperaturen er i København lige nu i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad er vejrudsigten for Oslo i dag i celsius?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejret i Aalborg i morgen, men i Fahrenheit, tak."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Aalborg",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg vil gerne vide, hvordan vejret ser ud i Göteborg senere i dag, i grader Celsius."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Göteborg",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det koldt i Reykjavik i dag? Giv mig temperaturen i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvordan ser vejret ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig temperaturen i Oslo i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad bliver vejret i Århus i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Vis mig vejrudsigten for Stockholm senere i dag, gerne i Fahrenheit."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Stockholm",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er det koldt i Reykjavik i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du fortælle mig, hvordan vejret ser ud i København lige nu?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "København",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hvad bliver temperaturen i Århus i morgen?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Århus",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Jeg planlægger en tur til Oslo i næste uge, hvad er vejret der i Fahrenheit?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Oslo",
+            "unit": "fahrenheit"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Er der regn i Malmö senere i dag?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Malmö",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kan du give mig vejrudsigten for Reykjavik i eftermiddag, i Celsius?"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "location": "Reykjavik",
+            "unit": "celsius"
+          }
+        }
+      ]
+    }
+  ]
+}
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret er i Århus lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Aarhus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturerne i Oslo i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Oslo",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det varmt i Reykjavik i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Reykjavik",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvordan ser vejrudsigten ud for Malmö i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg vil gerne vide, hvad vejret er i Göteborg senere på ugen."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Gothenburg",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du fortælle mig, hvordan vejret ser ud i København i dag?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "København",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er temperaturerne i Århus i morgen?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Århus",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg planlægger en tur til Göteborg næste uge, men hvad er vejret der i Fahrenheit?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Göteborg",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Er det koldt i Tromsø lige nu?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Tromsø",
+              "unit": "celsius"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vis mig vejrudsigten for Malmø i weekenden, men giv mig grader i Fahrenheit, tak."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "get_weather",
+            "arguments": {
+              "location": "Malmö",
+              "unit": "fahrenheit"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

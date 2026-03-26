@@ -1,0 +1,4080 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om maskinlæring?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "maskinlæring artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter de seneste nyheder om klimaforandringer i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter information om den økonomiske situation i Sverige i 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Sverige økonomi 2023"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find definitionen af CRISPR-teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag de olympiske lege i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "olympiske lege 2024 historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find nyheder om elbiler og deres udvikling."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbiler udvikling nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste artikler om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter statistik om CO2-udledning i Danmark de sidste fem år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CO2 udledning Danmark 5 år statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historien om Danmarks første kvindelige statsminister."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Danmarks første kvindelige statsminister historie"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad er de aktuelle regler for hjemmearbejde i EU?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "EU hjemmearbejde regler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om virtuelle reality-briller."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "virtuelle reality briller"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de nyeste nyheder om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde en definition af bæredygtig økonomi?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig økonomi definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter artikler om klimaændringernes påvirkning på havniveau."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændring havniveau artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den seneste udvikling inden for kvantecomputere?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "seneste udvikling kvantecomputere"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde information om 5G teknologi?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "5G teknologi"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter de seneste nyheder om klimaforandringer i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find en forklaring på, hvordan CRISPR fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om økonomisk påvirkning af inflation i 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "inflation 2023 økonomisk påvirkning artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag Vikingetiden?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Vikingetiden historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om selvkørende biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "selvkørende biler nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om bæredygtig energi i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi Danmark artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den økonomiske situation i Brasilien i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Brasilien økonomi 2024 nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske data om vikingetiden i Skandinavien."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vikingetiden historiske data"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find artikler om den seneste udvikling inden for solenergi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi udvikling artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter nyheder om den danske økonomi i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk økonomi 2024 nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske kilder om vikingetiden i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vikingetiden Danmark historiske kilder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de seneste resultater i COVID-19 vaccinforskning?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "COVID-19 vaccinforskning resultater"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de seneste nyheder om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedsnyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde en forklaring på, hvad blockchain er?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter artikler om klimaforandringernes påvirkning på havniveau."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer havniveau artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om bæredygtig energi?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter de seneste nyheder om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om historien bag Danmarks kongehus."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Danmarks kongehus historie"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter forklaring på kvantecomputere for begyndere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring begyndere"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om udviklingen af elbiler i Skandinavien?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbil udvikling Skandinavien"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om solenergi i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi Danmark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om elbilmarkedet i Skandinavien?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbilmarked Skandinavien nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter statistikker for arbejdsløshed i Danmark 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "arbejdsløshed Danmark 2023 statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag Vikingetiden i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Vikingetiden Danmark historie"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om AI-udviklinger i Europa."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI udvikling nyheder Europa"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om klimaforandringernes påvirkning på havniveau?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer havniveau artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan kvantecomputere fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputer forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter økonomiske analyser af det danske boligmarked i 2024."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk boligmarked 2024 analyse"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de nyeste behandlingsmetoder mod Alzheimers sygdom?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Alzheimers nye behandlingsmetoder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om blockchain-teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain teknologi"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om elbiler i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "nyheder elbiler Danmark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputer forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter statistikker om klimaforandringer i Skandinavien."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer statistik Skandinavien"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien om vikingetiden i Norge?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vikingetiden Norge historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om cybersikkerhed?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "cybersikkerhed artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter nyheder om den seneste AI‑udvikling i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI udvikling Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om klimaændringer i Arktis."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Arktis"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske data om den danske økonomi i 1990'erne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "danske økonomi 1990'erne data"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de nyeste behandlingsmetoder mod type 2 diabetes?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "type 2 diabetes behandlingsmetoder nyeste"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektor nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om klimaforandringernes påvirkning på landbrug?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer landbrug påvirkning artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter statistik om arbejdsløshed i Danmark 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "arbejdsløshed Danmark 2023 statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de nyeste trends inden for wearables og fitness?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "wearables fitness trends nyeste"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om bæredygtige bygninger i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtige bygninger Danmark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en definition af cirkulær økonomi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "cirkulær økonomi definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om udviklingen af elbiler i Skandinavien?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbil udvikling Skandinavien"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om klimaændringers påvirkning på landbrug i Europa."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer landbrug Europa artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde information om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter nyheder om klimaforandringer i 2024."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimanyheder 2024"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter definitionen af kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den seneste udvikling inden for vedvarende energi?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vedvarende energi udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find artikler om økonomisk påvirkning af Brexit på Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Brexit økonomisk påvirkning Danmark"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find artikler om den seneste udvikling inden for AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde nyheder om klimaændringer i Arktis?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Arktis nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan kvantecomputere fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter økonomiske analyser af den danske boligmarked i 2024."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "danske boligmarked 2024 analyse"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "danske vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om grøn transport i byer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "grøn transport byer"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om elbiler i København?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbiler København nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter statistik over cykelinfrastruktur i europæiske hovedstæder."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "cykelinfrastruktur europæiske hovedstæder statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om brugen af brintbusser i danske byer?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "brintbusser danske byer"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om bæredygtig offentlig transport i store byer verden over."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig offentlig transport store byer artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter artikler om klimaforandringernes påvirkning på havniveauet?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer havniveau artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan CRISPR-teknologien virker."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de nyeste økonomiske rapporter om inflation i Europa."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Europa inflation rapporter"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den seneste udvikling inden for solenergi i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi Danmark udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om autonome biler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "autonome biler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om klimaforandringer i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på hvordan CRISPR-teknologi virker."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR teknologi forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter statistik for arbejdsløshed i EU i 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "EU arbejdsløshed 2023 statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om solenergi i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde en forklaring på, hvordan brintbiler fungerer?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "brintbil forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter artikler om økonomisk vækst i Skandinavien 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "økonomisk vækst Skandinavien 2023 artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den nye AI-model fra OpenAI?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "OpenAI ny AI-model nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter udviklingen inden for havvindmøller i Europa."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "havvindmøller Europa udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om kunstig intelligens i undervisning."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kunstig intelligens undervisning"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om klimaændringer i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om økonomisk vækst i Asien de sidste 5 år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "økonomisk vækst Asien 5 år artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den nye COVID-19 variant og dens smitteevne?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "COVID-19 ny variant smitteevne"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om digitalisering i virksomheder?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "digitalisering i virksomheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om de seneste AI-trends inden for sundhedsvæsenet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI trends sundhedsvæsen"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter nyheder om klimaaftaler i 2024."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaaftaler 2024 nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter definitionen af blockchain teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om udviklingen af elbiler i Skandinavien?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbil udvikling Skandinavien"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om den seneste udvikling inden for kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere seneste udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter artikler om bæredygtig energi i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi Danmark artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter definitionen af blockchain-teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de nyeste resultater i fodboldligaen i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "2024 fodboldliga resultater nyeste"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter nyheder om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find nyheder om den seneste udvikling inden for batteriteknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "batteriteknologi udvikling nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de nyeste artikler om kunstig intelligens i sundhedsvæsenet?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhed nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den nye lovgivning om CO2‑afgifter i EU?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "EU CO2 afgift lovgivning"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en simpel forklaring på kvantecomputere til begyndere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputer forklaring begyndere"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske kilder om Danmarks handel i 1800‑tallet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Danmark handel 1800-tallet historisk"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om solenergi i Skandinavien."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi Skandinavien"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om elbilmarkedet i Tyskland?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbilmarked Tyskland nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan blockchain fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om udviklingen af kunstig intelligens i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektor udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om historien om vikingetiden i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vikingetiden Danmark historie artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om rumfart og kommende missioner."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "rumfart nyheder missioner"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om den nye Tesla Model Y og dens rækkevidde?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Tesla Model Y rækkevidde artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter information om klimaforandringer i Arktis de sidste år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer Arktis seneste år"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de seneste resultater inden for AI i medicinsk diagnostik?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI medicinsk diagnostik nyeste resultater"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske kilder om Danmarks handel i 1700-tallet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Danmark handel 1700-tallet historiske kilder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om augmented reality teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "augmented reality teknologi"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de seneste nyheder om bæredygtig energi i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde en forklaring på kvantecomputere?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter artikler om mental sundhed blandt unge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "mental sundhed unge artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om droneteknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "droneteknologi nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om AI's indvirkning på klimaet?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI klima påvirkning artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvad CRISPR er."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den økonomiske situation i Brasilien i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "Brasilien økonomi 2024"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter ny forskning om solenergiudnyttelse i bygninger."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi forskning bygninger"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find artikler om klimaforandringers påvirkning på marine økosystemer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer marine økosystemer artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en definition af blockchain-teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter statistikker om arbejdsløshed i Danmark i 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "arbejdsløshed Danmark 2023 statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om udviklingen af elektriske fly?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elektriske fly udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om dataanalyse og big data?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dataanalyse big data artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter nyheder om klimaforandringer i 2024."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer 2024 nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om AI's indvirkning på sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektor indvirkning"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de seneste rapporter om økonomisk vækst i Skandinavien."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "økonomisk vækst Skandinavien rapporter"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter de nyeste trends inden for e-handel."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "e-handel trends 2024"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om bæredygtig energi i Skandinavien?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi Skandinavien nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputer forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den seneste udvikling inden for AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om historien bag den danske vikingetid."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om kryptovaluta og markedet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kryptovaluta marked"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter de seneste nyheder om elbilsudvikling i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elbilsudvikling Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan CRISPR-teknologi fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om klimaændringer i Arktis de sidste fem år?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Arktis 5 år"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske artikler om den danske industrialisering i 1800-tallet."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk industrialisering 1800-tallet artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde artikler om cybersikkerhed i virksomheder?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "cybersikkerhed virksomheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter nyheder om den seneste udvikling inden for AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om klimaændringernes påvirkning på landbruget i Danmark."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer landbrug Danmark"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter definitionen af kvanteteknologi og aktuelle anvendelser."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvanteteknologi definition anvendelser"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om de økonomiske konsekvenser af Brexit for EU?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "økonomiske konsekvenser Brexit EU"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om bæredygtig mode."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig mode"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om elektriske biler i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elektriske biler Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvad blockchain er."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om klimaændringer i Arktis?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Arktis"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om den økonomiske påvirkning af COVID-19 i 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "COVID-19 økonomisk påvirkning 2023 artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde information om AI i finanssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI finanssektoren"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter de seneste nyheder om klimaændringer i Arktis."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaændringer Arktis nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find en forklaring på hvordan CRISPR-teknologi virker."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "CRISPR forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om økonomisk vækst i Sydøstasien 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "økonomisk vækst Sydøstasien 2023 artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find artikler om smart homes teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "smart home teknologi artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter de seneste nyheder om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvordan kvantecomputere fungerer."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter statistikker om klimaforandringer i Arktis de sidste fem år."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaforandringer Arktis statistik 5 år"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag den danske vikingetid?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find de seneste nyheder om elfly og luftfart."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "elfly luftfart nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter artikler om bæredygtig luftfartsteknologi?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig luftfart teknologi artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter information om AI i sundhedssektoren."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektoren information"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den nye klimaaftale i EU?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "EU klimaaftale nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske data om den danske økonomi i 1990'erne."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "danske økonomi 1990'erne historiske data"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om 3D-print teknologi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "3D print teknologi"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du søge efter de seneste nyheder om solenergi i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "solenergi Danmark nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en forklaring på, hvad blockchain er."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "blockchain forklaring"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den økonomiske påvirkning af AI på arbejdsmarkedet?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI økonomisk påvirkning arbejdsmarked"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om historien bag den danske vikingetid."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "dansk vikingetid historie artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om de seneste fremskridt inden for kvantecomputere."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "kvantecomputere fremskridt"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de nyeste artikler om bæredygtig energi i Danmark?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "bæredygtig energi Danmark nyeste artikler"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter statistik over arbejdsløshed i EU for 2023."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "EU arbejdsløshed 2023 statistik"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om den aktuelle udvikling i COVID-19 vacciner?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "COVID-19 vacciner udvikling"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter historiske kilder om vikingetiden i Norge."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "vikingetiden Norge historiske kilder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Find information om cirkulær økonomi."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "cirkulær økonomi"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kan du finde de seneste nyheder om AI i sundhedssektoren?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "AI sundhedssektor nyheder"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jeg leder efter en definition af begrebet 'klimaneutralitet'."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "klimaneutralitet definition"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hvad ved man om historien bag OL i 2024?"
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "OL 2024 historie"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Søg efter artikler om udviklingen af batteriteknologi til elbiler."
+      },
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {
+              "query": "batteriteknologi elbiler udvikling artikler"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

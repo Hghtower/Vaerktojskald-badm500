@@ -6,7 +6,7 @@ import random
 import os
 import multiprocessing
 
-from pydantic import BaseModel
+# from pydantic import BaseModel
 
 from pathlib import Path
 from openai import AsyncOpenAI, OpenAI
@@ -20,20 +20,20 @@ from tqdm import tqdm
 
 #URL for lokal server vi vil lave inference fra.
 CLIENT = [
-    #'https://api.ordbogen.ai/v1'
-    'http://localhost:8000/v1'
+    'https://api.ordbogen.ai/v1'
+    #'http://localhost:8000/v1'
 ]
-#client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
-client = OpenAI(base_url=CLIENT[0], api_key="")
+client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
+#client = OpenAI(base_url=CLIENT[0], api_key="")
 def init_worker():
     global client
     client = client
 
 #MODEL = "unsloth/gemma-3-4b-it-unsloth-bnb-4bit"
 #MODEL = "ordbogen/gemma"
-#MODEL = "odin-medium"
-MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
-NUM_PROCESSES = 40
+MODEL = "odin-medium"
+# MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
+NUM_PROCESSES = 10
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
@@ -380,9 +380,10 @@ def main(dataset, outfile: str):
             for result in tqdm(results, total=len(rows_to_process)):
                 try:
                     if result:
-                        result = result.replace("```json", "")
-                        result = result.replace("```", "")
-                        file.write(json.dumps(json.loads(result)) + '\n')
+                        # result = result.replace("```json", "")
+                        # result = result.replace("```", "")
+                        # file.write(json.dumps(json.loads(result)) + '\n')
+                        file.write(result + '\n')
                         file.flush()
                 except Exception as e:
                     print(e)
@@ -427,25 +428,30 @@ if __name__ == "__main__":
     dataset_web = load_seed_data("data/web_seeds.jsonl")
     
     # Set output file #
-    output_weather = "data/weather_target.jsonl"
-    output_gramma = "data/gramma_target.jsonl"
-    output_image = "data/image_target.jsonl"
-    output_speech = "data/speech_target.jsonl"
-    output_web = "data/web_target.jsonl"
+    output_weather = "data/weather_odin.jsonl"
+    output_gramma = "data/gramma_odin.jsonl"
+    output_image = "data/image_odin.jsonl"
+    output_speech = "data/speech_odin.jsonl"
+    output_web = "data/web_odin.jsonl"
 
 
     # Prompt inbreeding #
 
+    # prompt = prompts[0]
+    # print(prompt)
+    # for i in range(5): 
+    #   if i == 0: 
+    #     main(dataset_weather, output_weather)
+    #   else:
+    #     datar = load_seed_data(output_weather)
+    #     main(datar, output_weather)
+    #
+    # exit()
+
     prompt = prompts[0]
     print(prompt)
-    for i in range(5): 
-      if i == 0: 
-        main(dataset_weather, output_weather)
-      else:
-        datar = load_seed_data(output_weather)
-        main(datar, output_weather)
 
-    exit()
+    main(dataset_weather, output_weather)
 
     prompt = prompts[1]
     print(prompt)
