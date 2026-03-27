@@ -33,12 +33,14 @@ def init_worker():
 #MODEL = "ordbogen/gemma"
 MODEL = "odin-medium"
 # MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
-NUM_PROCESSES = 10
+NUM_PROCESSES = 5
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
+The sample should be different from the example above
+
 Your task:
-Create multiple JSON samples. Each sample must follow this exact structure:
+Create 1 JSON sample. Each sample must follow this exact structure:
 
 {
   "messages": [
@@ -90,12 +92,14 @@ Rules:
 - Each sample must be unique
 - The tool call MUST always be correct and aligned with the user request
 
-Generate 5 samples."""
+Generate 1 sample."""
 
 PROMPT_IMAGE = """You are generating training data for a large language model that learns to call tools.
 
+The sample should be different from the example above
+
 Your task:
-Create multiple JSON samples. Each sample must follow this exact structure:
+Create 1 JSON sample. Each sample must follow this exact structure:
 
 {
   "messages": [
@@ -149,12 +153,14 @@ Rules:
 - Each sample must be unique
 - The tool call MUST always be correct and aligned with the request
 
-Generate 5 samples."""
+Generate 1 sample."""
 
 PROMPT_SPEECH = """You are generating training data for a large language model that learns to call tools.
 
+The sample should be different from the example above
+
 Your task:
-Create multiple JSON samples. Each sample must follow this exact structure:
+Create 1 JSON sample. Each sample must follow this exact structure:
 
 {
   "messages": [
@@ -207,12 +213,14 @@ Rules:
 - Each sample must be unique
 - The tool call must always be correct and aligned with the user request
 
-Generate 5 samples."""
+Generate 1 samples."""
 
 PROMPT_WEB = """You are generating training data for a large language model that learns to call tools.
 
+The sample should be different from the example above
+
 Your task:
-Create multiple JSON samples. Each sample must follow this exact structure:
+Create 1 JSON sample. Each sample must follow this exact structure:
 
 {
   "messages": [
@@ -262,12 +270,14 @@ Rules:
 - Ensure each sample is different.
 - Ensure the query always matches the user request accurately.
 
-Generate 5 samples."""
+Generate 1 sample."""
 
 PROMPT_WEATHER = """You are generating training data for a large language model that learns to call tools." \
 
+The sample should be different from the example above
+
 "Your task:"
-Create multiple JSON samples. The samples must follow this exact structure:
+Create a JSON sample. The sample must follow this exact structure:
 
 {
   "messages": [
@@ -303,7 +313,7 @@ Requirements:
 - Keep outputs strictly valid JSON.
 - Do NOT include explanations.
 
-Generate 5 samples."""
+Generate 1 sample."""
 
 prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB]
 
@@ -340,7 +350,7 @@ def generate_text(query: str) -> str:
                 }
             ],
             model=MODEL,
-            temperature = 0.7
+            temperature = 0.8
         )
 
         #print(chat_completion)
@@ -382,8 +392,8 @@ def main(dataset, outfile: str):
                     if result:
                         # result = result.replace("```json", "")
                         # result = result.replace("```", "")
-                        # file.write(json.dumps(json.loads(result)) + '\n')
-                        file.write(result + '\n')
+                        file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
+                        #file.write(result + '\n')
                         file.flush()
                 except Exception as e:
                     print(e)
@@ -421,11 +431,11 @@ def prompt_inbreeding(dataset, outfile: str):
 if __name__ == "__main__":
 
     # Load datasett #
-    dataset_weather = load_seed_data("data/weather_seeds.jsonl")
-    dataset_gramma = load_seed_data("data/gramma_seeds.jsonl")
-    dataset_image = load_seed_data("data/image_seeds.jsonl")
-    dataset_speech = load_seed_data("data/speech_seeds.jsonl")
-    dataset_web = load_seed_data("data/web_seeds.jsonl")
+    dataset_weather = load_seed_data("data/weather_odin.jsonl")
+    dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
+    dataset_image = load_seed_data("data/image_odin.jsonl")
+    dataset_speech = load_seed_data("data/speech_odin.jsonl")
+    dataset_web = load_seed_data("data/web_odin.jsonl")
     
     # Set output file #
     output_weather = "data/weather_odin.jsonl"
