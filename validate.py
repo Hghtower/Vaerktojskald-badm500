@@ -10,7 +10,7 @@ pipeline = pipeline(
     task="text-generation",
     #model = "gemma-270m-tool-calling",
     model = "google/gemma-3-270m-it",
-    device = "mps",
+    device = "cuda",
     torch_dtype = torch.bfloat16
 )
 
