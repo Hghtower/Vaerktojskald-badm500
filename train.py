@@ -118,7 +118,7 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 10,
+    num_epochs: int = 1,
     batch_size: int = 2,
     gradient_accumulation_steps: int = 4,
     learning_rate: float = 2e-4,
@@ -130,26 +130,49 @@ def main(
 ):
     # Create HuggingFace dataset
     print("Loading dataset...")
-    dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
+    val_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
     #dataset = Dataset.from_list(load_data_from_file("val.json"))
     
-    print(f"Dataset size: {len(dataset)} examples")
+    dataset = load_dataset('json', data_files=["data/weather2.jsonl", 
+                                               "data/weather_odin.jsonl", 
+                                               "data/gramma2.jsonl", 
+                                               "data/gramma_odin.jsonl",
+                                               "data/image2.jsonl",
+                                               "data/image_odin.jsonl",
+                                               "data/speech2.jsonl",
+                                               "data/speech_odin.jsonl",
+                                               "data/web2-2.jsonl",
+                                               "data/web_odin.jsonl"])
     
+    print(f"Dataset size: {len(dataset)} examples")
+
+    dataset = dataset['train'].train_test_split(test_size=0.1, seed=42, shuffle=True)
+
+    print(dataset)
+
+    # val_split = dataset.train
+    # test_split = dataset.train_test_split(test_size=0.1, seed=42)
+
     # Setup model and tokenizer
     print("Loading model and tokenizer...")
     model, tokenizer = setup_model_and_tokenizer(model_id=model_id)
-    
+
+
     # Format dataset
     print("Formatting dataset...")
-    formatted_dataset = dataset.map(
+    formatted_dataset = dataset["train"].map(
         format_chat_with_tools,
-        remove_columns=dataset.column_names
+        remove_columns=dataset["train"].column_names
     )
-    
+    formatted_dataset_test = dataset["test"].map(
+        format_chat_with_tools,
+        remove_columns=dataset["test"].column_names
+    )
+
     # Print example
-    print("\n=== Example formatted text ===")
-    print(formatted_dataset[0]["text"])
-    print("=" * 50 + "\n")
+    # print("\n=== Example formatted text ===")
+    # print(formatted_dataset[0]["text"])
+    # print("=" * 50 + "\n")
 
     training_args = SFTConfig(
         output_dir=out_dir,
@@ -172,6 +195,7 @@ def main(
         model=model,
         args=training_args,
         train_dataset=formatted_dataset,
+        eval_dataset=formatted_dataset_test,
         processing_class=tokenizer,
     )
     
