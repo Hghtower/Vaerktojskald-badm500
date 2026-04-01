@@ -118,7 +118,7 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 1,
+    num_epochs: int = 2,
     batch_size: int = 2,
     gradient_accumulation_steps: int = 4,
     learning_rate: float = 2e-4,
@@ -130,7 +130,7 @@ def main(
 ):
     # Create HuggingFace dataset
     print("Loading dataset...")
-    val_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
+    test_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
     #dataset = Dataset.from_list(load_data_from_file("val.json"))
     
     dataset = load_dataset('json', data_files=["data/weather2.jsonl", 
@@ -181,14 +181,20 @@ def main(
         gradient_accumulation_steps=gradient_accumulation_steps,
         learning_rate=learning_rate,
         warmup_steps=warmup_steps,
+
+        #Logging
+        logging_strategy="steps",
         logging_steps=logging_steps,
+        eval_strategy="steps",
+        eval_steps=logging_steps,
+
         save_strategy="no",
         optim=optimizer,
         lr_scheduler_type=lr_scheduler_type,
         report_to="tensorboard",
         packing=False,  # Don't pack sequences
         dataset_text_field="text",
-        dataloader_pin_memory=False, # Set this to true if using nvidia GPU
+        dataloader_pin_memory=True, # Set this to true if using nvidia GPU
     )
     
     trainer = SFTTrainer(
