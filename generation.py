@@ -20,8 +20,8 @@ from tqdm import tqdm
 
 #URL for lokal server vi vil lave inference fra.
 CLIENT = [
-    'https://api.ordbogen.ai/v1'
-    #'http://localhost:8000/v1'
+    'https://api.ordbogen.ai/v1' # <-- sti ordbogens modeller (odin)
+    #'http://localhost:8000/v1' # <-- sti til lokale modeller (local host)
 ]
 client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
 #client = OpenAI(base_url=CLIENT[0], api_key="")
@@ -34,6 +34,8 @@ def init_worker():
 MODEL = "odin-medium"
 # MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
 NUM_PROCESSES = 5
+INPUT_DATA_CHUNK_SIZE = 10
+OUTPUT_DATA_CHUNK_SIZE = 20
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
@@ -362,24 +364,22 @@ def generate_text(query: str) -> str:
         print(f"Error: {error}")
         return ""
 
-# async def construct_data(file: str, writefile: str):
-#     seeds = load_seed_data(file)
-#
-#     for i in seeds:
-#         #print(i)
-#         output = await generate_text(i, client)
-#         if writefile != "none":
-#             save_to_file(writefile, output)
+def chunkify_input_data(dataset) -> list:
+
+    for i in dataset:
+
+    #for i in range(INPUT_DATA_CHUNK_SIZE):
+
 
 def main(dataset, outfile: str):
     rows_to_process = dataset
-
+    
     if not rows_to_process:
         print("All items processed!")
         exit()
 
     print(
-        f"Starting processing for {len(dataset_weather)} items with {NUM_PROCESSES} processes..."
+        f"Starting processing for {len(rows_to_process)} items with {NUM_PROCESSES} processes..."
     )
 
     with open(outfile, "a", encoding="utf-8") as file:
@@ -394,34 +394,6 @@ def main(dataset, outfile: str):
                         # result = result.replace("```", "")
                         file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
                         #file.write(result + '\n')
-                        file.flush()
-                except Exception as e:
-                    print(e)
-                    pass
-
-def prompt_inbreeding(dataset, outfile: str):
-    rows_to_process = dataset
-
-    if not rows_to_process:
-        print("All items processed!")
-        exit()
-
-    print(
-        f"Starting processing for {len(dataset_weather)} items with {NUM_PROCESSES} processes..."
-    )
-
-    with open(outfile, "w", encoding="utf-8") as file:
-        with multiprocessing.Pool(
-            processes=NUM_PROCESSES, initializer=init_worker
-        ) as pool:
-            results = pool.imap_unordered(generate_text, rows_to_process, chunksize=1)
-            for result in tqdm(results, total=len(rows_to_process)):
-                try:
-                    if result:
-                        result = result.replace("```jsonl", "")
-                        result = result.replace("```json", "")
-                        result = result.replace("```", "")
-                        file.write(json.dumps(json.loads(result)) + '\n')
                         file.flush()
                 except Exception as e:
                     print(e)
