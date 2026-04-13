@@ -118,11 +118,11 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 2,
-    batch_size: int = 2,
+    num_epochs: int = 3,
+    batch_size: int = 16,
     gradient_accumulation_steps: int = 4,
     learning_rate: float = 2e-4,
-    logging_steps: int = 5,
+    logging_steps: int = 20,
     optimizer: str = "adamw_torch",
     lr_scheduler_type: str = "cosine",
     warmup_steps: int = 10,
@@ -130,28 +130,19 @@ def main(
 ):
     # Create HuggingFace dataset
     print("Loading dataset...")
-    test_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish")
-    #dataset = Dataset.from_list(load_data_from_file("val.json"))
+    test_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish_v1")
     
-    dataset = load_dataset('json', data_files=["data/weather2.jsonl", 
-                                               "data/weather_odin.jsonl", 
-                                               "data/gramma2.jsonl", 
-                                               "data/gramma_odin.jsonl",
-                                               "data/image2.jsonl",
-                                               "data/image_odin.jsonl",
-                                               "data/speech2.jsonl",
-                                               "data/speech_odin.jsonl",
-                                               "data/web2-2.jsonl",
-                                               "data/web_odin.jsonl"])
-    
+    dataset = load_dataset('json', data_files=["data/data_processed/weather.jsonl",
+                                               "data/data_processed/gramma.jsonl",
+                                               "data/data_processed/image.jsonl",
+                                               "data/data_processed/speech.jsonl",
+                                               "data/data_processed/web.jsonl"])
+        
     print(f"Dataset size: {len(dataset)} examples")
 
     dataset = dataset['train'].train_test_split(test_size=0.1, seed=42, shuffle=True)
 
     print(dataset)
-
-    # val_split = dataset.train
-    # test_split = dataset.train_test_split(test_size=0.1, seed=42)
 
     # Setup model and tokenizer
     print("Loading model and tokenizer...")
@@ -169,11 +160,12 @@ def main(
         remove_columns=dataset["test"].column_names
     )
 
+
     # Print example
     # print("\n=== Example formatted text ===")
-    # print(formatted_dataset[0]["text"])
+    #print(formatted_dataset[0]["text"])
     # print("=" * 50 + "\n")
-
+    
     training_args = SFTConfig(
         output_dir=out_dir,
         num_train_epochs=num_epochs,
@@ -202,6 +194,8 @@ def main(
         args=training_args,
         train_dataset=formatted_dataset,
         eval_dataset=formatted_dataset_test,
+        # train_dataset=dataset["train"],
+        # eval_dataset=dataset["test"],
         processing_class=tokenizer,
     )
     
@@ -218,4 +212,3 @@ def main(
 
 if __name__ == "__main__":
     app()
-    #load_data_from_file("val.json")

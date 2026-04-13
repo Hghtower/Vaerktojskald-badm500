@@ -367,6 +367,7 @@ def generate_text(query: str) -> str:
 def chunkify_input_data(dataset) -> list:
 
     for i in dataset:
+        pass
 
     #for i in range(INPUT_DATA_CHUNK_SIZE):
 
