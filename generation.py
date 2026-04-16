@@ -317,7 +317,55 @@ Requirements:
 
 Generate 1 sample."""
 
-prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB]
+PROMPT_NONE = """
+You are generating a high-quality dataset for training a tool-calling AI model.
+
+Your task is to create multiple examples in the following JSON array format:
+
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "<natural language response>",
+        "tool_calls": []
+      }
+    ]
+  }
+]
+
+Instructions:
+- Output a valid JSON array.
+- Each object must be separated by a comma.
+- Do NOT include a trailing comma after the last element.
+- Each example must contain a realistic Danish user query.
+- The assistant MUST respond with a normal natural language answer (no tool calls).
+- The "tool_calls" field must always be an empty array: [].
+
+- Include a wide variety of queries that do NOT require tools, such as:
+  - General knowledge ("Hvad er kvantefysik?")
+  - Explanations ("Forklar hvad AI er")
+  - Conversations ("Hvordan har du det?")
+  - Advice ("Hvordan lærer jeg at programmere?")
+  - Simple tasks ("Skriv en kort historie")
+  - Opinions ("Hvad er den bedste film?")
+
+- Vary Danish phrasing:
+  - Questions, requests, casual conversation
+  - Formal and informal tone
+  - Include occasional typos or slang
+
+- Responses should be:
+  - Helpful, clear, and relevant
+  - Written in Danish
+  - Concise but informative
+
+- Do NOT include any tool calls in these examples.
+- Do NOT include explanations or text outside the JSON array.
+- Generate 20 examples."""
+
+prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB, PROMPT_NONE]
 
 def load_seed_data(file: str):
     output = []
@@ -373,6 +421,7 @@ def chunkify_input_data(dataset) -> list:
 
 
 def main(dataset, outfile: str):
+    """Generate text using a single data entry as a context"""
     rows_to_process = dataset
     
     if not rows_to_process:
@@ -400,22 +449,65 @@ def main(dataset, outfile: str):
                     print(e)
                     pass
 
+def main2(dataset, outfile: str):
+    """Generate text using several data entries as a context"""
+    rows_to_process = ""
+    
+    for i in range(len(dataset)):
+        rows_to_process += str(dataset[i]) + "\n"
+
+    #print(rows_to_process)
+
+    if not rows_to_process:
+        print("All items processed!")
+        exit()
+
+    print(
+        f"Starting processing for {len(rows_to_process)} items with {NUM_PROCESSES} processes..."
+    )
+
+    with open(outfile, "a", encoding="utf-8") as file:
+      result = generate_text(rows_to_process)
+      file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
+      file.flush()
+
+
+    # with open(outfile, "a", encoding="utf-8") as file:
+    #     with multiprocessing.Pool(
+    #         processes=NUM_PROCESSES, initializer=init_worker
+    #     ) as pool:
+    #         results = pool.imap_unordered(generate_text, rows_to_process, chunksize=1)
+    #         for result in tqdm(results, total=len(rows_to_process)):
+    #             try:
+    #                 if result:
+    #                     # result = result.replace("```json", "")
+    #                     # result = result.replace("```", "")
+    #                     file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
+    #                     #file.write(result + '\n')
+    #                     file.flush()
+    #             except Exception as e:
+    #                 print(e)
+    #                 pass
+
+
 ## Entrypoint ##
 if __name__ == "__main__":
 
     # Load datasett #
-    dataset_weather = load_seed_data("data/weather_odin.jsonl")
-    dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
-    dataset_image = load_seed_data("data/image_odin.jsonl")
-    dataset_speech = load_seed_data("data/speech_odin.jsonl")
-    dataset_web = load_seed_data("data/web_odin.jsonl")
+    # dataset_weather = load_seed_data("data/weather_odin.jsonl")
+    # dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
+    # dataset_image = load_seed_data("data/image_odin.jsonl")
+    # dataset_speech = load_seed_data("data/speech_odin.jsonl")
+    # dataset_web = load_seed_data("data/web_odin.jsonl")
+    dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
     
-    # Set output file #
-    output_weather = "data/weather_odin.jsonl"
-    output_gramma = "data/gramma_odin.jsonl"
-    output_image = "data/image_odin.jsonl"
-    output_speech = "data/speech_odin.jsonl"
-    output_web = "data/web_odin.jsonl"
+    # # Set output file #
+    # output_weather = "data/weather_odin.jsonl"
+    # output_gramma = "data/gramma_odin.jsonl"
+    # output_image = "data/image_odin.jsonl"
+    # output_speech = "data/speech_odin.jsonl"
+    # output_web = "data/web_odin.jsonl"
+    output_none = "data/data_raw/none_odin.jsonl"
 
 
     # Prompt inbreeding #
@@ -431,30 +523,38 @@ if __name__ == "__main__":
     #
     # exit()
 
-    prompt = prompts[0]
+
+    # prompt = prompts[0]
+    # print(prompt)
+
+    # main(dataset_weather, output_weather)
+
+    # prompt = prompts[1]
+    # print(prompt)
+
+    # main(dataset_gramma, output_gramma)
+
+    # prompt = prompts[2]
+    # print(prompt)
+
+    # main(dataset_image, output_image)
+
+    # prompt = prompts[3]
+    # print(prompt)
+
+    # main(dataset_speech, output_speech)
+
+    # prompt = prompts[4]
+    # print(prompt)
+
+    # main(dataset_web, output_web)
+
+    prompt = prompts[5]
     print(prompt)
 
-    main(dataset_weather, output_weather)
-
-    prompt = prompts[1]
-    print(prompt)
-
-    main(dataset_gramma, output_gramma)
-
-    prompt = prompts[2]
-    print(prompt)
-
-    main(dataset_image, output_image)
-
-    prompt = prompts[3]
-    print(prompt)
-
-    main(dataset_speech, output_speech)
-
-    prompt = prompts[4]
-    print(prompt)
-
-    main(dataset_web, output_web)
+    for i in range(10):
+        main2(dataset_none, output_none)
+    
 
     print("Yay finished")
 

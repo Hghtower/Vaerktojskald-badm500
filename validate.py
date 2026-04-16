@@ -47,13 +47,26 @@ correct = 0
 
 dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish_v1")
 
+# print(dataset[0]['messages'][1]['tool_calls'][0]['name'])
+
+# print(dataset[0]['messages'][1]['tool_calls'][0]['arguments'])
+
+# for i in range(10):
+#     print(dataset[i]['messages'][1]['tool_calls'][0]['name'])
+
+#     for key, value in dataset[i]['messages'][1]['tool_calls'][0]['arguments'].items():
+#         if value != None:
+#             print(f"{key} {value}")
+
+
+
 model = AutoModelForCausalLM.from_pretrained('gemma-270m-tool-calling')
 tokenizer = AutoTokenizer.from_pretrained('gemma-270m-tool-calling')
 
-dataset = dataset.map(
-    format_chat_with_tools,
-    remove_columns=dataset.column_names
-)
+# dataset = dataset.map(
+#     format_chat_with_tools,
+#     remove_columns=dataset.column_names
+# )
 
 pipeline = pipeline(
     task="text-generation",
@@ -66,12 +79,12 @@ pipeline = pipeline(
     torch_dtype = torch.bfloat16
 )
 
-#print(dataset[0])
 
 text = pipeline("<start_of_turn>user\nHvad er temperaturen i Aarhus i morgen?<end_of_turn>\n")
-i = text[0]['generated_text']
-i = i.split('model')
-print(i)
+print(text)
+# i = text[0]['generated_text']
+# i = i.split('model')
+# print(i)
 
 
 #index = i.find('<start_of_turn>model')
