@@ -141,10 +141,16 @@ for i in tqdm(dataset, total=len(dataset)):
     #print(data_parameters)
 
     try:
-        if tool == i['messages'][1]['tool_calls'][0]['name']:
-            correct_toolcall += 1
-        if eval(parameters) == {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}:
-            correct_parameters += 1
+        if i['messages'][1]['tool_calls'] != "":
+            for j in range(len(i['messages'][1]['tool_calls'])):
+                if tool == i['messages'][1]['tool_calls'][j]['name']:
+                    correct_toolcall += 1
+                if eval(parameters) == {k: v for k, v in i['messages'][1]['tool_calls'][j]['arguments'].items() if v is not None}:
+                    correct_parameters += 1
+        else:
+            if text.find("<tool_call>") == -1:
+                correct_toolcall += 1
+                correct_parameters += 1
         
     except:
         print("fuck you, me no work")
