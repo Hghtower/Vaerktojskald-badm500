@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, pipeline, AutoModelForCausalLM
 import json
 import torch
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
 def format_chat_with_tools(example):
     """
@@ -77,14 +78,15 @@ pipeline = pipeline(
     #tokenizer = "google/gemma-3-270m-it",
     # model = "google/gemma-3-270m-it",
     device = "cuda",
-    torch_dtype = torch.bfloat16
+    dtype = torch.bfloat16
 )
 
-
-# text = pipeline("<start_of_turn>user\nHvad er temperaturen i Aarhus i morgen?<end_of_turn>\n")
-
+# text = pipeline(f"<start_of_turn>user\nÅrhus er en by. Æ og Ø og Å. æææ<end_of_turn>\n")
 # i = text[0]['generated_text']
+# i = i.encode('raw_unicode_escape').decode('unicode_escape')
+# print(i)
 
+# exit()
 
 def get_toolcall_and_parameters(text: str) -> tuple:
     """Get the toolcall and parameters from the generated text"""
@@ -128,11 +130,30 @@ def format_input(text: str) -> str:
 correct_toolcall = 0
 correct_parameters = 0
 
+total_toolcalls = {
+    "get_weather": 0,
+    "correct_grammar": 0,
+    "generate_image": 0,
+    "speech_synthesis": 0,
+    "search_web": 0
+}
+
+num_correct_toolcalls = {
+    "get_weather": 0,
+    "correct_grammar": 0,
+    "generate_image": 0,
+    "speech_synthesis": 0,
+    "search_web": 0
+}
+
 for i in tqdm(dataset, total=len(dataset)):
     query = format_input(i['messages'][0]['content'])
     text = pipeline(query)[0]['generated_text']
 
     tool, parameters = get_toolcall_and_parameters(text)
+
+    tool = tool.encode('raw_unicode_escape').decode('unicode_escape')
+    parameters = parameters.encode('raw_unicode_escape').decode('unicode_escape')
 
     # print(i['messages'][1]['tool_calls'][0]['arguments']) 
 
@@ -141,23 +162,34 @@ for i in tqdm(dataset, total=len(dataset)):
     #print(data_parameters)
 
     try:
-        if i['messages'][1]['tool_calls'] != "":
-            for j in range(len(i['messages'][1]['tool_calls'])):
-                if tool == i['messages'][1]['tool_calls'][j]['name']:
-                    correct_toolcall += 1
-                if eval(parameters) == {k: v for k, v in i['messages'][1]['tool_calls'][j]['arguments'].items() if v is not None}:
-                    correct_parameters += 1
+        if i['messages'][1]['tool_calls'] != None:
+            dataset_toolcall = i['messages'][1]['tool_calls'][0]['name']
+
+            total_toolcalls[dataset_toolcall] += 1
+
+            if tool == dataset_toolcall:
+                correct_toolcall += 1
+                num_correct_toolcalls[dataset_toolcall] += 1
+            else:
+                print(f"Error, got: {tool}, expected: {dataset_toolcall}\n")
+
+            para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
+
+            if eval(parameters) == para_meter:
+                correct_parameters += 1
+            else:
+                print(f"Error, got: {parameters}, expected: {para_meter}\n")
+
         else:
             if text.find("<tool_call>") == -1:
                 correct_toolcall += 1
                 correct_parameters += 1
         
-    except:
+    except Exception as e:
         print("fuck you, me no work")
-    # print(dataset[0]['messages'][1]['tool_calls'][0]['name'])
-
-    # print(dataset[0]['messages'][1]['tool_calls'][0]['arguments'])
-
+        print(f"Error: {e}")
+        print(i)
+        print(text)
 
 
     # if tool == 
@@ -170,3 +202,29 @@ accuracy = correct_toolcall / len(dataset)
 print(f"Tool call accuracy: {accuracy}%")
 accuracy = correct_parameters / len(dataset)
 print(f"Parameter accuracy: {accuracy}%")
+# print(num_correct_toolcalls.values())
+
+# total_toolcalls = {
+#     "get_weather": 10,
+#     "correct_grammar": 10,
+#     "generate_image": 12,
+#     "text_to_speech": 9,
+#     "search_web": 4
+# }
+
+# num_correct_toolcalls = {
+#     "get_weather": 4,
+#     "correct_grammar": 9,
+#     "generate_image": 3,
+#     "text_to_speech": 9,
+#     "search_web": 3
+# }
+
+
+plt.bar(num_correct_toolcalls.keys(), list(total_toolcalls.values()), color='r', edgecolor='black')
+plt.bar(num_correct_toolcalls.keys(), list(num_correct_toolcalls.values()), color='g', edgecolor='black')
+
+plt.ylabel('num toolcalls')
+plt.title('toolcalls')
+
+plt.show()
