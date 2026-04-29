@@ -1,6 +1,6 @@
 import pandas as pd
 import json
-
+"""
 data_weather_gemma = pd.read_json("data/data_raw/weather2.jsonl", lines=True)
 data_weather_odin = pd.read_json('data/data_raw/weather_odin.jsonl', lines=True)
 dat = [data_weather_odin, data_weather_gemma]
@@ -35,3 +35,16 @@ dat = [data_web_gemma, data_web_odin]
 data_web = pd.concat(dat)
 data_web = data_web.drop_duplicates()
 data_web.to_json('data/data_processed/web.jsonl', orient='records', lines=True, force_ascii=False)
+
+
+
+
+data_none = pd.read_json('data/data_raw/none_odin.jsonl', lines=True)
+data_none = data_none.drop_duplicates()
+data_none.to_json('data/data_processed/none.jsonl', orient='records', lines=True, force_ascii=False)
+"""
+
+
+data_multi = pd.read_json('data/data_raw/multi_odin.jsonl', lines=True)
+data_multi = data_multi.drop_duplicates()
+data_multi.to_json('data/data_processed/multi.jsonl', orient='records', lines=True, force_ascii=False)

@@ -1,0 +1,133 @@
+[
+  {
+    "messages": [
+      {"role": "user", "content": "Hvad er vejret i København, og kan du læse det op for mig?"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "get_weather", "arguments": {"location": "København", "unit": "celsius"}},
+          {"name": "text_to_speech", "arguments": {"text": "Vejret i København er blevet hentet.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find information om kunstig intelligens og læs et kort resumé op"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "artificial intelligence overview"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er et kort resumé af kunstig intelligens.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde nyheder om klimaændringer og også tjekke vejret i Paris?"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "climate change news"}},
+          {"name": "get_weather", "arguments": {"location": "Paris", "unit": "celsius"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find info om Tesla aktier og læs det op bagefter"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "Tesla stock information"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er information om Tesla aktier.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan er vejret i Berlin, og kan du også finde lidt info om byen?"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "get_weather", "arguments": {"location": "Berlin", "unit": "celsius"}},
+          {"name": "search_web", "arguments": {"query": "Berlin city information"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Søg efter opskrifter på pasta og læs en kort beskrivelse op"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "pasta recipes"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er en kort beskrivelse af pasta opskrifter.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Tjek vejret i New York i fahrenheit og læs det op"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "get_weather", "arguments": {"location": "New York", "unit": "fahrenheit"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er vejret i New York.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Find de seneste nyheder om AI, tjek vejret i Tokyo, og læs det hele op"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "latest AI news"}},
+          {"name": "get_weather", "arguments": {"location": "Tokyo", "unit": "celsius"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er de seneste AI nyheder og vejret i Tokyo.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Kan du finde information om Danmark og derefter læse det op?"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "search_web", "arguments": {"query": "Denmark country information"}},
+          {"name": "text_to_speech", "arguments": {"text": "Her er information om Danmark.", "voice": "neutral"}}
+        ]
+      }
+    ]
+  },
+  {
+    "messages": [
+      {"role": "user", "content": "Hvordan er vejret i Madrid samt lidt turistinfo om byen?"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {"name": "get_weather", "arguments": {"location": "Madrid", "unit": "celsius"}},
+          {"name": "search_web", "arguments": {"query": "Madrid tourism information"}}
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-from vllm import LLM
+#from vllm import LLM
 
 import asyncio
 import json
@@ -365,7 +365,87 @@ Instructions:
 - Do NOT include explanations or text outside the JSON array.
 - Generate 20 examples."""
 
-prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB, PROMPT_NONE]
+PROMPT_MULTI = """
+You are generating a high-quality dataset for training a tool-calling AI model.
+
+Your task is to create multiple examples in the following JSON array format:
+
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "<tool_name_1>",
+            "arguments": { <arguments_1> }
+          },
+          {
+            "name": "<tool_name_2>",
+            "arguments": { <arguments_2> }
+          }
+        ]
+      }
+    ]
+  }
+]
+
+Instructions:
+- Output a valid JSON array.
+- Each object must be separated by a comma.
+- Do NOT include a trailing comma after the last element.
+
+- Each example must contain a realistic Danish user query that requires MULTIPLE tool calls.
+- The assistant MUST respond only with tool calls (no natural language text).
+- Include at least 2 tool calls per example.
+
+- Use a mix of available tools, such as:
+  - "get_weather" → { "location": "<city in Danish>", "unit": "celsius/fahrenheit" }
+  - "search_web" → { "query": "<search query in English>" }
+  - "speech_synthesis" → { "text": "<text>", "voice": "neutral/female/male" }
+
+- Ensure each tool call is necessary and reflects part of the user’s request.
+
+Examples of combined intents:
+- Weather + TTS:
+  "Hvad er vejret i København, og kan du læse det højt?"
+- Search + TTS:
+  "Find info om AI og læs det op"
+- Search + Weather:
+  "Find info om klimaændringer og vejret i Paris"
+- All three tools:
+  "Find nyheder om AI, tjek vejret i Berlin og læs det hele op"
+
+- Vary Danish phrasing:
+  - Formal and informal
+  - Multi-part questions
+  - Use connectors like "og", "derefter", "samt"
+
+- Rules per tool:
+  - Weather:
+    - "location" must be in Danish
+    - Default to "celsius" unless Fahrenheit is explicitly requested
+  - Search:
+    - Query should usually be in English and concise
+  - Text-to-speech:
+    - Extract only the relevant text to be spoken
+    - Default voice = "neutral" unless specified
+
+- Ensure:
+  - No redundant tool calls
+  - Correct argument extraction
+  - Logical ordering of tool calls when relevant
+
+- Do NOT include explanations or any text outside the JSON array.
+- Generate at least 20 examples. 
+"""
+
+
+
+
+prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB, PROMPT_NONE, PROMPT_MULTI]
 
 def load_seed_data(file: str):
     output = []
@@ -468,7 +548,13 @@ def main2(dataset, outfile: str):
 
     with open(outfile, "a", encoding="utf-8") as file:
       result = generate_text(rows_to_process)
-      file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
+      parsed = json.loads(result)
+      #file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
+      if isinstance(parsed, list):
+          for item in parsed:
+              file.write(json.dumps(item, ensure_ascii=False) + '\n')
+      else:
+          file.write(json.dumps(parsed, ensure_ascii=False) + '\n')
       file.flush()
 
 
@@ -499,15 +585,17 @@ if __name__ == "__main__":
     # dataset_image = load_seed_data("data/image_odin.jsonl")
     # dataset_speech = load_seed_data("data/speech_odin.jsonl")
     # dataset_web = load_seed_data("data/web_odin.jsonl")
-    dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
-    
+    #dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
+    dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
+
     # # Set output file #
     # output_weather = "data/weather_odin.jsonl"
     # output_gramma = "data/gramma_odin.jsonl"
     # output_image = "data/image_odin.jsonl"
     # output_speech = "data/speech_odin.jsonl"
     # output_web = "data/web_odin.jsonl"
-    output_none = "data/data_raw/none_odin.jsonl"
+    #output_none = "data/data_raw/none_odin2.jsonl"
+    output_multi = "data/data_raw/multi_odin.jsonl"
 
 
     # Prompt inbreeding #
@@ -549,12 +637,19 @@ if __name__ == "__main__":
 
     # main(dataset_web, output_web)
 
-    prompt = prompts[5]
+    #prompt = prompts[5]
+    #print(prompt)
+
+    #for i in range(10):
+    #    main2(dataset_none, output_none)
+    
+
+    prompt = prompts[6]
     print(prompt)
 
     for i in range(10):
-        main2(dataset_none, output_none)
-    
+        main2(dataset_multi, output_multi)
+
 
     print("Yay finished")
 
