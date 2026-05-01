@@ -136,7 +136,9 @@ def main(
                                                "data/data_processed/gramma.jsonl",
                                                "data/data_processed/image.jsonl",
                                                "data/data_processed/speech.jsonl",
-                                               "data/data_processed/web.jsonl"])
+                                               "data/data_processed/web.jsonl",
+                                               "data/data_processed/none.jsonl",
+                                               "data/data_processed/multi.jsonl"])
         
     print(f"Dataset size: {len(dataset)} examples")
 

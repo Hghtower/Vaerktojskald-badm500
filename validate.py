@@ -5,49 +5,11 @@ import torch
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-def format_chat_with_tools(example):
-    """
-    Format messages for Gemma's chat template with tool calling support
-    Uses a structured format that the model can learn
-    """
-    messages = example["messages"]
-
-    conversation = []
-    for msg in messages:
-        role = msg["role"]
-        content = msg.get("content", "")
-
-        if role == "user":
-            conversation.append(f"<start_of_turn>user\n{content}<end_of_turn>")
-
-        elif role == "assistant":
-            assistant_text = "<start_of_turn>model\n"
-
-            # Check for tool calls
-            if "tool_calls" in msg and msg["tool_calls"]:
-                for tool_call in msg["tool_calls"]:
-                    name = tool_call["name"]
-                    args = tool_call["arguments"]
-                    args_json = json.dumps(args)
-                    assistant_text += f"<tool_call>{name}|{args_json}</tool_call>\n"
-            else:
-                assistant_text += f"{content}\n"
-
-            assistant_text += "<end_of_turn>"
-            conversation.append(assistant_text)
-
-    # Join all turns
-    text = "\n".join(conversation)
-
-    return {"text": text}
-
-
-
-
-
 
 dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish_v1")
+# dataset = load_dataset('json', data_files="data/data_processed/multi.jsonl")
 
+# print(dataset)
 # print(dataset[0]['messages'][1]['tool_calls'][0]['name'])
 
 # print(dataset[0]['messages'][1]['tool_calls'][0]['arguments'])
@@ -88,26 +50,32 @@ pipeline = pipeline(
 
 # exit()
 
-def get_toolcall_and_parameters(text: str) -> tuple:
+def get_toolcall_and_parameters(text: str) -> list[tuple]:
     """Get the toolcall and parameters from the generated text"""
-    
-    index_toolcall = text.find("<tool_call>")
-    # print(f"index of toolcall: {index_toolcall}")
-    text = text[index_toolcall:]
-    # print(i)
-    text = text[len("<tool_call>"):]
-    # print(i)
+    res = []
 
-    index_split = text.find('|')
-    index_end_toolcall = text.find("</tool_call>")
+    while text.find("<tool_call>") != -1:
+        index_toolcall = text.find("<tool_call>")
+        # print(f"index of toolcall: {index_toolcall}")
+        text = text[index_toolcall:]
+        # print(i)
+        text = text[len("<tool_call>"):]
+        # print(i)
 
-    tool = text[0:index_split]
-    parameters = text[(index_split+1):index_end_toolcall]
+        index_split = text.find('|')
+        index_end_toolcall = text.find("</tool_call>")
+
+        tool = text[0:index_split]
+        parameters = text[(index_split+1):index_end_toolcall]
+
+        res.append((tool,parameters))
+
+        text = text[index_end_toolcall + len("</tool_call>"):]
 
     # print(f"Toolcall: {tool}")
     # print(f"Parameters: {parameters}")
 
-    return (tool,parameters)
+    return res
 
 
 
@@ -146,79 +114,65 @@ num_correct_toolcalls = {
     "search_web": 0
 }
 
+# dataset = dataset['train']
+
 for i in tqdm(dataset, total=len(dataset)):
     query = format_input(i['messages'][0]['content'])
     text = pipeline(query)[0]['generated_text']
 
-    tool, parameters = get_toolcall_and_parameters(text)
+    # print(text)
 
-    tool = tool.encode('raw_unicode_escape').decode('unicode_escape')
-    parameters = parameters.encode('raw_unicode_escape').decode('unicode_escape')
+    toolcalls = get_toolcall_and_parameters(text)
 
-    # print(i['messages'][1]['tool_calls'][0]['arguments']) 
+    # print(toolcalls)
 
-    #data_parameters = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
+    # exit()
 
-    #print(data_parameters)
+    for j in toolcalls:
+        tool = j[0].encode('raw_unicode_escape').decode('unicode_escape')
+        parameters = j[1].encode('raw_unicode_escape').decode('unicode_escape')
 
-    try:
-        if i['messages'][1]['tool_calls'] != None:
-            dataset_toolcall = i['messages'][1]['tool_calls'][0]['name']
+        #data_parameters = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
+        #print(data_parameters)
 
-            total_toolcalls[dataset_toolcall] += 1
+        try:
+            if i['messages'][1]['tool_calls'] != None:
 
-            if tool == dataset_toolcall:
-                correct_toolcall += 1
-                num_correct_toolcalls[dataset_toolcall] += 1
+                dataset_toolcall = i['messages'][1]['tool_calls'][0]['name']
+
+                total_toolcalls[dataset_toolcall] += 1
+
+                if tool == dataset_toolcall:
+                    correct_toolcall += 1
+                    num_correct_toolcalls[dataset_toolcall] += 1
+                else:
+                    print(f"Error, got: {tool}, expected: {dataset_toolcall}\n")
+
+                para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
+
+                if eval(parameters) == para_meter:
+                    correct_parameters += 1
+                else:
+                    print(f"Error, got: {parameters}, expected: {para_meter}\n")
+
             else:
-                print(f"Error, got: {tool}, expected: {dataset_toolcall}\n")
-
-            para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
-
-            if eval(parameters) == para_meter:
-                correct_parameters += 1
-            else:
-                print(f"Error, got: {parameters}, expected: {para_meter}\n")
-
-        else:
-            if text.find("<tool_call>") == -1:
-                correct_toolcall += 1
-                correct_parameters += 1
-        
-    except Exception as e:
-        print("fuck you, me no work")
-        print(f"Error: {e}")
-        print(i)
-        print(text)
+                if text.find("<tool_call>") == -1:
+                    correct_toolcall += 1
+                    correct_parameters += 1
+            
+        except Exception as e:
+            print("fuck you, me no work")
+            print(f"Error: {e}")
+            print(i)
+            print(text)
 
 
-    # if tool == 
-    #     correct_toolcall += 1
-    # print(i['messages'][0]['content'])
-    # #print(i['messages'][1]['tool_calls'])
-    # print(text[0]['generated_text'])
 
 accuracy = correct_toolcall / len(dataset)
-print(f"Tool call accuracy: {accuracy}%")
+print(f"Tool call accuracy: {accuracy * 100}%")
 accuracy = correct_parameters / len(dataset)
-print(f"Parameter accuracy: {accuracy}%")
+print(f"Parameter accuracy: {accuracy * 100}%")
 # print(num_correct_toolcalls.values())
-
-# total_toolcalls = {
-#     "get_weather": 10,
-#     "correct_grammar": 10,
-#     "generate_image": 12,
-#     "text_to_speech": 9,
-#     "search_web": 4
-# }
-
-# num_correct_toolcalls = {
-#     "get_weather": 4,
-#     "correct_grammar": 9,
-#     "generate_image": 3,
-#     "text_to_speech": 9,
-#     "search_web": 3
-# }
 
 
 plt.bar(num_correct_toolcalls.keys(), list(total_toolcalls.values()), color='r', edgecolor='black')
