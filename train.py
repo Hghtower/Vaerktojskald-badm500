@@ -120,12 +120,12 @@ def main(
     model_id: str = "google/gemma-3-270m-it",
     num_epochs: int = 2,
     batch_size: int = 4,
-    gradient_accumulation_steps: int = 4,
-    learning_rate: float = 2e-4,
+    gradient_accumulation_steps: int = 6,
+    learning_rate: float = 1e-4,
     logging_steps: int = 20,
     optimizer: str = "adamw_torch",
     lr_scheduler_type: str = "cosine",
-    warmup_steps: int = 10,
+    warmup_steps: int = 0,
     out_dir: str = "./gemma-270m-tool-calling",
 ):
     # Create HuggingFace dataset
