@@ -118,9 +118,9 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 2,
+    num_epochs: int = 3,
     batch_size: int = 4,
-    gradient_accumulation_steps: int = 6,
+    gradient_accumulation_steps: int = 8,
     learning_rate: float = 1e-4,
     logging_steps: int = 20,
     optimizer: str = "adamw_torch",

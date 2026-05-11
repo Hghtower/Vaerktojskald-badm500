@@ -233,7 +233,7 @@ class EvalConfig:
 def main(
     checkpoint: str = "",
     model: str = "gemma-270m-tool-calling",
-    dataset_path: str = "data/data_processed/weather.jsonl",
+    dataset_path: str = "eval.json",
     max_new_tokens: int = 1024,
     verbose: bool = False,
     output_json: str = "",
