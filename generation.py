@@ -117,6 +117,7 @@ Requirements:
 - The "prompt" argument MUST:
   - accurately reflect what the user is asking for
   - be concise and descriptive (not a full sentence if unnecessary)
+  - Use Danish for the prompt
 - The "style" argument MUST be correctly inferred from the user query, and must be in english
 - Use different phrasings:
   - "Kan du lave et billede af..."
@@ -554,21 +555,21 @@ if __name__ == "__main__":
 
     # Load datasett #
     # dataset_weather = load_seed_data("data/weather_odin.jsonl")
-    dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
+    #dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
     # dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
-    # dataset_image = load_seed_data("data/image_odin.jsonl")
-    # dataset_speech = load_seed_data("data/speech_odin.jsonl")
+    #dataset_image = load_seed_data("data/seeds/image_seeds.jsonl")
+    #dataset_speech = load_seed_data("data/seeds/speech_seeds.jsonl")
     # dataset_web = load_seed_data("data/web_odin.jsonl")
-    # dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
+    dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
     # dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
 
     # # Set output file #
-    output_weather = "data/data_raw_v3/weather_odin.jsonl"
+    #output_weather = "data/data_raw_v3/weather_odin.jsonl"
     # output_gramma = "data/data_raw_v3/gramma_odin.jsonl"
-    # output_image = "data/image_odin.jsonl"
-    # output_speech = "data/speech_odin.jsonl"
+    #output_image = "data/data_raw_v3/image_odin.jsonl"
+    #output_speech = "data/data_raw_v3/speech_odin.jsonl"
     # output_web = "data/web_odin.jsonl"
-    # output_none = "data/data_raw_v3/none_odin.jsonl"
+    output_none = "data/data_raw_v3/none_odin.jsonl"
     # output_multi = "data/data_raw_v3/multi_odin.jsonl"
 
 
@@ -586,11 +587,11 @@ if __name__ == "__main__":
     # exit()
 
 
-    prompt = prompts[0]
+    #prompt = prompts[0]
     # print(prompt)
 
-    for i in range(10):
-      main2(dataset_weather, output_weather)
+    #for i in range(10):
+    #  main2(dataset_weather, output_weather)
     #main(dataset_weather, output_weather)
 
     # prompt = prompts[1]
@@ -598,12 +599,16 @@ if __name__ == "__main__":
 
     # main(dataset_gramma, output_gramma)
 
-    # prompt = prompts[2]
+    #prompt = prompts[2]
+    #for i in range(10):
+    #    main2(dataset_image, output_image)
     # print(prompt)
 
     # main(dataset_image, output_image)
 
-    # prompt = prompts[3]
+   # prompt = prompts[3]
+   # for i in range(10):
+   #   main2(dataset_speech, output_speech)
     # print(prompt)
 
     # main(dataset_speech, output_speech)
@@ -613,11 +618,11 @@ if __name__ == "__main__":
 
     # main(dataset_web, output_web)
 
-    #prompt = prompts[5]
+    prompt = prompts[5]
     #print(prompt)
 
-    #for i in range(10):
-    #    main2(dataset_none, output_none)
+    for i in range(10):
+      main2(dataset_none, output_none)
     
 
     # prompt = prompts[6]
