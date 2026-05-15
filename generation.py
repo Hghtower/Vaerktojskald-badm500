@@ -554,8 +554,8 @@ if __name__ == "__main__":
 
     # Load datasett #
     # dataset_weather = load_seed_data("data/weather_odin.jsonl")
-    dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
-    # dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
+    # dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
+    dataset_gramma = load_seed_data("data/seeds/gramma_seeds.jsonl")
     # dataset_image = load_seed_data("data/image_odin.jsonl")
     # dataset_speech = load_seed_data("data/speech_odin.jsonl")
     # dataset_web = load_seed_data("data/web_odin.jsonl")
@@ -563,8 +563,8 @@ if __name__ == "__main__":
     # dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
 
     # # Set output file #
-    output_weather = "data/data_raw_v3/weather_odin.jsonl"
-    # output_gramma = "data/data_raw_v3/gramma_odin.jsonl"
+    # output_weather = "data/data_raw_v3/weather_odin.jsonl"
+    output_gramma = "data/data_raw_v3/gramma_odin.jsonl"
     # output_image = "data/image_odin.jsonl"
     # output_speech = "data/speech_odin.jsonl"
     # output_web = "data/web_odin.jsonl"
@@ -586,17 +586,18 @@ if __name__ == "__main__":
     # exit()
 
 
-    prompt = prompts[0]
+    # prompt = prompts[0]
+    # # print(prompt)
+
+    # for i in range(10):
+    #   main2(dataset_weather, output_weather)
+    #main(dataset_weather, output_weather)
+
+    prompt = prompts[1]
     # print(prompt)
 
     for i in range(10):
-      main2(dataset_weather, output_weather)
-    #main(dataset_weather, output_weather)
-
-    # prompt = prompts[1]
-    # print(prompt)
-
-    # main(dataset_gramma, output_gramma)
+      main2(dataset_gramma, output_gramma)
 
     # prompt = prompts[2]
     # print(prompt)
