@@ -39,28 +39,27 @@ OUTPUT_DATA_CHUNK_SIZE = 20
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
-The sample should be different from the example above
+Your task is to create multiple examples in the following JSON array format:
 
-Your task:
-Create 1 JSON sample. Each sample must follow this exact structure:
-
-{
-  "messages": [
-    {"role": "user", "content": "<natural user request in Danish>"},
-    {
-      "role": "assistant",
-      "content": "",
-      "tool_calls": [
-        {
-          "name": "correct_grammar",
-          "arguments": {
-            "text": "<sentence to correct>"
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<natural user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "correct_grammar",
+            "arguments": {
+              "text": "<sentence to correct>"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
+]
 
 Requirements:
 - The user message MUST be natural, varied, and realistic (in Danish).
@@ -70,9 +69,7 @@ Requirements:
   - Do NOT paraphrase
   - Keep all original mistakes
 - The sentence should contain clear grammatical errors.
-
-Variation guidelines:
-- Use many different phrasings:
+- Use different phrasings:
   - "Kan du rette denne sætning..."
   - "Tjek grammatikken i..."
   - "Lyder dette korrekt..."
@@ -87,40 +84,32 @@ Variation guidelines:
   - agreement errors
 - Vary sentence length and complexity
 
-Rules:
-- Output ONLY valid JSON
-- Do NOT include explanations
-- Assistant "content" must always be empty
-- Each sample must be unique
-- The tool call MUST always be correct and aligned with the user request
-
-Generate 1 sample."""
+Generate 20 sampls."""
 
 PROMPT_IMAGE = """You are generating training data for a large language model that learns to call tools.
 
-The sample should be different from the example above
+Your task is to create multiple examples in the following JSON array format:
 
-Your task:
-Create 1 JSON sample. Each sample must follow this exact structure:
-
-{
-  "messages": [
-    {"role": "user", "content": "<natural user request in Danish>"},
-    {
-      "role": "assistant",
-      "content": "",
-      "tool_calls": [
-        {
-          "name": "generate_image",
-          "arguments": {
-            "prompt": "<image description>",
-            "style": "<style>"
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<natural user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "generate_image",
+            "arguments": {
+              "prompt": "<image description>",
+              "style": "<style>"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
+]
 
 Requirements:
 - The user message MUST be natural, varied, and realistic (in Danish).
@@ -128,13 +117,7 @@ Requirements:
 - The "prompt" argument MUST:
   - accurately reflect what the user is asking for
   - be concise and descriptive (not a full sentence if unnecessary)
-- The "style" argument MUST be correctly inferred:
-  - "realistic" for real-world scenes
-  - "fantasy" for magical or mythical content
-  - "cyberpunk" for futuristic neon/city themes
-  - "futuristic" for sci-fi (non-cyberpunk) settings
-
-Variation guidelines:
+- The "style" argument MUST be correctly inferred from the user query, and must be in english
 - Use different phrasings:
   - "Kan du lave et billede af..."
   - "Generér et billede af..."
@@ -148,40 +131,32 @@ Variation guidelines:
   - natur, byer, dyr, mennesker, sci-fi, fantasy
 - Vary detail level in user requests
 
-Rules:
-- Output ONLY valid JSON
-- Do NOT include explanations
-- Assistant "content" must always be empty
-- Each sample must be unique
-- The tool call MUST always be correct and aligned with the request
-
-Generate 1 sample."""
+Generate 20 sample."""
 
 PROMPT_SPEECH = """You are generating training data for a large language model that learns to call tools.
 
-The sample should be different from the example above
+Your task is to create multiple examples in the following JSON array format:
 
-Your task:
-Create 1 JSON sample. Each sample must follow this exact structure:
-
-{
-  "messages": [
-    {"role": "user", "content": "<natural user request in Danish>"},
-    {
-      "role": "assistant",
-      "content": "",
-      "tool_calls": [
-        {
-          "name": "text_to_speech",
-          "arguments": {
-            "text": "<exact text to read>",
-            "voice": "<voice type>"
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<natural user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "text_to_speech",
+            "arguments": {
+              "text": "<exact text to read>",
+              "voice": "<voice type>"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
+]
 
 Requirements:
 - The user message MUST be natural, varied, and realistic (in Danish).
@@ -193,52 +168,44 @@ Requirements:
   - "female" if the user explicitly asks for a female voice
   - "male" if the user explicitly asks for a male voice
   - "neutral" if no voice is specified
-
-Variation guidelines:
 - Use many different phrasings:
   - "Kan du lave lyd af..."
   - "Læs denne tekst højt..."
   - "Kan du sige dette..."
   - "Lav en oplæsning af..."
   - "Vil du indtale følgende..."
-- Sometimes include colon, sometimes not
+  - "Sig dette højt..."
 - Sometimes embed text inline, sometimes after punctuation
 - Vary sentence length and complexity
 - Use different types of content:
   - møder, beskeder, præsentationer, påmindelser, instruktioner
 - Keep everything in Danish
-
-Rules:
 - Output ONLY valid JSON
 - Do NOT include explanations
-- Assistant "content" must always be empty
-- Each sample must be unique
-- The tool call must always be correct and aligned with the user request
 
-Generate 1 samples."""
+Generate 20 samples."""
 
 PROMPT_WEB = """You are generating training data for a large language model that learns to call tools.
 
-The sample should be different from the example above
+Your task is to create multiple examples in the following JSON array format:
 
-Your task:
-Create 1 JSON sample. Each sample must follow this exact structure:
-
-{
-  "messages": [
-    {"role": "user", "content": "<natural user request>"},
-    {
-      "role": "assistant",
-      "content": "",
-      "tool_calls": [
-        {
-          "name": "search_web",
-          "arguments": {"query": "<search query>"}
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<natural user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "search_web",
+            "arguments": {"query": "<search query>"}
+          }
+        ]
+      }
+    ]
+  }
+]
 
 Requirements:
 - The user message MUST be natural, varied, and realistic (in Danish).
@@ -248,14 +215,13 @@ Requirements:
   - concise
   - keyword-based (not full sentences unless necessary)
 - The tool call MUST be correct and aligned with the user request.
-
-Variation guidelines:
 - Use different phrasings:
   - "Find information om..."
   - "Søg efter..."
   - "Kan du finde..."
   - "Jeg leder efter..."
   - "Hvad ved man om..."
+  - "Hvad er..."
 - Mix topics:
   - teknologi, sundhed, klima, sport, økonomi, historie osv.
 - Include variations like:
@@ -264,43 +230,37 @@ Variation guidelines:
   - short queries ("AI udvikling")
   - longer intent ("nyeste forskning i kræftbehandling")
 - Keep everything in Danish.
-
-Rules:
 - Output ONLY valid JSON.
 - Do NOT include explanations.
-- Do NOT include assistant text (content must be empty).
-- Ensure each sample is different.
-- Ensure the query always matches the user request accurately.
 
-Generate 1 sample."""
+Generate 20 samples."""
 
 PROMPT_WEATHER = """You are generating training data for a large language model that learns to call tools." \
 
-The sample should be different from the example above
+Your task is to create multiple examples in the following JSON array format:
 
-"Your task:"
-Create a JSON sample. The sample must follow this exact structure:
+[
+  {
+    "messages": [
+      {"role": "user", "content": "<user request in Danish>"},
+      {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "name": "<tool_name>",
+            "arguments": {<correct arguments>}
+          }
+        ]
+      }
+    ]
+  }
+]
 
-{
-  "messages": [
-    {"role": "user", "content": "<natural user request>"},
-    {
-      "role": "assistant",
-      "content": "",
-      "tool_calls": [
-        {
-          "name": "<tool_name>",
-          "arguments": {<correct arguments>}
-        }
-      ]
-    }
-  ]
-}
+The new samples should be written in a variety of styles, including formal and informal language, and have the following requirements:
 
-Requirements:
 - The user message MUST be natural, varied, and realistic (different phrasing every time).
 - The user request should contain a variety of different cities or locations, with a preference for Denmark or northern Europe.
-- The assistant MUST ALWAYS call the correct tool.
 - The tool name MUST be exactly: get_weather
 - The arguments MUST ALWAYS be correct and extracted from the user message:
   - "location": the city or area mentioned
@@ -311,11 +271,11 @@ Requirements:
 - Vary phrasing a lot:
   - Questions, casual phrasing, formal phrasing, short queries, long queries
 - Vary intent slightly:
-  - "lige nu", "i dag", "i morgen", "senere", etc.
+  - "lige nu", "i dag", "i morgen", "senere", "om X dage", etc.
 - Keep outputs strictly valid JSON.
 - Do NOT include explanations.
 
-Generate 1 sample."""
+Generate 20 sample."""
 
 PROMPT_NONE = """
 You are generating a high-quality dataset for training a tool-calling AI model.
@@ -335,7 +295,7 @@ Your task is to create multiple examples in the following JSON array format:
   }
 ]
 
-Instructions:
+Requirements:
 - Output a valid JSON array.
 - Each object must be separated by a comma.
 - Do NOT include a trailing comma after the last element.
@@ -363,6 +323,7 @@ Instructions:
 
 - Do NOT include any tool calls in these examples.
 - Do NOT include explanations or text outside the JSON array.
+
 - Generate 20 examples."""
 
 PROMPT_MULTI = """
@@ -402,11 +363,13 @@ Instructions:
 - Include at least 2 tool calls per example.
 
 - Use a mix of available tools, such as:
-  - "get_weather" → { "location": "<city in Danish>", "unit": "celsius/fahrenheit" }
+  - "get_weather" → { "location": "<city in Danish>", "unit": "celsius/fahrenheit" } 
   - "search_web" → { "query": "<search query in English>" }
   - "speech_synthesis" → { "text": "<text>", "voice": "neutral/female/male" }
+  - "generate_image" → { "prompt": "<image description>", "style": "<style>" }
+  - "correct_grammar" → { "text": "<sentence to correct>" }
 
-- Ensure each tool call is necessary and reflects part of the user’s request.
+- Ensure each tool call is necessary and reflects part of the user's request.
 
 Examples of combined intents:
 - Weather + TTS:
@@ -429,17 +392,22 @@ Examples of combined intents:
     - Default to "celsius" unless Fahrenheit is explicitly requested
   - Search:
     - Query should usually be in English and concise
-  - Text-to-speech:
+  - Speech synthesis:
     - Extract only the relevant text to be spoken
     - Default voice = "neutral" unless specified
-
+  - Gramma correction:
+    - do not paraphrase
+    - do not correct spelling errors
+  - Image generation:
+    - "prompt" should be a concise description of the desired image
+    - "style" should be inferred from the user query
 - Ensure:
   - No redundant tool calls
   - Correct argument extraction
   - Logical ordering of tool calls when relevant
 
 - Do NOT include explanations or any text outside the JSON array.
-- Generate at least 20 examples. 
+- Generate 20 examples. 
 """
 
 
@@ -548,7 +516,12 @@ def main2(dataset, outfile: str):
 
     with open(outfile, "a", encoding="utf-8") as file:
       result = generate_text(rows_to_process)
-      parsed = json.loads(result)
+      try:
+        parsed = json.loads(result)
+      except Exception as e:
+        print(e)
+        print(result)
+
       #file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
       if isinstance(parsed, list):
           for item in parsed:
@@ -581,21 +554,22 @@ if __name__ == "__main__":
 
     # Load datasett #
     # dataset_weather = load_seed_data("data/weather_odin.jsonl")
+    dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
     # dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
     # dataset_image = load_seed_data("data/image_odin.jsonl")
     # dataset_speech = load_seed_data("data/speech_odin.jsonl")
     # dataset_web = load_seed_data("data/web_odin.jsonl")
-    #dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
-    dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
+    # dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
+    # dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
 
     # # Set output file #
-    # output_weather = "data/weather_odin.jsonl"
-    # output_gramma = "data/gramma_odin.jsonl"
+    output_weather = "data/data_raw_v3/weather_odin.jsonl"
+    # output_gramma = "data/data_raw_v3/gramma_odin.jsonl"
     # output_image = "data/image_odin.jsonl"
     # output_speech = "data/speech_odin.jsonl"
     # output_web = "data/web_odin.jsonl"
-    #output_none = "data/data_raw/none_odin2.jsonl"
-    output_multi = "data/data_raw/multi_odin.jsonl"
+    # output_none = "data/data_raw_v3/none_odin.jsonl"
+    # output_multi = "data/data_raw_v3/multi_odin.jsonl"
 
 
     # Prompt inbreeding #
@@ -612,10 +586,12 @@ if __name__ == "__main__":
     # exit()
 
 
-    # prompt = prompts[0]
+    prompt = prompts[0]
     # print(prompt)
 
-    # main(dataset_weather, output_weather)
+    for i in range(10):
+      main2(dataset_weather, output_weather)
+    #main(dataset_weather, output_weather)
 
     # prompt = prompts[1]
     # print(prompt)
@@ -644,11 +620,11 @@ if __name__ == "__main__":
     #    main2(dataset_none, output_none)
     
 
-    prompt = prompts[6]
-    print(prompt)
+    # prompt = prompts[6]
+    # print(prompt)
 
-    for i in range(10):
-        main2(dataset_multi, output_multi)
+    # for i in range(10):
+    #     main2(dataset_multi, output_multi)
 
 
     print("Yay finished")
