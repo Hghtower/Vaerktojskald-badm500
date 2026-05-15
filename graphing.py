@@ -142,17 +142,20 @@ def epochGraph():
     data1 = pd.read_json('graph_data/GradAccu/grad8acc.json')
     data2 = pd.read_json('graph_data/epochs/epoch3acc.json')
     data3 = pd.read_json('graph_data/epochs/epoch4acc.json')
+    data7 = pd.read_json('graph_data/epochs/epoch5acc.json')
 
     # Loss  
     data4 = pd.read_json('graph_data/GradAccu/grad8loss.json')
     data5 = pd.read_json('graph_data/epochs/epoch3loss.json')
     data6 = pd.read_json('graph_data/epochs/epoch4loss.json')
+    data8 = pd.read_json('graph_data/epochs/epoch5loss.json')
 
     plt.subplot(1, 2, 1)
 
     plt.plot(data1[1], data1[2], label='2 epochs')
     plt.plot(data2[1], data2[2], label='3 epochs')
     plt.plot(data3[1], data3[2], label='4 epochs')
+    plt.plot(data7[1], data7[2], label='5 epochs')
 
     plt.grid(True)
     plt.xlabel('steps')
@@ -165,6 +168,7 @@ def epochGraph():
     plt.plot(data4[1], data4[2], label='2 epochs')
     plt.plot(data5[1], data5[2], label='3 epochs')
     plt.plot(data6[1], data6[2], label='4 epochs')
+    plt.plot(data8[1], data8[2], label='5 epochs')
 
     plt.grid(True)
     plt.xlabel('steps')

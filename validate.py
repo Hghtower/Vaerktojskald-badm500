@@ -98,6 +98,7 @@ def format_input(text: str) -> str:
 correct_toolcall = 0
 correct_parameters = 0
 
+#Toolcall
 total_toolcalls = {
     "get_weather": 0,
     "correct_grammar": 0,
@@ -114,7 +115,28 @@ num_correct_toolcalls = {
     "search_web": 0
 }
 
-# dataset = dataset['train']
+#Parameters
+total_parameters = {
+    "location": 0,
+    "unit": 0,
+    "text": 0,
+    "prompt": 0,
+    "style": 0,
+    "voice": 0,
+    "query": 0
+}
+
+num_correct_parameters = {
+    "location": 0,
+    "unit": 0,
+    "text": 0,
+    "prompt": 0,
+    "style": 0,
+    "voice": 0,
+    "query": 0
+}
+
+
 
 for i in tqdm(dataset, total=len(dataset)):
     query = format_input(i['messages'][0]['content'])
@@ -150,8 +172,15 @@ for i in tqdm(dataset, total=len(dataset)):
 
                 para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
 
-                if eval(parameters) == para_meter:
+                for param in para_meter.keys():
+                    total_parameters[param] += 1
+
+                if eval(parameters).keys() == para_meter.keys():
+                    for param in eval(parameters).keys():
+                        num_correct_parameters[param] += 1
+
                     correct_parameters += 1
+
                 else:
                     print(f"Error, got: {parameters}, expected: {para_meter}\n")
 
@@ -175,10 +204,20 @@ print(f"Parameter accuracy: {accuracy * 100}%")
 # print(num_correct_toolcalls.values())
 
 
+plt.subplot(1,2,1)
+
 plt.bar(num_correct_toolcalls.keys(), list(total_toolcalls.values()), color='r', edgecolor='black')
 plt.bar(num_correct_toolcalls.keys(), list(num_correct_toolcalls.values()), color='g', edgecolor='black')
 
 plt.ylabel('num toolcalls')
 plt.title('toolcalls')
+
+plt.subplot(1,2,2)
+
+plt.bar(num_correct_parameters.keys(), list(total_parameters.values()), color='r', edgecolor='black')
+plt.bar(num_correct_parameters.keys(), list(total_parameters.values()), color='g', edgecolor='black')
+
+plt.ylabel('num parameters')
+plt.title('parameters')
 
 plt.show()
