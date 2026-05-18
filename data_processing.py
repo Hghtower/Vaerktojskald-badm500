@@ -45,6 +45,6 @@ data_none.to_json('data/data_processed/none.jsonl', orient='records', lines=True
 """
 
 
-data_multi = pd.read_json('data/data_raw/multi_odin.jsonl', lines=True)
-data_multi = data_multi.drop_duplicates()
-data_multi.to_json('data/data_processed/multi.jsonl', orient='records', lines=True, force_ascii=False)
+data = pd.read_json('data/data_raw_v3/web_odin.jsonl', lines=True)
+data = data.drop_duplicates()
+data.to_json('data/data_processed_v3/web.jsonl', orient='records', lines=True, force_ascii=False)

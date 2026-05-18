@@ -223,13 +223,12 @@ Requirements:
   - "Jeg leder efter..."
   - "Hvad ved man om..."
   - "Hvad er..."
-- Mix topics:
-  - teknologi, sundhed, klima, sport, økonomi, historie osv.
+  - "Find..."
+  - etc.
 - Include variations like:
-  - "nyheder", "artikler", "forklaring", "definition", "udvikling"
-- Vary complexity:
-  - short queries ("AI udvikling")
-  - longer intent ("nyeste forskning i kræftbehandling")
+  - "nyheder", "artikler", "forklaring", "definition", "udvikling", "spisesteder"
+- Base the query on a wide variety of topics
+- Include queries with both formal and informal language
 - Keep everything in Danish.
 - Output ONLY valid JSON.
 - Do NOT include explanations.
@@ -555,12 +554,12 @@ if __name__ == "__main__":
 
     # Load datasett #
     # dataset_weather = load_seed_data("data/weather_odin.jsonl")
-    #dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
+    # dataset_weather = load_seed_data("data/seeds/weather_seeds.jsonl")
     # dataset_gramma = load_seed_data("data/gramma_odin.jsonl")
-    #dataset_image = load_seed_data("data/seeds/image_seeds.jsonl")
-    #dataset_speech = load_seed_data("data/seeds/speech_seeds.jsonl")
-    # dataset_web = load_seed_data("data/web_odin.jsonl")
-    dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
+    # dataset_image = load_seed_data("data/seeds/image_seeds.jsonl")
+    # dataset_speech = load_seed_data("data/seeds/speech_seeds.jsonl")
+    dataset_web = load_seed_data("data/seeds/web_seeds.jsonl")
+    # dataset_none = load_seed_data("data/seeds/none_seeds.jsonl")
     # dataset_multi = load_seed_data("data/seeds/multi_seeds.jsonl")
 
     # # Set output file #
@@ -568,8 +567,8 @@ if __name__ == "__main__":
     # output_gramma = "data/data_raw_v3/gramma_odin.jsonl"
     #output_image = "data/data_raw_v3/image_odin.jsonl"
     #output_speech = "data/data_raw_v3/speech_odin.jsonl"
-    # output_web = "data/web_odin.jsonl"
-    output_none = "data/data_raw_v3/none_odin.jsonl"
+    output_web = "data/data_raw_v3/web_odin.jsonl"
+    #output_none = "data/data_raw_v3/none_odin.jsonl"
     # output_multi = "data/data_raw_v3/multi_odin.jsonl"
 
 
@@ -613,23 +612,24 @@ if __name__ == "__main__":
 
     # main(dataset_speech, output_speech)
 
-    # prompt = prompts[4]
-    # print(prompt)
-
-    # main(dataset_web, output_web)
-
-    prompt = prompts[5]
-    #print(prompt)
+    prompt = prompts[4]
+    # #print(prompt)
 
     for i in range(10):
-      main2(dataset_none, output_none)
+      main2(dataset_web, output_web)
+
+    # prompt = prompts[5]
+    #print(prompt)
+
+    # for i in range(10):
+    #   main2(dataset_none, output_none)
     
 
     # prompt = prompts[6]
     # print(prompt)
 
     # for i in range(10):
-    #     main2(dataset_multi, output_multi)
+    #   main2(dataset_multi, output_multi)
 
 
     print("Yay finished")

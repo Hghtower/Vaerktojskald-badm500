@@ -215,7 +215,7 @@ plt.title('toolcalls')
 plt.subplot(1,2,2)
 
 plt.bar(num_correct_parameters.keys(), list(total_parameters.values()), color='r', edgecolor='black')
-plt.bar(num_correct_parameters.keys(), list(total_parameters.values()), color='g', edgecolor='black')
+plt.bar(num_correct_parameters.keys(), list(num_correct_parameters.values()), color='g', edgecolor='black')
 
 plt.ylabel('num parameters')
 plt.title('parameters')
