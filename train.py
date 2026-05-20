@@ -118,8 +118,8 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 3,
-    batch_size: int = 4,
+    num_epochs: int = 4,
+    batch_size: int = 3,
     gradient_accumulation_steps: int = 8,
     learning_rate: float = 1e-4,
     logging_steps: int = 20,
@@ -132,13 +132,24 @@ def main(
     print("Loading dataset...")
     test_dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="danish_v1")
     
-    dataset = load_dataset('json', data_files=["data/data_processed/weather.jsonl",
-                                               "data/data_processed/gramma.jsonl",
-                                               "data/data_processed/image.jsonl",
-                                               "data/data_processed/speech.jsonl",
-                                               "data/data_processed/web.jsonl",
-                                               "data/data_processed/none.jsonl",
-                                               "data/data_processed/multi.jsonl"])
+    # Dataset v2
+    # dataset = load_dataset('json', data_files=["data/data_processed/weather.jsonl",
+    #                                            "data/data_processed/gramma.jsonl",
+    #                                            "data/data_processed/image.jsonl",
+    #                                            "data/data_processed/speech.jsonl",
+    #                                            "data/data_processed/web.jsonl",
+    #                                            "data/data_processed/none.jsonl",
+    #                                            "data/data_processed/multi.jsonl"])
+    
+    # Dataset v3
+    dataset = load_dataset('json', data_files=["data/data_processed_v3/weather.jsonl",
+                                               "data/data_processed_v3/gramma.jsonl",
+                                               "data/data_processed_v3/image.jsonl",
+                                               "data/data_processed_v3/speech.jsonl",
+                                               "data/data_processed_v3/web.jsonl",
+                                               "data/data_processed_v3/none.jsonl",
+                                               "data/data_processed_v3/multi.jsonl"])
+    
         
     print(f"Dataset size: {len(dataset)} examples")
 
