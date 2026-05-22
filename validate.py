@@ -207,13 +207,12 @@ for i in tqdm(dataset, total=len(dataset)):
             print(i)
             print(text)
 
-
-
-accuracy = correct_toolcall / len(dataset)
+# accuracy = correct_toolcall / len(dataset)
+accuracy = sum(num_correct_toolcalls.values()) / sum(total_toolcalls.values())
 print(f"Tool call accuracy: {accuracy * 100}%")
-accuracy = correct_parameters / len(dataset)
+# accuracy = correct_parameters / len(dataset)
+accuracy = sum(num_correct_parameters.values()) / sum(total_parameters.values())
 print(f"Parameter accuracy: {accuracy * 100}%")
-# print(num_correct_toolcalls.values())
 
 
 plt.subplot(1,2,1)
