@@ -27,6 +27,9 @@ dataset = load_dataset("schneiderkamplab/danish-tool-calling-benchmark", split="
 model = AutoModelForCausalLM.from_pretrained('gemma-270m-tool-calling')
 tokenizer = AutoTokenizer.from_pretrained('gemma-270m-tool-calling')
 
+# model = AutoModelForCausalLM.from_pretrained('google/gemma-3-270m-it')
+# tokenizer = AutoTokenizer.from_pretrained('google/gemma-3-270m-it')
+
 # dataset = dataset.map(
 #     format_chat_with_tools,
 #     remove_columns=dataset.column_names
@@ -146,23 +149,32 @@ for i in tqdm(dataset, total=len(dataset)):
 
     toolcalls = get_toolcall_and_parameters(text)
 
-    # print(toolcalls)
 
-    # exit()
+    # count them toolcalls and parameters from the dataset
+
+    if i['messages'][1]['tool_calls'] != None:
+        for toolcall in i['messages'][1]['tool_calls']:
+            total_toolcalls[toolcall['name']] += 1
+
+        para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
+
+        for param in para_meter.keys():
+            total_parameters[param] += 1
+
+    # do other shit now
+
 
     for j in toolcalls:
         tool = j[0].encode('raw_unicode_escape').decode('unicode_escape')
         parameters = j[1].encode('raw_unicode_escape').decode('unicode_escape')
 
-        #data_parameters = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
-        #print(data_parameters)
 
         try:
             if i['messages'][1]['tool_calls'] != None:
 
                 dataset_toolcall = i['messages'][1]['tool_calls'][0]['name']
 
-                total_toolcalls[dataset_toolcall] += 1
+                #total_toolcalls[dataset_toolcall] += 1
 
                 if tool == dataset_toolcall:
                     correct_toolcall += 1
@@ -172,8 +184,8 @@ for i in tqdm(dataset, total=len(dataset)):
 
                 para_meter = {k: v for k, v in i['messages'][1]['tool_calls'][0]['arguments'].items() if v is not None}
 
-                for param in para_meter.keys():
-                    total_parameters[param] += 1
+                #for param in para_meter.keys():
+                #    total_parameters[param] += 1
 
                 if eval(parameters).keys() == para_meter.keys():
                     for param in eval(parameters).keys():
@@ -212,6 +224,9 @@ plt.bar(num_correct_toolcalls.keys(), list(num_correct_toolcalls.values()), colo
 plt.ylabel('num toolcalls')
 plt.title('toolcalls')
 
+ax = plt.gca()
+ax.set_ylim(bottom=0)
+
 plt.subplot(1,2,2)
 
 plt.bar(num_correct_parameters.keys(), list(total_parameters.values()), color='r', edgecolor='black')
@@ -219,5 +234,8 @@ plt.bar(num_correct_parameters.keys(), list(num_correct_parameters.values()), co
 
 plt.ylabel('num parameters')
 plt.title('parameters')
+
+ax = plt.gca()
+ax.set_ylim(bottom=0)
 
 plt.show()
