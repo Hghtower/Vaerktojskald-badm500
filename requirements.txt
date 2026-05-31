@@ -6,6 +6,9 @@ datasets>=2.14.0
 accelerate>=0.24.0
 bitsandbytes>=0.41.0
 scipy
-#vllm==0.17.1
+vllm==0.17.1
 tensorboard==2.20.0
-pip install openai
+openai
+matplotlib
+tqdm
+typer

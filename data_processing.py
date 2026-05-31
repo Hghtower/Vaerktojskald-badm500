@@ -1,6 +1,8 @@
 import pandas as pd
-import json
-"""
+
+# This script uses the pandas package to drop duplicates from the dataset 
+# and concatenate the two different datasets for each tool call
+
 data_weather_gemma = pd.read_json("data/data_raw/weather2.jsonl", lines=True)
 data_weather_odin = pd.read_json('data/data_raw/weather_odin.jsonl', lines=True)
 dat = [data_weather_odin, data_weather_gemma]
@@ -36,14 +38,9 @@ data_web = pd.concat(dat)
 data_web = data_web.drop_duplicates()
 data_web.to_json('data/data_processed/web.jsonl', orient='records', lines=True, force_ascii=False)
 
-
-
-
 data_none = pd.read_json('data/data_raw/none_odin.jsonl', lines=True)
 data_none = data_none.drop_duplicates()
 data_none.to_json('data/data_processed/none.jsonl', orient='records', lines=True, force_ascii=False)
-"""
-
 
 data = pd.read_json('data/data_raw_v3/web_odin.jsonl', lines=True)
 data = data.drop_duplicates()

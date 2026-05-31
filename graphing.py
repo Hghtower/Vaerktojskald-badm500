@@ -2,7 +2,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def warmup_graph():
+# This file contains the code to graph the results of the experiments.
+
+def warmup_graph() -> None:
+    """Create and display the warmup step graph"""
     #Warm up steps
     # Accuracy
     data1 = pd.read_json('graph_data/warmup/0WarmupAcc.json')
@@ -36,7 +39,9 @@ def warmup_graph():
     #plt.tight_layout()
     plt.show()
 
-def gradAccuGraph():
+def gradAccuGraph() -> None:
+    """Create and display the gradient accumulation graph"""
+
     # Accuracy
     data1 = pd.read_json('graph_data/GradAccu/grad1acc.json')
     data2 = pd.read_json('graph_data/learningRate/1e-4acc.json')
@@ -77,7 +82,9 @@ def gradAccuGraph():
     #plt.tight_layout()
     plt.show()
 
-def learnRateGraph():
+def learnRateGraph() -> None:
+    """Create and display the learning rate graph"""
+
     # Accuracy
     data1 = pd.read_json('graph_data/learningRate/1e-4acc.json')
     data2 = pd.read_json('graph_data/learningRate/2e-3acc.json')
@@ -137,7 +144,9 @@ def learnRateGraph():
 
    
 
-def epochGraph():
+def epochGraph() -> None:
+    """Create and display the epoch graph"""
+
     # Accuracy
     data1 = pd.read_json('graph_data/GradAccu/grad8acc.json')
     data2 = pd.read_json('graph_data/epochs/epoch3acc.json')
@@ -181,7 +190,6 @@ def epochGraph():
 
 
  
-
 if __name__ == "__main__":
     warmup_graph()
     gradAccuGraph()

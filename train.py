@@ -1,7 +1,3 @@
-"""
-Fine-tune Gemma 270M for tool calling using TRL (Transformer Reinforcement Learning)
-This script demonstrates supervised fine-tuning with a synthetic tool calling dataset
-"""
 import typer
 import torch
 from datasets import Dataset
@@ -118,14 +114,14 @@ def format_chat_with_tools(example):
 @app.command()
 def main(
     model_id: str = "google/gemma-3-270m-it",
-    num_epochs: int = 4,
-    batch_size: int = 3,
+    num_epochs: int = 2,
+    batch_size: int = 2,
     gradient_accumulation_steps: int = 8,
     learning_rate: float = 1e-4,
     logging_steps: int = 20,
     optimizer: str = "adamw_torch",
     lr_scheduler_type: str = "cosine",
-    warmup_steps: int = 0,
+    warmup_steps: int = 5,
     out_dir: str = "./gemma-270m-tool-calling",
 ):
     # Create HuggingFace dataset
@@ -172,12 +168,6 @@ def main(
         format_chat_with_tools,
         remove_columns=dataset["test"].column_names
     )
-
-
-    # Print example
-    # print("\n=== Example formatted text ===")
-    #print(formatted_dataset[0]["text"])
-    # print("=" * 50 + "\n")
     
     training_args = SFTConfig(
         output_dir=out_dir,

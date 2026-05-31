@@ -11,20 +11,22 @@ import multiprocessing
 from pathlib import Path
 from openai import AsyncOpenAI, OpenAI
 from tqdm import tqdm
+
 ###
-#
+# Used to convert json to jsonl format
 # jq -c '.[]' fil1.json > fil1.jsonl
-#
 ###
 
 
-#URL for lokal server vi vil lave inference fra.
+#URL for api host. 
 CLIENT = [
     'https://api.ordbogen.ai/v1' # <-- sti ordbogens modeller (odin)
     #'http://localhost:8000/v1' # <-- sti til lokale modeller (local host)
 ]
-client = OpenAI(base_url=CLIENT[0], api_key="vopdhQmXsNzx7bKEt0qlUKzKDef8Q9wioKHVW7snc3a52584")
+
+client = OpenAI(base_url=CLIENT[0], api_key="")
 #client = OpenAI(base_url=CLIENT[0], api_key="")
+
 def init_worker():
     global client
     client = client
@@ -33,9 +35,10 @@ def init_worker():
 #MODEL = "ordbogen/gemma"
 MODEL = "odin-medium"
 # MODEL = "unsloth/gemma-3-27b-it-unsloth-bnb-4bit"
+
+# How many processes to run at once when generating
 NUM_PROCESSES = 5
-INPUT_DATA_CHUNK_SIZE = 10
-OUTPUT_DATA_CHUNK_SIZE = 20
+
 
 PROMPT_GRAMMA = """You are generating training data for a large language model that learns to call tools.
 
@@ -415,7 +418,9 @@ Examples of combined intents:
 
 prompts = [PROMPT_WEATHER, PROMPT_GRAMMA, PROMPT_IMAGE, PROMPT_SPEECH, PROMPT_WEB, PROMPT_NONE, PROMPT_MULTI]
 
-def load_seed_data(file: str):
+
+def load_seed_data(file: str) -> list:
+    """Loads the seed data from a file and returns it as a line in a list"""
     output = []
     with open(file, "r", encoding="utf-8") as zike:
         for line in zike:
@@ -425,15 +430,13 @@ def load_seed_data(file: str):
     return output
 
 
-def save_to_file(filepath: str, response: str):
+def save_to_file(filepath: str, response: str) -> None:
     """Write to file at filepath"""
     with open(filepath, 'a', encoding="utf-8") as f:
         f.write(response + "\n")
 
-#Generate a similar example in Danish. Only generate valid json\n"
-prompt = ""
 def generate_text(query: str) -> str:
-    """Generate the text owowow"""
+    """Generate text using the API client"""
     try:
         #print(ordbogen_client)
         chat_completion = client.chat.completions.create(
@@ -455,19 +458,14 @@ def generate_text(query: str) -> str:
         response = chat_completion.choices[0].message.content
         #response = chat_completion.choices[-1].text
         #print(response)
+        
         return response
     except Exception as error:
         print(f"Error: {error}")
         return ""
 
-def chunkify_input_data(dataset) -> list:
-
-    for i in dataset:
-        pass
-
-    #for i in range(INPUT_DATA_CHUNK_SIZE):
-
-
+# This is the main function that processes the dataset and generates text for each entry. 
+# It uses single seeds samples as context for generation
 def main(dataset, outfile: str):
     """Generate text using a single data entry as a context"""
     rows_to_process = dataset
@@ -497,6 +495,10 @@ def main(dataset, outfile: str):
                     print(e)
                     pass
 
+
+
+# This is the main function that processes the dataset and generates text for each entry. 
+# It uses the whole seeds file as context for generation
 def main2(dataset, outfile: str):
     """Generate text using several data entries as a context"""
     rows_to_process = ""
@@ -531,24 +533,6 @@ def main2(dataset, outfile: str):
       file.flush()
 
 
-    # with open(outfile, "a", encoding="utf-8") as file:
-    #     with multiprocessing.Pool(
-    #         processes=NUM_PROCESSES, initializer=init_worker
-    #     ) as pool:
-    #         results = pool.imap_unordered(generate_text, rows_to_process, chunksize=1)
-    #         for result in tqdm(results, total=len(rows_to_process)):
-    #             try:
-    #                 if result:
-    #                     # result = result.replace("```json", "")
-    #                     # result = result.replace("```", "")
-    #                     file.write(json.dumps(json.loads(result), ensure_ascii=False) + '\n')
-    #                     #file.write(result + '\n')
-    #                     file.flush()
-    #             except Exception as e:
-    #                 print(e)
-    #                 pass
-
-
 ## Entrypoint ##
 if __name__ == "__main__":
 
@@ -570,20 +554,6 @@ if __name__ == "__main__":
     output_web = "data/data_raw_v3/web_odin.jsonl"
     #output_none = "data/data_raw_v3/none_odin.jsonl"
     # output_multi = "data/data_raw_v3/multi_odin.jsonl"
-
-
-    # Prompt inbreeding #
-
-    # prompt = prompts[0]
-    # print(prompt)
-    # for i in range(5): 
-    #   if i == 0: 
-    #     main(dataset_weather, output_weather)
-    #   else:
-    #     datar = load_seed_data(output_weather)
-    #     main(datar, output_weather)
-    #
-    # exit()
 
 
     #prompt = prompts[0]
