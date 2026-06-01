@@ -24,9 +24,14 @@ Script for removing duplicates of data and concatenate datasets of different mod
 - Data folder 
 The data_processed folder contains the second iteration of the dataset. The data_processed_v3 folder contains the third iteration of the dataset. 
 
-gemma folder contrain gemmma
-graph data contrains graph data
-tools 
+- gemma-270m folder
+Contains gemma checkpoints and tensorboard information
+
+- graph data folder
+Contains graph data for accuracy and loss curves 
+
+- tools folder
+Contains validate_tools.py
 
 
 
